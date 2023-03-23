@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: BUSL-1.1
 pragma solidity 0.8.7;
 
-contract FixedAddresses {
+contract AddressREgistry {
 
     /**************************************************************************************************************************************/
     /*** Multisigs / EOAs                                                                                                               ***/
