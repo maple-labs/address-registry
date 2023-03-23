@@ -97,7 +97,7 @@ contract AddressRegistry {
 
     address constant mavenUsdcPool                 = 0xd3cd37a7299B963bbc69592e5Ba933388f70dc88;
     address constant mavenUsdcPoolManager          = 0x00d950A41a0d277ed91bF9fD366a5523FEF0371e;
-    address constant mavenUsdcLoanFixedTermManager = 0x74CB3c1938A15e532CC1b465e3B641C2c7e40C2b;
+    address constant mavenUsdcFixedTermLoanManager = 0x74CB3c1938A15e532CC1b465e3B641C2c7e40C2b;
     address constant mavenUsdcWithdrawalManager    = 0x7ED195a0AE212D265511b0978Af577F59876C9BB;
     address constant mavenUsdcPoolDelegateCover    = 0x9c74C5147653041239bb31C799c54767D9953f7D;
 
@@ -107,7 +107,7 @@ contract AddressRegistry {
 
     address constant mavenWethPool                 = 0xFfF9A1CAf78b2e5b0A49355a8637EA78b43fB6c3;
     address constant mavenWethPoolManager          = 0x833A5c9Fc016a87419D21B10B64e24082Bd1e49d;
-    address constant mavenWethLoanFixedTermManager = 0x373BDCf21F6a939713d5DE94096ffdb24A406391;
+    address constant mavenWethFixedTermLoanManager = 0x373BDCf21F6a939713d5DE94096ffdb24A406391;
     address constant mavenWethWithdrawalManager    = 0x1Bb73D6384ae73DA2101a4556a42eaB82803Ef3d;
     address constant mavenWethPoolDelegateCover    = 0xdfDDE84b117f038785A2B1805B10D5C4d616dA08;
 
