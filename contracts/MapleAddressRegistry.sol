@@ -153,4 +153,14 @@ contract AddressRegistry {
     address constant mavenUsdc3WithdrawalManager    = 0x7F0d63e2250bC99f48985B183AF0c9a66BbC8ac3;
     address constant mavenUsdc3PoolDelegateCover    = 0x4Ab7F6F8DE3FE2575806a21F9Cac630DD51a84Af;
 
+    /**************************************************************************************************************************************/
+    /*** CashMgmt - USDC                                                                                                             ***/
+    /**************************************************************************************************************************************/
+
+    address constant cashMgmtPool                 = 0xfe119e9C24ab79F1bDd5dd884B86Ceea2eE75D92;
+    address constant cashMgmtPoolManager          = 0x219654A61a0BC394055652986BE403fa14405Bb8;
+    address constant cashMgmtFixedTermLoanManager = 0xf4d4a5270aa834A2a77011526447fDF1e227018f;
+    address constant cashMgmtWithdrawalManager    = 0x1146691782c089bCF0B19aCb8620943a35eebD12;
+    address constant cashMgmtPoolDelegateCover    = 0x324bd0ae17CCBc16F17ffC085E5B03Fd2aCf0A72;
+
 }
