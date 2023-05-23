@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: BUSL-1.1
 pragma solidity 0.8.7;
 
-contract AddressRegistry {
+contract MapleAddressRegistry {
 
     /**************************************************************************************************************************************/
     /*** Multisigs / EOAs                                                                                                               ***/
@@ -54,34 +54,16 @@ contract AddressRegistry {
     /*** Maple V2 Contracts                                                                                                             ***/
     /**************************************************************************************************************************************/
 
-    address constant mapleGlobalsV2Implementation = 0x0ad92cb3Fc4cd6697E0f14Fb75F3d7da3Bb2e056;
-    address constant mapleGlobalsV2Proxy          = 0x804a6F5F667170F545Bf14e5DDB48C70B788390C;
-
-    address constant feeManager = 0xFeACa6A5703E6F9DE0ebE0975C93AE34c00523F2;
-
-    address constant poolDeployer = 0x9322fCbb9cf9F04728AD9CB62c80a12615FF9aDc;
-
-    address constant liquidatorFactory        = 0xa2091116649b070D2a27Fc5C85c9820302114c63;
-    address constant liquidatorImplementation = 0xe6a03Ba967172a1FF218FEE686445f444258021A;
-    address constant liquidatorInitializer    = 0xED9D14F83eddd08572c403175FFf41c42a35a149;
-
-    address constant fixedTermLoanManagerFactory         = 0x1551717AE4FdCB65ed028F7fB7abA39908f6A7A6;
-    address constant fixedTermLoanManagerImplementation  = 0x9303aed6231F131F8e61D579cb69aea4DF365F3D;
-    address constant fixedTermLoanManagerInitializer     = 0x1cAddEC2A39232253D0a2424C21543f216284bf2;
-    address constant transitionLoanManagerImplementation = 0x8057206A6C52e8d17e8c0EBE4C1Bb777d1876c8D;
-
-    address constant poolManagerFactory        = 0xE463cD473EcC1d1A4ecF20b62624D84DD20a8339;
-    address constant poolManagerImplementation = 0x09Fe53d404fBE13750047eCdB64Ec6aa6Fae46e6;
-    address constant poolManagerInitializer    = 0x0B240bf499773905802eE4DE43f96407C436d549;
-
-    address constant withdrawalManagerFactory        = 0xb9e25B584dc4a7C9d47aEF577f111fBE5705773B;
-    address constant withdrawalManagerImplementation = 0xB12EC38e3508b0919fa989A0e60fde489b46F430;
-    address constant withdrawalManagerInitializer    = 0x1063dCa836894b12f29003CA2899ff806A2B0B31;
-
-    address constant fixedTermLoanFactory      = 0x36a7350309B2Eb30F3B908aB0154851B5ED81db0;
-    address constant fixedTermLoanV400Migrator = 0xb4Be919810c6F4ce20b2D3cC221FD5D737B46C3E;
-
-    address constant fixedTermRefinancer = 0xec90671c2c8f4cCBb6074938f893306a13402251;
+    address constant fixedTermFeeManagerV1        = 0xFeACa6A5703E6F9DE0ebE0975C93AE34c00523F2;
+    address constant fixedTermLoanFactory         = 0x36a7350309B2Eb30F3B908aB0154851B5ED81db0;
+    address constant fixedTermLoanManagerFactory  = 0x1551717AE4FdCB65ed028F7fB7abA39908f6A7A6;
+    address constant fixedTermRefinancerV1        = 0xec90671c2c8f4cCBb6074938f893306a13402251;
+    address constant liquidatorFactory            = 0xa2091116649b070D2a27Fc5C85c9820302114c63;
+    address constant mapleGlobalsV1Implementation = 0x0ad92cb3Fc4cd6697E0f14Fb75F3d7da3Bb2e056;
+    address constant mapleGlobalsProxy            = 0x804a6F5F667170F545Bf14e5DDB48C70B788390C;
+    address constant poolDeployerV1               = 0x9322fCbb9cf9F04728AD9CB62c80a12615FF9aDc;
+    address constant poolManagerFactory           = 0xE463cD473EcC1d1A4ecF20b62624D84DD20a8339;
+    address constant withdrawalManagerFactory     = 0xb9e25B584dc4a7C9d47aEF577f111fBE5705773B;
 
     /**************************************************************************************************************************************/
     /*** Maven 11 - USDC (Permissioned)                                                                                                 ***/
