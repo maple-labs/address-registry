@@ -12,26 +12,17 @@ contract MapleAddressRegistry {
     address constant securityAdmin = 0x6b1A78C1943b03086F7Ee53360f9b0672bD60818;
 
     /**************************************************************************************************************************************/
-    /*** Temporary Pool Delegate Multisigs                                                                                              ***/
+    /*** Pool Delegate Multisigs                                                                                                        ***/
     /**************************************************************************************************************************************/
 
-    address constant mavenPermissionedTemporaryPd = 0xec67fd8445E9a84311E2BD118A21b2fDaACfc7FA;
-    address constant mavenUsdcTemporaryPd         = 0xf11897A0009b3a37f15365A976015E7F22A16d50;
-    address constant mavenWethTemporaryPd         = 0xbFA29AA894229d532D1aD1fd7e4226fce842632C;
-    address constant orthogonalTemporaryPd        = 0x47c388644C7AA8736CA34e3Bfa0ee1F8284778c1;
-    address constant icebreakerTemporaryPd        = 0x37c610584f7834A8FEb490b73E2aC780AEE31905;
-
-    /**************************************************************************************************************************************/
-    /*** Final Pool Delegate Multisigs                                                                                                  ***/
-    /**************************************************************************************************************************************/
-
-    address constant mavenPermissionedFinalPd = 0xab38A4E78a0549f60Df1A78f15f35F03F39f11F4;
-    address constant mavenUsdcFinalPd         = 0x8B4aa04E9642b387293cE6fFfA42715a9cd19f3C;
-    address constant mavenWethFinalPd         = 0x990d11977378D4610776e6646b2cAAe543Ea4EDA;
-    address constant orthogonalFinalPd        = 0xA6cCb9483E3E7a737E3a4F5B72a1Ce51838ba122;
-    address constant icebreakerFinalPd        = 0x184e46651946B861654436027bffdC97f9a45079;
-    address constant aqruFinalPd              = 0x3b1eFc0DB88f4bcD5d9f4790d8EEC5798011870F;
-    address constant mavenUsdc3FinalPd        = 0x426B93769dac3357254fcae28a032Cef54870B4A;
+    address constant aqruFinalPoolDelegate              = 0x3b1eFc0DB88f4bcD5d9f4790d8EEC5798011870F;
+    address constant cashManagementPoolDelegate         = 0x8c8C2431658608F5649B8432764a930c952d8A98;
+    address constant icebreakerFinalPoolDelegate        = 0x184e46651946B861654436027bffdC97f9a45079;
+    address constant mavenPermissionedFinalPoolDelegate = 0xab38A4E78a0549f60Df1A78f15f35F03F39f11F4;
+    address constant mavenUsdc3FinalPoolDelegate        = 0x426B93769dac3357254fcae28a032Cef54870B4A;
+    address constant mavenUsdcFinalPoolDelegate         = 0x8B4aa04E9642b387293cE6fFfA42715a9cd19f3C;
+    address constant mavenWethFinalPoolDelegate         = 0x990d11977378D4610776e6646b2cAAe543Ea4EDA;
+    address constant orthogonalFinalPoolDelegate        = 0xA6cCb9483E3E7a737E3a4F5B72a1Ce51838ba122;
 
     /**************************************************************************************************************************************/
     /*** Asset Contracts                                                                                                                ***/
@@ -51,25 +42,52 @@ contract MapleAddressRegistry {
     address constant usdUsdOracle = 0x5DC5E14be1280E747cD036c089C96744EBF064E7;
 
     /**************************************************************************************************************************************/
-    /*** Maple V2 Contracts                                                                                                             ***/
+    /*** Maple Protocol Contracts                                                                                                       ***/
     /**************************************************************************************************************************************/
 
-    address constant fixedTermFeeManagerV1        = 0xFeACa6A5703E6F9DE0ebE0975C93AE34c00523F2;
-    address constant fixedTermLoanFactory         = 0x36a7350309B2Eb30F3B908aB0154851B5ED81db0;
-    address constant fixedTermLoanManagerFactory  = 0x1551717AE4FdCB65ed028F7fB7abA39908f6A7A6;
-    address constant fixedTermRefinancerV1        = 0xec90671c2c8f4cCBb6074938f893306a13402251;
-    address constant fixedTermRefinancerV2        = 0x27ea6e67FB62AB2A603d4ACBc9377D7a9A0fd5e3;
-    address constant liquidatorFactory            = 0xa2091116649b070D2a27Fc5C85c9820302114c63;
-    address constant mapleGlobalsV1Implementation = 0x0ad92cb3Fc4cd6697E0f14Fb75F3d7da3Bb2e056;
-    address constant mapleGlobalsV2Implementation = 0x562374079a8A07417ec4A69d5d52F9CBa796d364;
-    address constant mapleGlobalsProxy            = 0x804a6F5F667170F545Bf14e5DDB48C70B788390C;
-    address constant openTermLoanFactory          = 0x6Fad515Fc046DD17166453A79725f50b917b7cF6;
-    address constant openTermLoanManagerFactory   = 0x90b14505221a24039A2D11Ad5862339db97Cc160;
-    address constant openTermRefinancerV1         = 0x653D4947620B73a433cAbBc9DFb068c3e9c18984;
-    address constant poolDeployerV1               = 0x9322fCbb9cf9F04728AD9CB62c80a12615FF9aDc;
-    address constant poolDeployerV2               = 0x87826F821AF105802064785A3905C794eF259D5C;
-    address constant poolManagerFactory           = 0xE463cD473EcC1d1A4ecF20b62624D84DD20a8339;
-    address constant withdrawalManagerFactory     = 0xb9e25B584dc4a7C9d47aEF577f111fBE5705773B;
+    address constant fixedTermFeeManagerV1       = 0xFeACa6A5703E6F9DE0ebE0975C93AE34c00523F2;
+    address constant fixedTermLoanFactory        = 0x36a7350309B2Eb30F3B908aB0154851B5ED81db0;
+    address constant fixedTermLoanManagerFactory = 0x1551717AE4FdCB65ed028F7fB7abA39908f6A7A6;
+    address constant fixedTermRefinancerV2       = 0x27ea6e67FB62AB2A603d4ACBc9377D7a9A0fd5e3;
+    address constant globals                     = 0x804a6F5F667170F545Bf14e5DDB48C70B788390C;
+    address constant globalsImplementationV2     = 0x562374079a8A07417ec4A69d5d52F9CBa796d364;
+    address constant liquidatorFactory           = 0xa2091116649b070D2a27Fc5C85c9820302114c63;
+    address constant openTermLoanFactory         = 0x6Fad515Fc046DD17166453A79725f50b917b7cF6;
+    address constant openTermLoanManagerFactory  = 0x90b14505221a24039A2D11Ad5862339db97Cc160;
+    address constant openTermRefinancerV1        = 0x653D4947620B73a433cAbBc9DFb068c3e9c18984;
+    address constant poolDeployerV2              = 0x87826F821AF105802064785A3905C794eF259D5C;
+    address constant poolManagerFactory          = 0xE463cD473EcC1d1A4ecF20b62624D84DD20a8339;
+    address constant withdrawalManagerFactory    = 0xb9e25B584dc4a7C9d47aEF577f111fBE5705773B;
+
+    /**************************************************************************************************************************************/
+    /*** AQRU - USDC                                                                                                                    ***/
+    /**************************************************************************************************************************************/
+
+    address constant aqruPool                 = 0xe9d33286f0E37f517B1204aA6dA085564414996d;
+    address constant aqruPoolManager          = 0xA9c908Ee077eE26B52137FfF714150C7Eb69E160;
+    address constant aqruFixedTermLoanManager = 0xd05998A1940294E3E49f99DBB13fe20A3483F5Ae;
+    address constant aqruWithdrawalManager    = 0x8228719eA6dCc79b77d663F13af98684a637d3A0;
+    address constant aqruPoolDelegateCover    = 0x845bD1C0DBeA5eacd97E6B4544a48176F5f31Db9;
+
+    /**************************************************************************************************************************************/
+    /*** CashManagement - USDC                                                                                                          ***/
+    /**************************************************************************************************************************************/
+
+    address constant cashManagementPool                 = 0xfe119e9C24ab79F1bDd5dd884B86Ceea2eE75D92;
+    address constant cashManagementPoolManager          = 0x219654A61a0BC394055652986BE403fa14405Bb8;
+    address constant cashManagementFixedTermLoanManager = 0xf4d4a5270aa834A2a77011526447fDF1e227018f;
+    address constant cashManagementWithdrawalManager    = 0x1146691782c089bCF0B19aCb8620943a35eebD12;
+    address constant cashManagementPoolDelegateCover    = 0x324bd0ae17CCBc16F17ffC085E5B03Fd2aCf0A72;
+
+    /**************************************************************************************************************************************/
+    /*** Icebreaker Finance - USDC                                                                                                      ***/
+    /**************************************************************************************************************************************/
+
+    address constant icebreakerPool                 = 0x137F2EA5cfB0fE59408BAb2779E33EE868F1810E;
+    address constant icebreakerPoolManager          = 0xC0323b64eF95E5698B30fEbD6A54BFD66ca2210E;
+    address constant icebreakerFixedTermLoanManager = 0x7dCA0cd3F1eBAE3640AC4c66688A9d3A184aF822;
+    address constant icebreakerWithdrawalManager    = 0x4ec570457C3954feE01309A30C603ABD51899C77;
+    address constant icebreakerPoolDelegateCover    = 0xA198C1dc00297Ae477F2D42D5a9E1cd4a364191f;
 
     /**************************************************************************************************************************************/
     /*** Maven 11 - USDC (Permissioned)                                                                                                 ***/
@@ -80,6 +98,16 @@ contract MapleAddressRegistry {
     address constant mavenPermissionedFixedTermLoanManager = 0x6B6491AAa92Ce7e901330D8F91Ec99C2a157EBd7;
     address constant mavenPermissionedWithdrawalManager    = 0x1B56856eB74bB1AA9e9F1997386dDB28DEf532eE;
     address constant mavenPermissionedPoolDelegateCover    = 0x9e71Da2edaD3F8053C00b697362A365383e9c518;
+
+    /**************************************************************************************************************************************/
+    /*** Maven USDC3 - USDC                                                                                                             ***/
+    /**************************************************************************************************************************************/
+
+    address constant mavenUsdc3Pool                 = 0xD2b01f8327eECa47829EFC731F1A89C6d07E6B92;
+    address constant mavenUsdc3PoolManager          = 0x83376E49c7Bf776495313C89F9Bf226c8b8971B6;
+    address constant mavenUsdc3FixedTermLoanManager = 0x9B300a28d7DC7D422c7D1b9442db0B51a6346e00;
+    address constant mavenUsdc3WithdrawalManager    = 0x7F0d63e2250bC99f48985B183AF0c9a66BbC8ac3;
+    address constant mavenUsdc3PoolDelegateCover    = 0x4Ab7F6F8DE3FE2575806a21F9Cac630DD51a84Af;
 
     /**************************************************************************************************************************************/
     /*** Maven 11 - USDC 01                                                                                                             ***/
@@ -110,45 +138,5 @@ contract MapleAddressRegistry {
     address constant orthogonalFixedTermLoanManager = 0xFdC7541201aA6831A64F96582111cED633fA5078;
     address constant orthogonalWithdrawalManager    = 0xD8f8BD488ba6DDF2a710f6C357a884fd1706981A;
     address constant orthogonalPoolDelegateCover    = 0xb9Bae8c63593e51A296857AC4C150bae31a4e2c3;
-
-    /**************************************************************************************************************************************/
-    /*** Icebreaker Finance - USDC                                                                                                      ***/
-    /**************************************************************************************************************************************/
-
-    address constant icebreakerPool                 = 0x137F2EA5cfB0fE59408BAb2779E33EE868F1810E;
-    address constant icebreakerPoolManager          = 0xC0323b64eF95E5698B30fEbD6A54BFD66ca2210E;
-    address constant icebreakerFixedTermLoanManager = 0x7dCA0cd3F1eBAE3640AC4c66688A9d3A184aF822;
-    address constant icebreakerWithdrawalManager    = 0x4ec570457C3954feE01309A30C603ABD51899C77;
-    address constant icebreakerPoolDelegateCover    = 0xA198C1dc00297Ae477F2D42D5a9E1cd4a364191f;
-
-    /**************************************************************************************************************************************/
-    /*** AQRU - USDC                                                                                                                    ***/
-    /**************************************************************************************************************************************/
-
-    address constant aqruPool                 = 0xe9d33286f0E37f517B1204aA6dA085564414996d;
-    address constant aqruPoolManager          = 0xA9c908Ee077eE26B52137FfF714150C7Eb69E160;
-    address constant aqruFixedTermLoanManager = 0xd05998A1940294E3E49f99DBB13fe20A3483F5Ae;
-    address constant aqruWithdrawalManager    = 0x8228719eA6dCc79b77d663F13af98684a637d3A0;
-    address constant aqruPoolDelegateCover    = 0x845bD1C0DBeA5eacd97E6B4544a48176F5f31Db9;
-
-    /**************************************************************************************************************************************/
-    /*** Maven USDC3 - USDC                                                                                                             ***/
-    /**************************************************************************************************************************************/
-
-    address constant mavenUsdc3Pool                 = 0xD2b01f8327eECa47829EFC731F1A89C6d07E6B92;
-    address constant mavenUsdc3PoolManager          = 0x83376E49c7Bf776495313C89F9Bf226c8b8971B6;
-    address constant mavenUsdc3FixedTermLoanManager = 0x9B300a28d7DC7D422c7D1b9442db0B51a6346e00;
-    address constant mavenUsdc3WithdrawalManager    = 0x7F0d63e2250bC99f48985B183AF0c9a66BbC8ac3;
-    address constant mavenUsdc3PoolDelegateCover    = 0x4Ab7F6F8DE3FE2575806a21F9Cac630DD51a84Af;
-
-    /**************************************************************************************************************************************/
-    /*** CashMgmt - USDC                                                                                                             ***/
-    /**************************************************************************************************************************************/
-
-    address constant cashMgmtPool                 = 0xfe119e9C24ab79F1bDd5dd884B86Ceea2eE75D92;
-    address constant cashMgmtPoolManager          = 0x219654A61a0BC394055652986BE403fa14405Bb8;
-    address constant cashMgmtFixedTermLoanManager = 0xf4d4a5270aa834A2a77011526447fDF1e227018f;
-    address constant cashMgmtWithdrawalManager    = 0x1146691782c089bCF0B19aCb8620943a35eebD12;
-    address constant cashMgmtPoolDelegateCover    = 0x324bd0ae17CCBc16F17ffC085E5B03Fd2aCf0A72;
 
 }
