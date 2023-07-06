@@ -79,11 +79,23 @@ contract MapleAddressRegistry {
     /*** CashManagement - USDC                                                                                                          ***/
     /**************************************************************************************************************************************/
 
-    address constant cashManagementPool                 = 0xfe119e9C24ab79F1bDd5dd884B86Ceea2eE75D92;
-    address constant cashManagementPoolManager          = 0x219654A61a0BC394055652986BE403fa14405Bb8;
-    address constant cashManagementFixedTermLoanManager = 0xf4d4a5270aa834A2a77011526447fDF1e227018f;
-    address constant cashManagementWithdrawalManager    = 0x1146691782c089bCF0B19aCb8620943a35eebD12;
-    address constant cashManagementPoolDelegateCover    = 0x324bd0ae17CCBc16F17ffC085E5B03Fd2aCf0A72;
+    address constant cashManagementUSDCPool                 = 0xfe119e9C24ab79F1bDd5dd884B86Ceea2eE75D92;
+    address constant cashManagementUSDCPoolManager          = 0x219654A61a0BC394055652986BE403fa14405Bb8;
+    address constant cashManagementUSDCFixedTermLoanManager = 0xf4d4a5270aa834A2a77011526447fDF1e227018f;
+    address constant cashManagementUSDCOpenTermLoanManager  = 0xfAB269CB4Ab4D33A61e1648114f6147742F5eeCC;
+    address constant cashManagementUSDCWithdrawalManager    = 0x1146691782c089bCF0B19aCb8620943a35eebD12;
+    address constant cashManagementUSDCPoolDelegateCover    = 0x324bd0ae17CCBc16F17ffC085E5B03Fd2aCf0A72;
+
+    /**************************************************************************************************************************************/
+    /*** CashManagement - USDT                                                                                                          ***/
+    /**************************************************************************************************************************************/
+
+    address constant cashManagementUSDTPool                 = 0xf05681A33a9ADF14076990789A89ab3dA3F6B536;
+    address constant cashManagementUSDTPoolManager          = 0xE76b219f83E887E2503E14c343Bb7E0B62A7Af5d;
+    address constant cashManagementUSDTFixedTermLoanManager = 0x1B61765E954113e6508c4f9db07675989F7f5874;
+    address constant cashManagementUSDTOpenTermLoanManager  = 0x93b0f6F03Cc6996120C19aBfF3e585FDb8D88648;
+    address constant cashManagementUSDTWithdrawalManager    = 0xF0A66F70064aD3198Abb35AAE26B1eeeaEa62C4B;
+    address constant cashManagementUSDTPoolDelegateCover    = 0x40750d41B4D2e0ff1736623a968fF7598D90F25a;
 
     /**************************************************************************************************************************************/
     /*** Icebreaker Finance - USDC                                                                                                      ***/
