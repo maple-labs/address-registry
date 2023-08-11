@@ -113,8 +113,8 @@ contract MapleAddressRegistry {
 
     address constant mapleDirectUSDCPool                 = 0xc1dD3F011290F212227170F0D02F511EBF57E433;
     address constant mapleDirectUSDCPoolManager          = 0x5eE9587Bf5f4ccceEEd87B0216a31EBb513fAC25;
-    address constant mapleDirectUSDCFixedTermLoanManager = 0xdC9b93A8A336fe5dc9DB97616eA2118000d70fc0;
-    address constant mapleDirectUSDCOpenTermLoanManager  = 0x91582bDFEF0Bf36Fc326A4aB9b59aAcD61c105fF;
+    address constant mapleDirectUSDCFixedTermLoanManager = 0x91582bDFEF0Bf36Fc326A4aB9b59aAcD61c105fF;
+    address constant mapleDirectUSDCOpenTermLoanManager  = 0xdC9b93A8A336fe5dc9DB97616eA2118000d70fc0;
     address constant mapleDirectUSDCWithdrawalManager    = 0xB7ae6358ABA6E7a60C7B921B8Cbb3fddB3EE9060;
     address constant mapleDirectUSDCPoolDelegateCover    = 0x773C634B1c12A4A7036eeeA21586dAeD1Df313C5;
 
