@@ -72,6 +72,7 @@ contract MapleAddressRegistry {
     address constant aqruPool                 = 0xe9d33286f0E37f517B1204aA6dA085564414996d;
     address constant aqruPoolManager          = 0xA9c908Ee077eE26B52137FfF714150C7Eb69E160;
     address constant aqruFixedTermLoanManager = 0xd05998A1940294E3E49f99DBB13fe20A3483F5Ae;
+    address constant aqruOpenTermLoanManager  = 0x483082e93635ef280bc5E9f65575A7ff288aBA33;
     address constant aqruWithdrawalManager    = 0x515f77Fc8E1473591a89181a2Cf6CD0AAf3f932d;
     address constant aqruPoolDelegateCover    = 0x845bD1C0DBeA5eacd97E6B4544a48176F5f31Db9;
 
@@ -113,8 +114,8 @@ contract MapleAddressRegistry {
 
     address constant mapleDirectUSDCPool                 = 0xc1dD3F011290F212227170F0D02F511EBF57E433;
     address constant mapleDirectUSDCPoolManager          = 0x5eE9587Bf5f4ccceEEd87B0216a31EBb513fAC25;
-    address constant mapleDirectUSDCFixedTermLoanManager = 0xdC9b93A8A336fe5dc9DB97616eA2118000d70fc0;
-    address constant mapleDirectUSDCOpenTermLoanManager  = 0x91582bDFEF0Bf36Fc326A4aB9b59aAcD61c105fF;
+    address constant mapleDirectUSDCFixedTermLoanManager = 0x91582bDFEF0Bf36Fc326A4aB9b59aAcD61c105fF;
+    address constant mapleDirectUSDCOpenTermLoanManager  = 0xdC9b93A8A336fe5dc9DB97616eA2118000d70fc0;
     address constant mapleDirectUSDCWithdrawalManager    = 0xB7ae6358ABA6E7a60C7B921B8Cbb3fddB3EE9060;
     address constant mapleDirectUSDCPoolDelegateCover    = 0x773C634B1c12A4A7036eeeA21586dAeD1Df313C5;
 
