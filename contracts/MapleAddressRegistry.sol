@@ -63,7 +63,7 @@ contract MapleAddressRegistry {
     /*** Maple Utility Contracts                                                                                                       ***/
     /**************************************************************************************************************************************/
 
-    address constant protocolHealthChecker = 0xd266D623eeFe6d0f4d880668C0f633d9759b9Fd9;
+    address constant protocolHealthChecker = 0x56E550047E60f4f90Bbb3b812dE7F8732F29B95B;
 
     /**************************************************************************************************************************************/
     /*** AQRU - USDC                                                                                                                    ***/
