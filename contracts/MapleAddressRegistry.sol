@@ -16,8 +16,11 @@ contract MapleAddressRegistry {
     /**************************************************************************************************************************************/
 
     address constant aqruFinalPoolDelegate              = 0x3b1eFc0DB88f4bcD5d9f4790d8EEC5798011870F;
-    address constant cashManagementPoolDelegate         = 0x8c8C2431658608F5649B8432764a930c952d8A98;
+    address constant cashManagementUSDCPoolDelegate     = 0x8c8C2431658608F5649B8432764a930c952d8A98;
+    address constant cashManagementUSDTPoolDelegate     = 0xCc780Fe0e08Ff81B1c1315d7F63E4ec04F21fe86;
+    address constant cicadaPoolDelegate                 = 0x3ED09d2Ba820c951b7A37e600F739526c5BEf924;
     address constant icebreakerFinalPoolDelegate        = 0x184e46651946B861654436027bffdC97f9a45079;
+    address constant laserPoolDelegate                  = 0xBd7563f40761cED055836caC8a3cd5eD9888fB4C;
     address constant mavenPermissionedFinalPoolDelegate = 0xab38A4E78a0549f60Df1A78f15f35F03F39f11F4;
     address constant mavenUsdc3FinalPoolDelegate        = 0x426B93769dac3357254fcae28a032Cef54870B4A;
     address constant mavenUsdcFinalPoolDelegate         = 0x8B4aa04E9642b387293cE6fFfA42715a9cd19f3C;
@@ -28,11 +31,22 @@ contract MapleAddressRegistry {
     /*** Asset Contracts                                                                                                                ***/
     /**************************************************************************************************************************************/
 
-    address constant mpl  = 0x33349B282065b0284d756F0577FB39c158F935e6;
-    address constant usdc = 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48;
-    address constant wbtc = 0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599;
-    address constant weth = 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2;
-    address constant xmpl = 0x4937A209D4cDbD3ecD48857277cfd4dA4D82914c;
+    address constant mplv1 = 0x33349B282065b0284d756F0577FB39c158F935e6;
+    address constant usdc  = 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48;
+    address constant wbtc  = 0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599;
+    address constant weth  = 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2;
+    address constant xmpl  = 0x4937A209D4cDbD3ecD48857277cfd4dA4D82914c;
+
+    /**************************************************************************************************************************************/
+    /*** MPLv2 Addresses                                                                                                                ***/
+    /**************************************************************************************************************************************/
+
+    address constant mplv2                   = 0x1915A8dE08A92b846dF7C845e140E4b0714820bd;
+    address constant mplv2Implementation     = 0x2feb650302d54C227Bb56361005CA3Ec7265a40D;
+    address constant mplv2Initializer        = 0x7f3C3636208A18c7941BF051807db56864061465;
+    address constant mplMigrator             = 0x7b0267C13B994cdb58b8ED3a65b7A09a07432A76;
+    address constant recapitalizationClaimer = 0x6b1A78C1943b03086F7Ee53360f9b0672bD60818;
+    address constant recapitalizationModule  = 0x7D75cF9Aab6cB9598bB6d9Bd81BaAA288cecA9Bf;
 
     /**************************************************************************************************************************************/
     /*** Asset Oracles                                                                                                                  ***/
@@ -61,7 +75,7 @@ contract MapleAddressRegistry {
     address constant withdrawalManagerFactory    = 0xb9e25B584dc4a7C9d47aEF577f111fBE5705773B;
 
     /**************************************************************************************************************************************/
-    /*** Maple Utility Contracts                                                                                                       ***/
+    /*** Maple Utility Contracts                                                                                                        ***/
     /**************************************************************************************************************************************/
 
     address constant protocolHealthChecker = 0x56E550047E60f4f90Bbb3b812dE7F8732F29B95B;
@@ -100,6 +114,17 @@ contract MapleAddressRegistry {
     address constant cashManagementUSDTPoolDelegateCover    = 0x40750d41B4D2e0ff1736623a968fF7598D90F25a;
 
     /**************************************************************************************************************************************/
+    /*** Cicada - USDC                                                                                                                  ***/
+    /**************************************************************************************************************************************/
+
+    address constant cicadaPool                 = 0xf025edFA685c9Ea873ea4B22DA85E7e1Fba24381;
+    address constant cicadaPoolManager          = 0xba5936d5D8E5b050159ff8Ccb2589309e3071c2a;
+    address constant cicadaFixedTermLoanManager = 0xD7217F29d51deFfc6d5F95fF0a5200F3d34c0f66;
+    address constant cicadaOpenTermLoanManager  = 0xd205B3eD8408afcA53315798b891F37Bd4c5Ce2a;
+    address constant cicadaWithdrawalManager    = 0x4a5f63D9425070785EB10f5a0C33E42F16BB8639;
+    address constant cicadaPoolDelegateCover    = 0xd1a42064B7EE5525FdBb779170462abF24395D6F;
+
+    /**************************************************************************************************************************************/
     /*** Icebreaker Finance - USDC                                                                                                      ***/
     /**************************************************************************************************************************************/
 
@@ -108,6 +133,17 @@ contract MapleAddressRegistry {
     address constant icebreakerFixedTermLoanManager = 0x7dCA0cd3F1eBAE3640AC4c66688A9d3A184aF822;
     address constant icebreakerWithdrawalManager    = 0x4ec570457C3954feE01309A30C603ABD51899C77;
     address constant icebreakerPoolDelegateCover    = 0xA198C1dc00297Ae477F2D42D5a9E1cd4a364191f;
+
+    /**************************************************************************************************************************************/
+    /*** laser - USDC.k1                                                                                                                ***/
+    /**************************************************************************************************************************************/
+
+    address constant laserPool                 = 0xd020c197497DB6Db12CFF97a8575451c6FAa54B3;
+    address constant laserPoolManager          = 0xe7C2Ab602A23F09faAdaB822bb64278fFf171427;
+    address constant laserFixedTermLoanManager = 0x7a459F1fB7d257fC62E23aaa8b802e061CEc68D7;
+    address constant laserOpenTermLoanManager  = 0xA34e6B033275567A0F90A5BF93bA1485C657f092;
+    address constant laserWithdrawalManager    = 0xf817eC56Cb26117cf3bd5a8a8f128d64998fF234;
+    address constant laserPoolDelegateCover    = 0x412A26d5f8220182cb2A5aBB751A1AeD22225271;
 
     /**************************************************************************************************************************************/
     /*** Maple Direct - USDC                                                                                                            ***/
