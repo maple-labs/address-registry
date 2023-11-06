@@ -45,7 +45,7 @@ contract MapleAddressRegistryBase {
     /*** Maple Utility Contracts                                                                                                        ***/
     /**************************************************************************************************************************************/
 
-    address constant protocolHealthChecker = address(0);
+    address constant protocolHealthChecker = 0xfC55657861B5baB0764c78Bc9a692D07adC151f9;
 
     /**************************************************************************************************************************************/
     /*** CashManagement - USDC                                                                                                          ***/
