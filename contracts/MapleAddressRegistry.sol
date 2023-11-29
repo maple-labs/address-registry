@@ -7,9 +7,10 @@ contract MapleAddressRegistry {
     /*** Multisigs / EOAs                                                                                                               ***/
     /**************************************************************************************************************************************/
 
-    address constant governor      = 0xd6d4Bcde6c816F17889f1Dd3000aF0261B03a196;
-    address constant mapleTreasury = 0xa9466EaBd096449d650D5AEB0dD3dA6F52FD0B19;
-    address constant securityAdmin = 0x6b1A78C1943b03086F7Ee53360f9b0672bD60818;
+    address constant governor         = 0xd6d4Bcde6c816F17889f1Dd3000aF0261B03a196;
+    address constant mapleTreasury    = 0xa9466EaBd096449d650D5AEB0dD3dA6F52FD0B19;
+    address constant operationalAdmin = 0xCe1cE7c7F436DCc4E28Bc8bf86115514d3DC34E8;
+    address constant securityAdmin    = 0x6b1A78C1943b03086F7Ee53360f9b0672bD60818;
 
     /**************************************************************************************************************************************/
     /*** Pool Delegate Multisigs                                                                                                        ***/
