@@ -198,6 +198,17 @@ contract MapleAddressRegistry {
     address constant mavenWethPoolDelegateCover    = 0xdfDDE84b117f038785A2B1805B10D5C4d616dA08;
 
     /**************************************************************************************************************************************/
+    /*** Opportunistic High Yield (Maple Direct) - USDC                                                                                 ***/
+    /**************************************************************************************************************************************/
+
+    address constant OpportunisticHighYieldPool                     = 0x6174A27160f4D7885Db4FFeD1C0b5fbD66c87F3a;
+    address constant OpportunisticHighYieldPoolPoolManager          = 0x81525e55ccfec06f11f1Fdeaf446652c4eC2064F;
+    address constant OpportunisticHighYieldPoolFixedTermLoanManager = 0xEca9d2C5f81DD50DCe7493104467dC33362a436F;
+    address constant OpportunisticHighYieldPoolOpenTermLoanManager  = 0x2638802a78D6a97d0041CC7B52fb9A80994424cd;
+    address constant OpportunisticHighYieldPoolWithdrawalManager    = 0x8761404E5b2F02fA87d62d20c39E38fD848F72Ce;
+    address constant OpportunisticHighYieldPoolPoolDelegateCover    = 0xc6cfB7C88d1F072B92984adfcA19D3711C97B416;
+
+    /**************************************************************************************************************************************/
     /*** Orthogonal Trading - USDC 01                                                                                                   ***/
     /**************************************************************************************************************************************/
 
