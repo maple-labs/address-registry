@@ -61,19 +61,24 @@ contract MapleAddressRegistry {
     /*** Maple Protocol Contracts                                                                                                       ***/
     /**************************************************************************************************************************************/
 
-    address constant fixedTermFeeManagerV1       = 0xFeACa6A5703E6F9DE0ebE0975C93AE34c00523F2;
-    address constant fixedTermLoanFactory        = 0x36a7350309B2Eb30F3B908aB0154851B5ED81db0;
-    address constant fixedTermLoanManagerFactory = 0x1551717AE4FdCB65ed028F7fB7abA39908f6A7A6;
-    address constant fixedTermRefinancerV2       = 0x27ea6e67FB62AB2A603d4ACBc9377D7a9A0fd5e3;
-    address constant globals                     = 0x804a6F5F667170F545Bf14e5DDB48C70B788390C;
-    address constant globalsImplementationV2     = 0x562374079a8A07417ec4A69d5d52F9CBa796d364;
-    address constant liquidatorFactory           = 0xa2091116649b070D2a27Fc5C85c9820302114c63;
-    address constant openTermLoanFactory         = 0x6Fad515Fc046DD17166453A79725f50b917b7cF6;
-    address constant openTermLoanManagerFactory  = 0x90b14505221a24039A2D11Ad5862339db97Cc160;
-    address constant openTermRefinancerV1        = 0x653D4947620B73a433cAbBc9DFb068c3e9c18984;
-    address constant poolDeployerV2              = 0x87826F821AF105802064785A3905C794eF259D5C;
-    address constant poolManagerFactory          = 0xE463cD473EcC1d1A4ecF20b62624D84DD20a8339;
-    address constant withdrawalManagerFactory    = 0xb9e25B584dc4a7C9d47aEF577f111fBE5705773B;
+    address constant fixedTermFeeManagerV1            = 0xFeACa6A5703E6F9DE0ebE0975C93AE34c00523F2;
+    address constant fixedTermLoanFactory             = 0x36a7350309B2Eb30F3B908aB0154851B5ED81db0;
+    address constant fixedTermLoanFactoryV2           = 0xeA067DB5B32CE036Ee5D8607DBB02f544768dBC6;
+    address constant fixedTermLoanManagerFactory      = 0x1551717AE4FdCB65ed028F7fB7abA39908f6A7A6;
+    address constant fixedTermRefinancerV2            = 0x27ea6e67FB62AB2A603d4ACBc9377D7a9A0fd5e3;
+    address constant globals                          = 0x804a6F5F667170F545Bf14e5DDB48C70B788390C;
+    address constant globalsImplementationV2          = 0x562374079a8A07417ec4A69d5d52F9CBa796d364;
+    address constant globalsImplementationV3          = 0x5A64417823E8382a7e8957E4411873FE758E73a8;
+    address constant liquidatorFactory                = 0xa2091116649b070D2a27Fc5C85c9820302114c63;
+    address constant openTermLoanFactory              = 0x6Fad515Fc046DD17166453A79725f50b917b7cF6;
+    address constant openTermLoanManagerFactory       = 0x90b14505221a24039A2D11Ad5862339db97Cc160;
+    address constant openTermRefinancerV1             = 0x653D4947620B73a433cAbBc9DFb068c3e9c18984;
+    address constant poolDeployerV2                   = 0x87826F821AF105802064785A3905C794eF259D5C;
+    address constant poolDeployerV3                   = 0x12fB5dbBDB06ab973f047cC46D6bB33ba4d03b96;
+    address constant poolManagerFactory               = 0xE463cD473EcC1d1A4ecF20b62624D84DD20a8339;
+    address constant poolPermissionManager            = 0xBe10aDcE8B6E3E02Db384E7FaDA5395DD113D8b3;
+    address constant withdrawalManagerFactoryCyclical = 0xb9e25B584dc4a7C9d47aEF577f111fBE5705773B;
+    address constant withdrawalManagerFactoryQueue    = 0xca33105902E8d232DDFb9f71Ff3D79C7E7f2C4e5;
 
     /**************************************************************************************************************************************/
     /*** Maple Utility Contracts                                                                                                        ***/
