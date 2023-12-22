@@ -26,6 +26,7 @@ contract MapleAddressRegistry {
     address constant mavenUsdc3FinalPoolDelegate        = 0x426B93769dac3357254fcae28a032Cef54870B4A;
     address constant mavenUsdcFinalPoolDelegate         = 0x8B4aa04E9642b387293cE6fFfA42715a9cd19f3C;
     address constant mavenWethFinalPoolDelegate         = 0x990d11977378D4610776e6646b2cAAe543Ea4EDA;
+    address constant opportunisticHighYieldPoolDelegate = 0x687f2C038e2DAA38F8dAc0c5941d7B5E58bd8CA6;
     address constant orthogonalFinalPoolDelegate        = 0xA6cCb9483E3E7a737E3a4F5B72a1Ce51838ba122;
 
     /**************************************************************************************************************************************/
@@ -61,25 +62,30 @@ contract MapleAddressRegistry {
     /*** Maple Protocol Contracts                                                                                                       ***/
     /**************************************************************************************************************************************/
 
-    address constant fixedTermFeeManagerV1       = 0xFeACa6A5703E6F9DE0ebE0975C93AE34c00523F2;
-    address constant fixedTermLoanFactory        = 0x36a7350309B2Eb30F3B908aB0154851B5ED81db0;
-    address constant fixedTermLoanManagerFactory = 0x1551717AE4FdCB65ed028F7fB7abA39908f6A7A6;
-    address constant fixedTermRefinancerV2       = 0x27ea6e67FB62AB2A603d4ACBc9377D7a9A0fd5e3;
-    address constant globals                     = 0x804a6F5F667170F545Bf14e5DDB48C70B788390C;
-    address constant globalsImplementationV2     = 0x562374079a8A07417ec4A69d5d52F9CBa796d364;
-    address constant liquidatorFactory           = 0xa2091116649b070D2a27Fc5C85c9820302114c63;
-    address constant openTermLoanFactory         = 0x6Fad515Fc046DD17166453A79725f50b917b7cF6;
-    address constant openTermLoanManagerFactory  = 0x90b14505221a24039A2D11Ad5862339db97Cc160;
-    address constant openTermRefinancerV1        = 0x653D4947620B73a433cAbBc9DFb068c3e9c18984;
-    address constant poolDeployerV2              = 0x87826F821AF105802064785A3905C794eF259D5C;
-    address constant poolManagerFactory          = 0xE463cD473EcC1d1A4ecF20b62624D84DD20a8339;
-    address constant withdrawalManagerFactory    = 0xb9e25B584dc4a7C9d47aEF577f111fBE5705773B;
+    address constant fixedTermFeeManagerV1            = 0xFeACa6A5703E6F9DE0ebE0975C93AE34c00523F2;
+    address constant fixedTermLoanFactory             = 0x36a7350309B2Eb30F3B908aB0154851B5ED81db0;
+    address constant fixedTermLoanFactoryV2           = 0xeA067DB5B32CE036Ee5D8607DBB02f544768dBC6;
+    address constant fixedTermLoanManagerFactory      = 0x1551717AE4FdCB65ed028F7fB7abA39908f6A7A6;
+    address constant fixedTermRefinancerV2            = 0x27ea6e67FB62AB2A603d4ACBc9377D7a9A0fd5e3;
+    address constant globals                          = 0x804a6F5F667170F545Bf14e5DDB48C70B788390C;
+    address constant globalsImplementationV2          = 0x562374079a8A07417ec4A69d5d52F9CBa796d364;
+    address constant globalsImplementationV3          = 0x5A64417823E8382a7e8957E4411873FE758E73a8;
+    address constant liquidatorFactory                = 0xa2091116649b070D2a27Fc5C85c9820302114c63;
+    address constant openTermLoanFactory              = 0x6Fad515Fc046DD17166453A79725f50b917b7cF6;
+    address constant openTermLoanManagerFactory       = 0x90b14505221a24039A2D11Ad5862339db97Cc160;
+    address constant openTermRefinancerV1             = 0x653D4947620B73a433cAbBc9DFb068c3e9c18984;
+    address constant poolDeployerV2                   = 0x87826F821AF105802064785A3905C794eF259D5C;
+    address constant poolDeployerV3                   = 0x12fB5dbBDB06ab973f047cC46D6bB33ba4d03b96;
+    address constant poolManagerFactory               = 0xE463cD473EcC1d1A4ecF20b62624D84DD20a8339;
+    address constant poolPermissionManager            = 0xBe10aDcE8B6E3E02Db384E7FaDA5395DD113D8b3;
+    address constant withdrawalManagerFactoryCyclical = 0xb9e25B584dc4a7C9d47aEF577f111fBE5705773B;
+    address constant withdrawalManagerFactoryQueue    = 0xca33105902E8d232DDFb9f71Ff3D79C7E7f2C4e5;
 
     /**************************************************************************************************************************************/
     /*** Maple Utility Contracts                                                                                                        ***/
     /**************************************************************************************************************************************/
 
-    address constant protocolHealthChecker = 0x56E550047E60f4f90Bbb3b812dE7F8732F29B95B;
+    address constant protocolHealthChecker = 0xfFfFcbA2234b01e7324158EFb83F2f3ED82d1B0D;
 
     /**************************************************************************************************************************************/
     /*** AQRU - USDC                                                                                                                    ***/
@@ -100,7 +106,7 @@ contract MapleAddressRegistry {
     address constant cashManagementUSDCPoolManager          = 0x219654A61a0BC394055652986BE403fa14405Bb8;
     address constant cashManagementUSDCFixedTermLoanManager = 0xf4d4a5270aa834A2a77011526447fDF1e227018f;
     address constant cashManagementUSDCOpenTermLoanManager  = 0xfAB269CB4Ab4D33A61e1648114f6147742F5eeCC;
-    address constant cashManagementUSDCWithdrawalManager    = 0x1146691782c089bCF0B19aCb8620943a35eebD12;
+    address constant cashManagementUSDCWithdrawalManager    = 0x447dcEa1d616f792645ed6E71bC32955A0dBcbAa;
     address constant cashManagementUSDCPoolDelegateCover    = 0x324bd0ae17CCBc16F17ffC085E5B03Fd2aCf0A72;
 
     /**************************************************************************************************************************************/
@@ -111,7 +117,7 @@ contract MapleAddressRegistry {
     address constant cashManagementUSDTPoolManager          = 0xE76b219f83E887E2503E14c343Bb7E0B62A7Af5d;
     address constant cashManagementUSDTFixedTermLoanManager = 0x1B61765E954113e6508c4f9db07675989F7f5874;
     address constant cashManagementUSDTOpenTermLoanManager  = 0x93b0f6F03Cc6996120C19aBfF3e585FDb8D88648;
-    address constant cashManagementUSDTWithdrawalManager    = 0xF0A66F70064aD3198Abb35AAE26B1eeeaEa62C4B;
+    address constant cashManagementUSDTWithdrawalManager    = 0xF4DD63ee071178a6485e2035ED279839f5453512;
     address constant cashManagementUSDTPoolDelegateCover    = 0x40750d41B4D2e0ff1736623a968fF7598D90F25a;
 
     /**************************************************************************************************************************************/
@@ -205,7 +211,7 @@ contract MapleAddressRegistry {
     address constant OpportunisticHighYieldPoolPoolManager          = 0x81525e55ccfec06f11f1Fdeaf446652c4eC2064F;
     address constant OpportunisticHighYieldPoolFixedTermLoanManager = 0xEca9d2C5f81DD50DCe7493104467dC33362a436F;
     address constant OpportunisticHighYieldPoolOpenTermLoanManager  = 0x2638802a78D6a97d0041CC7B52fb9A80994424cd;
-    address constant OpportunisticHighYieldPoolWithdrawalManager    = 0x8761404E5b2F02fA87d62d20c39E38fD848F72Ce;
+    address constant OpportunisticHighYieldPoolWithdrawalManager    = 0xEb7B1e9C750190214cDFbbAf0ABE398A5e47D230;
     address constant OpportunisticHighYieldPoolPoolDelegateCover    = 0xc6cfB7C88d1F072B92984adfcA19D3711C97B416;
 
     /**************************************************************************************************************************************/
