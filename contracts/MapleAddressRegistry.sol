@@ -106,7 +106,7 @@ contract MapleAddressRegistry {
     address constant cashManagementUSDCPoolManager          = 0x219654A61a0BC394055652986BE403fa14405Bb8;
     address constant cashManagementUSDCFixedTermLoanManager = 0xf4d4a5270aa834A2a77011526447fDF1e227018f;
     address constant cashManagementUSDCOpenTermLoanManager  = 0xfAB269CB4Ab4D33A61e1648114f6147742F5eeCC;
-    address constant cashManagementUSDCWithdrawalManager    = 0x1146691782c089bCF0B19aCb8620943a35eebD12;
+    address constant cashManagementUSDCWithdrawalManager    = 0x447dcEa1d616f792645ed6E71bC32955A0dBcbAa;
     address constant cashManagementUSDCPoolDelegateCover    = 0x324bd0ae17CCBc16F17ffC085E5B03Fd2aCf0A72;
 
     /**************************************************************************************************************************************/
@@ -117,7 +117,7 @@ contract MapleAddressRegistry {
     address constant cashManagementUSDTPoolManager          = 0xE76b219f83E887E2503E14c343Bb7E0B62A7Af5d;
     address constant cashManagementUSDTFixedTermLoanManager = 0x1B61765E954113e6508c4f9db07675989F7f5874;
     address constant cashManagementUSDTOpenTermLoanManager  = 0x93b0f6F03Cc6996120C19aBfF3e585FDb8D88648;
-    address constant cashManagementUSDTWithdrawalManager    = 0xF0A66F70064aD3198Abb35AAE26B1eeeaEa62C4B;
+    address constant cashManagementUSDTWithdrawalManager    = 0xF4DD63ee071178a6485e2035ED279839f5453512;
     address constant cashManagementUSDTPoolDelegateCover    = 0x40750d41B4D2e0ff1736623a968fF7598D90F25a;
 
     /**************************************************************************************************************************************/
@@ -211,7 +211,7 @@ contract MapleAddressRegistry {
     address constant OpportunisticHighYieldPoolPoolManager          = 0x81525e55ccfec06f11f1Fdeaf446652c4eC2064F;
     address constant OpportunisticHighYieldPoolFixedTermLoanManager = 0xEca9d2C5f81DD50DCe7493104467dC33362a436F;
     address constant OpportunisticHighYieldPoolOpenTermLoanManager  = 0x2638802a78D6a97d0041CC7B52fb9A80994424cd;
-    address constant OpportunisticHighYieldPoolWithdrawalManager    = 0x8761404E5b2F02fA87d62d20c39E38fD848F72Ce;
+    address constant OpportunisticHighYieldPoolWithdrawalManager    = 0xEb7B1e9C750190214cDFbbAf0ABE398A5e47D230;
     address constant OpportunisticHighYieldPoolPoolDelegateCover    = 0xc6cfB7C88d1F072B92984adfcA19D3711C97B416;
 
     /**************************************************************************************************************************************/

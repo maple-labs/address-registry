@@ -61,7 +61,7 @@ contract MapleAddressRegistryBaseL2 {
     address constant cashManagementUSDCPoolManager          = 0x7aA13F647691A709dc3360acAd7EB758179790ee;
     address constant cashManagementUSDCFixedTermLoanManager = 0xC3e5EeC47CCCDFAe4BCA7BF40CA2711C4CB60491;
     address constant cashManagementUSDCOpenTermLoanManager  = 0xD1A9FfeFe76ee44Ca724BEf30e16Ead1BA039601;
-    address constant cashManagementUSDCWithdrawalManager    = 0x6495F96B89904F574817a3b191c7817D91FE96eb;
+    address constant cashManagementUSDCWithdrawalManager    = 0xcB617285163D60B7e8451a1631064B4Bc9d62F8d;
     address constant cashManagementUSDCPoolDelegateCover    = 0x28378DFC7bAe84C668d960c6E8CD862Fda43ba70;
 
 }
