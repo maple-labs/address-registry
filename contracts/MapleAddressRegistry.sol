@@ -27,6 +27,7 @@ contract MapleAddressRegistry {
     address constant mavenUsdcFinalPoolDelegate         = 0x8B4aa04E9642b387293cE6fFfA42715a9cd19f3C;
     address constant mavenWethFinalPoolDelegate         = 0x990d11977378D4610776e6646b2cAAe543Ea4EDA;
     address constant orthogonalFinalPoolDelegate        = 0xA6cCb9483E3E7a737E3a4F5B72a1Ce51838ba122;
+    address constant OpportunisticHighYieldPoolDelegate = 0x687f2C038e2DAA38F8dAc0c5941d7B5E58bd8CA6;
 
     /**************************************************************************************************************************************/
     /*** Asset Contracts                                                                                                                ***/
@@ -84,7 +85,7 @@ contract MapleAddressRegistry {
     /*** Maple Utility Contracts                                                                                                        ***/
     /**************************************************************************************************************************************/
 
-    address constant protocolHealthChecker = 0x56E550047E60f4f90Bbb3b812dE7F8732F29B95B;
+    address constant protocolHealthChecker = 0xfFfFcbA2234b01e7324158EFb83F2f3ED82d1B0D;
 
     /**************************************************************************************************************************************/
     /*** AQRU - USDC                                                                                                                    ***/
