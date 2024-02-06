@@ -1,0 +1,200 @@
+{
+    "chains": [
+        {
+            "name": "ETH",
+            "contracts": {
+                "actors": [
+                    {
+                        "name": "securityAdmin",
+                        "address": "0x6b1A78C1943b03086F7Ee53360f9b0672bD60818"
+                    },
+                    {
+                        "name": "operationalAdmin",
+                        "address": "0xCe1cE7c7F436DCc4E28Bc8bf86115514d3DC34E8"
+                    }
+                ],
+                "administrativeContracts": [
+                    {
+                        "name": "globals",
+                        "address": "0x804a6F5F667170F545Bf14e5DDB48C70B788390C"
+                    }
+                ],
+                "factories": [
+                    {
+                        "name": "fixedTermLoanFactory",
+                        "address": "0x36a7350309B2Eb30F3B908aB0154851B5ED81db0"
+                    },
+                    {
+                        "name": "fixedTermLoanManagerFactory",
+                        "address": "0x1551717AE4FdCB65ed028F7fB7abA39908f6A7A6"
+                    },
+                    {
+                        "name": "poolManagerFactory",
+                        "address": "0xE463cD473EcC1d1A4ecF20b62624D84DD20a8339"
+                    },
+                    {
+                        "name": "withdrawalManagerCyclicalFactory",
+                        "address": "0xb9e25B584dc4a7C9d47aEF577f111fBE5705773B"
+                    },
+                    {
+                        "name": "liquidatorFactory",
+                        "address": "0xa2091116649b070D2a27Fc5C85c9820302114c63"
+                    },
+                    {
+                        "name": "openTermLoanFactory",
+                        "address": "0x6Fad515Fc046DD17166453A79725f50b917b7cF6"
+                    },
+                    {
+                        "name": "openTermLoanManagerFactory",
+                        "address": "0x90b14505221a24039A2D11Ad5862339db97Cc160"
+                    },
+                    {
+                        "name": "withdrawalManagerQueueFactory",
+                        "address": "0xca33105902E8d232DDFb9f71Ff3D79C7E7f2C4e5"
+                    }
+                ],
+                "pools": [
+                    {
+                        "name": "aqru",
+                        "pool": "0xe9d33286f0E37f517B1204aA6dA085564414996d",
+                        "poolManager": "0xA9c908Ee077eE26B52137FfF714150C7Eb69E160",
+                        "FixedTermLoanManager": "0xd05998A1940294E3E49f99DBB13fe20A3483F5Ae",
+                        "OpenTermLoanManager": "0x483082e93635ef280bc5E9f65575A7ff288aBA33",
+                        "WithdrawalManagerCyclical": "0x515f77Fc8E1473591a89181a2Cf6CD0AAf3f932d",
+                        "PoolDelegateCover": "0x845bD1C0DBeA5eacd97E6B4544a48176F5f31Db9"
+                    },
+                    {
+                        "name": "cashUSDC",
+                        "pool": "0xfe119e9C24ab79F1bDd5dd884B86Ceea2eE75D92",
+                        "poolManager": "0x219654A61a0BC394055652986BE403fa14405Bb8",
+                        "fixedTermLoanManager": "0xf4d4a5270aa834A2a77011526447fDF1e227018f",
+                        "openTermLoanManager": "0xfAB269CB4Ab4D33A61e1648114f6147742F5eeCC",
+                        "withdrawalManagerQueue": "0x447dcEa1d616f792645ed6E71bC32955A0dBcbAa",
+                        "poolDelegateCover": "0x324bd0ae17CCBc16F17ffC085E5B03Fd2aCf0A72"
+                    },
+                    {
+                        "name": "cashUSTD",
+                        "pool": "0xf05681A33a9ADF14076990789A89ab3dA3F6B536",
+                        "poolManager": "0xE76b219f83E887E2503E14c343Bb7E0B62A7Af5d"
+                    },
+                    {
+                        "name": "cicada",
+                        "pool": "0xf025edFA685c9Ea873ea4B22DA85E7e1Fba24381",
+                        "poolManager": "0xba5936d5D8E5b050159ff8Ccb2589309e3071c2a",
+                        "fixedTermLoanManager": "0xD7217F29d51deFfc6d5F95fF0a5200F3d34c0f66",
+                        "openTermLoanManager": "0xd205B3eD8408afcA53315798b891F37Bd4c5Ce2a",
+                        "withdrawalManagerCyclical": "0x4a5f63D9425070785EB10f5a0C33E42F16BB8639",
+                        "poolDelegateCover": "0xd1a42064B7EE5525FdBb779170462abF24395D6F"
+                    },
+                    {
+                        "name": "icebreaker",
+                        "pool": "0x137F2EA5cfB0fE59408BAb2779E33EE868F1810E",
+                        "poolManager": "0xC0323b64eF95E5698B30fEbD6A54BFD66ca2210E"
+                    },
+                    {
+                        "name": "laser",
+                        "pool": "0xd020c197497DB6Db12CFF97a8575451c6FAa54B3",
+                        "poolManager": "0xe7C2Ab602A23F09faAdaB822bb64278fFf171427"
+                    },
+                    {
+                        "name": "mapleDirectUSDC",
+                        "pool": "0xc1dD3F011290F212227170F0D02F511EBF57E433",
+                        "poolManager": "0x5eE9587Bf5f4ccceEEd87B0216a31EBb513fAC25"
+                    },
+                    {
+                        "name": "mavenPermissioned",
+                        "pool": "0x00e0C1ea2085e30E5233E98CFA940ca8cbB1b0b7",
+                        "poolManager": "0x24617612DeC91855e126e6330580425F6A262ee9"
+                    },
+                    {
+                        "name": "mavenUSDC3",
+                        "pool": "0xd2b01f8327eeca47829efc731f1a89c6d07e6b92",
+                        "poolManager": "0x83376e49c7bf776495313c89f9bf226c8b8971b6"
+                    },
+                    {
+                        "name": "mavenUSDC",
+                        "pool": "0xd3cd37a7299B963bbc69592e5Ba933388f70dc88",
+                        "poolManager": "0x00d950A41a0d277ed91bF9fD366a5523FEF0371e"
+                    },
+                    {
+                        "name": "mavenWeth",
+                        "pool": "0xFfF9A1CAf78b2e5b0A49355a8637EA78b43fB6c3",
+                        "poolManager": "0x833A5c9Fc016a87419D21B10B64e24082Bd1e49d"
+                    },
+                    {
+                        "name": "orthogonal",
+                        "pool": "0x79400A2c9a5E2431419CaC98Bf46893c86E8bDd7",
+                        "poolManager": "0xE10A065D15A6eCA69bb8A0063Fe57eDdb66999DF"
+                    },
+                    {
+                        "name": "OppHighYieldUSDC",
+                        "pool": "0x6174A27160f4D7885Db4FFeD1C0b5fbD66c87F3a",
+                        "poolManager": "0x81525e55ccfec06f11f1Fdeaf446652c4eC2064F"
+                    }
+                ],
+                "cashPools": [
+                    {
+                        "name": "cashUSDC",
+                        "pool": "0xfe119e9C24ab79F1bDd5dd884B86Ceea2eE75D92",
+                        "poolManager": "0x219654A61a0BC394055652986BE403fa14405Bb8"
+                    },
+                    {
+                        "name": "cashUSTD",
+                        "pool": "0xf05681A33a9ADF14076990789A89ab3dA3F6B536",
+                        "poolManager": "0xE76b219f83E887E2503E14c343Bb7E0B62A7Af5d"
+                    },
+                    {
+                        "name": " OppHighYieldUSDC",
+                        "pool": "0x6174A27160f4D7885Db4FFeD1C0b5fbD66c87F3a",
+                        "poolManager": "0x81525e55ccfec06f11f1Fdeaf446652c4eC2064F"
+                    }
+                ],
+                "assets": [
+                    {
+                        "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                        "oracle": "0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419"
+                    },
+                    {
+                        "address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+                        "oracle": "0xF4030086522a5bEEa4988F8cA5B36dbC97BeE88c"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "BASEL2",
+            "contracts": {
+                "usdc": "",
+                "weth": "",
+                "securityAdmin": "0x6150371231f783e97906af4861Bc1eD11cE1c9Ea",
+                "operationalAdmin": "0xa263B86eE90918Ce797E2Cf8d98c74E3Af50367f",
+                "poolDeployerV2": "0x02A609c8Cbb387E7882836C534bcd738E0E48FbF",
+                "feeManager": "0xc4D7807a5571887F7b50182d072f4fF4654099b0",
+                "fixedTermLoanInitializerV500": "0x42F53CDF5D74aCa6A62BAD32C97Cd460449090dC",
+                "fixedTermLoanFactory": "0x1915A8dE08A92b846dF7C845e140E4b0714820bd",
+                "fixedTermLoanManagerFactory": "0x7b0267C13B994cdb58b8ED3a65b7A09a07432A76",
+                "globals": "0x7f3C3636208A18c7941BF051807db56864061465",
+                "liquidatorFactory": "0x7D75cF9Aab6cB9598bB6d9Bd81BaAA288cecA9Bf",
+                "poolDeployerV1": "",
+                "poolManagerFactory": "0xD4f0e224222e3F767AC389B2b1b7663990DFa6E9",
+                "poolManagerInitializerV100": "",
+                "withdrawalManagerCyclicalFactory": "0x0434FC9e7D88294dAac40dDF316754B2053D613b",
+                "pools": [
+                    {
+                        "name": "cashUSDCPool",
+                        "pool": "0xdd5bb9acf5e02089735a33344c6e3a8bb0d4075d",
+                        "poolManager": "0x7aa13f647691a709dc3360acad7eb758179790ee"
+                    }
+                ],
+                "cashPools": [
+                    {
+                        "name": "cashUSDC",
+                        "pool": "0xdd5bb9acf5e02089735a33344c6e3a8bb0d4075d",
+                        "poolManager": "0x7aa13f647691a709dc3360acad7eb758179790ee"
+                    }
+                ],
+                "assets": []
+            }
+        }
+    ]
+}
