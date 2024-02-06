@@ -13,6 +13,8 @@ const title = (name) => `contract MapleAddressRegistry${name} {`
 
 const section = (title) => `    /${'*'.repeat(134)}/\n    /*** ${title}${' '.repeat(134 - title.length - 7)}***/\n    /${'*'.repeat(134)}/\n`;
 
+const longestKey = (obj) => Object.keys(obj).reduce((a, b) => a.length > b.length ? a : b);
+
 registry.chains.forEach(chain => {
     let content = [header, title(chain.name)];
     
@@ -22,15 +24,17 @@ registry.chains.forEach(chain => {
         if (key == "pools") {
 
             value.forEach((pool) => {
+                const len = longestKey(pool).length;
+
                 const poolName = pool.name;
                 const {name, ...entries} = pool;
                 for (const [k, v] of Object.entries(entries)) {
-                    content.push(`    address constant public ${poolName}${k} = ${v};`);
+                    content.push(`    address constant public ${poolName}${k}${' '.repeat(len - k.length)} = ${v};`);
                 }
 
                 content.push('');
             })
-            
+
             continue;
         }
 
@@ -42,7 +46,7 @@ registry.chains.forEach(chain => {
 
     }
 
-    content.push(`\n}`);
+    content.push(`}`);
 
     writeFile(`./MapleAddressRegistry${chain.name}.sol`, content.join('\n'), (err) => {
         if (err) throw err;
