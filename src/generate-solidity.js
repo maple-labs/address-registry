@@ -27,7 +27,7 @@ registry.chains.forEach(chain => {
                 const len = longestKey(pool).length;
 
                 const poolName = pool.name;
-                const {name, ...entries} = pool;
+                const {name, address, ...entries} = pool;
                 for (const [k, v] of Object.entries(entries)) {
                     content.push(`    address constant public ${poolName}${k}${' '.repeat(len - k.length)} = ${v};`);
                 }
