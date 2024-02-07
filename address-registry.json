@@ -65,7 +65,6 @@
                     {
                         "name": "aqru",
                         "address": "0xe9d33286f0E37f517B1204aA6dA085564414996d",
-                        "pool": "0xe9d33286f0E37f517B1204aA6dA085564414996d",
                         "poolManager": "0xA9c908Ee077eE26B52137FfF714150C7Eb69E160",
                         "FixedTermLoanManager": "0xd05998A1940294E3E49f99DBB13fe20A3483F5Ae",
                         "OpenTermLoanManager": "0x483082e93635ef280bc5E9f65575A7ff288aBA33",
@@ -75,7 +74,6 @@
                     {
                         "name": "cashUSDC",
                         "address": "0xfe119e9C24ab79F1bDd5dd884B86Ceea2eE75D92",
-                        "pool": "0xfe119e9C24ab79F1bDd5dd884B86Ceea2eE75D92",
                         "poolManager": "0x219654A61a0BC394055652986BE403fa14405Bb8",
                         "fixedTermLoanManager": "0xf4d4a5270aa834A2a77011526447fDF1e227018f",
                         "openTermLoanManager": "0xfAB269CB4Ab4D33A61e1648114f6147742F5eeCC",
@@ -85,7 +83,6 @@
                     {
                         "name": "cashUSTD",
                         "address": "0xf05681A33a9ADF14076990789A89ab3dA3F6B536",
-                        "pool": "0xf05681A33a9ADF14076990789A89ab3dA3F6B536",
                         "PoolManager": "0xE76b219f83E887E2503E14c343Bb7E0B62A7Af5d",
                         "FixedTermLoanManager": "0x1b61765e954113e6508c4f9db07675989f7f5874",
                         "OpenTermLoanManager": "0x93b0f6f03cc6996120c19abff3e585fdb8d88648",
@@ -95,7 +92,6 @@
                     {
                         "name": "cicada",
                         "address": "0xf025edFA685c9Ea873ea4B22DA85E7e1Fba24381",
-                        "pool": "0xf025edFA685c9Ea873ea4B22DA85E7e1Fba24381",
                         "poolManager": "0xba5936d5D8E5b050159ff8Ccb2589309e3071c2a",
                         "fixedTermLoanManager": "0xD7217F29d51deFfc6d5F95fF0a5200F3d34c0f66",
                         "openTermLoanManager": "0xd205B3eD8408afcA53315798b891F37Bd4c5Ce2a",
@@ -105,7 +101,6 @@
                     {
                         "name": "icebreaker",
                         "address": "0x137F2EA5cfB0fE59408BAb2779E33EE868F1810E",
-                        "pool": "0x137F2EA5cfB0fE59408BAb2779E33EE868F1810E",
                         "poolManager": "0xC0323b64eF95E5698B30fEbD6A54BFD66ca2210E",
                         "FixedTermLoanManager": "0x7dCA0cd3F1eBAE3640AC4c66688A9d3A184aF822",
                         "WithdrawalManagerCyclical": "0x4ec570457C3954feE01309A30C603ABD51899C77",
@@ -113,7 +108,7 @@
                     },
                     {
                         "name": "laser",
-                        "pool": "0xd020c197497DB6Db12CFF97a8575451c6FAa54B3",
+                        "address": "0xd020c197497DB6Db12CFF97a8575451c6FAa54B3",
                         "poolManager": "0xe7C2Ab602A23F09faAdaB822bb64278fFf171427",
                         "FixedTermLoanManager": "0x7a459F1fB7d257fC62E23aaa8b802e061CEc68D7",
                         "OpenTermLoanManager": "0xA34e6B033275567A0F90A5BF93bA1485C657f092",
@@ -133,7 +128,6 @@
                     {
                         "name": "mavenPermissioned",
                         "address": "0x00e0C1ea2085e30E5233E98CFA940ca8cbB1b0b7",
-                        "pool": "0x00e0C1ea2085e30E5233E98CFA940ca8cbB1b0b7",
                         "poolManager": "0x24617612DeC91855e126e6330580425F6A262ee9",
                         "FixedTermLoanManager": "0x6B6491AAa92Ce7e901330D8F91Ec99C2a157EBd7",
                         "WithdrawalManagerCyclical": "0x1B56856eB74bB1AA9e9F1997386dDB28DEf532eE",
@@ -142,7 +136,6 @@
                     {
                         "name": "mavenUSDC3",
                         "address": "0xd2b01f8327eeca47829efc731f1a89c6d07e6b92",
-                        "pool": "0xd2b01f8327eeca47829efc731f1a89c6d07e6b92",
                         "poolManager": "0x83376e49c7bf776495313c89f9bf226c8b8971b6",
                         "FixedTermLoanManager": "0x9b300a28d7dc7d422c7d1b9442db0b51a6346e00",
                         "WithdrawalManagerCyclical": "0x7f0d63e2250bc99f48985b183af0c9a66bbc8ac3",
@@ -151,7 +144,6 @@
                     {
                         "name": "mavenUSDC",
                         "address": "0xd3cd37a7299B963bbc69592e5Ba933388f70dc88",
-                        "pool": "0xd3cd37a7299B963bbc69592e5Ba933388f70dc88",
                         "poolManager": "0x00d950A41a0d277ed91bF9fD366a5523FEF0371e",
                         "WithdrawalManagerCyclical": "0x7ED195a0AE212D265511b0978Af577F59876C9BB",
                         "PoolDelegateCover": "0x9c74C5147653041239bb31C799c54767D9953f7D"
@@ -177,7 +169,6 @@
                     {
                         "name": "OppHighYieldUSDC",
                         "address": "0x6174A27160f4D7885Db4FFeD1C0b5fbD66c87F3a",
-                        "pool": "0x6174A27160f4D7885Db4FFeD1C0b5fbD66c87F3a",
                         "poolManager": "0x81525e55ccfec06f11f1Fdeaf446652c4eC2064F",
                         "FixedTermLoanManager": "0xEca9d2C5f81DD50DCe7493104467dC33362a436F",
                         "OpenTermLoanManager": "0x2638802a78D6a97d0041CC7B52fb9A80994424cd",

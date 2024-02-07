@@ -15,35 +15,28 @@ const section = (title) => `    /${'*'.repeat(134)}/\n    /*** ${title}${' '.rep
 
 const longestKey = (obj) => Object.keys(obj).reduce((a, b) => a.length > b.length ? a : b);
 
+const declaration = (key, value, spacing, prepend = "") => `    address constant public ${prepend}${key}${' '.repeat(spacing)} = ${value};`;
+
 registry.chains.forEach(chain => {
     let content = [header, title(chain.name)];
     
     for (const [key, value] of Object.entries(chain.contracts)) {  
         content.push(section(key));
 
-        if (key == "pools") {
-
-            value.forEach((pool) => {
-                const len = longestKey(pool).length;
-
-                const poolName = pool.name;
-                const {name, address, ...entries} = pool;
-                for (const [k, v] of Object.entries(entries)) {
-                    content.push(`    address constant public ${poolName}${k}${' '.repeat(len - k.length)} = ${v};`);
-                }
-
-                content.push('');
-            })
-
-            continue;
-        }
-
         for (const [k, v] of Object.entries(value)) {
-            content.push(`    address constant public ${v.name} = ${v.address};`);
+            content.push(declaration(v.name, v.address, 0))
+
+            const {name, address, ...extra} = v;
+
+            if (Object.keys(extra).length > 0) {
+                for (const [k2, v2] of Object.entries(extra)) {
+                    content.push(declaration(k2, v2, 0, v.name))
+                }
+                content.push('');
+            }
+
         }
-
         content.push('');
-
     }
 
     content.push(`}`);
