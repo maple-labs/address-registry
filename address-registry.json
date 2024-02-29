@@ -247,7 +247,6 @@
                         "implementation": "0x899B57Bbd8597aa2d1898476504f479c982c5c2c",
                         "initializer": "0x637f8dC4C4d07D1CC30ae131fA94A060dee6be96"
                     }
-                    
                 ],
                 "singletons": [
                     {
@@ -298,7 +297,6 @@
                         "name": "protocolHealthChecker",
                         "address": "0xfFfFcbA2234b01e7324158EFb83F2f3ED82d1B0D"
                     }
-                    
                 ],
                 "tokens": [
                     {
@@ -322,8 +320,6 @@
         {
             "name": "BASEL2",
             "contracts": {
-                "usdc": "",
-                "weth": "",
                 "actors": [
                     {
                         "name": "governor",
@@ -338,7 +334,7 @@
                         "address": "0xa263B86eE90918Ce797E2Cf8d98c74E3Af50367f"
                     }
                 ],
-                "administrativeContracts": [
+                "singletons": [
                     {
                         "name": "globals",
                         "address": "0x7f3C3636208A18c7941BF051807db56864061465"
@@ -346,13 +342,97 @@
                     {
                         "name": "treasury",
                         "address": "0x3A5ab01B4E142F41f54a861c984D19C866Ec1736"
+                    },
+                    {
+                        "name": "poolDeployerV2",
+                        "address": "0x02A609c8Cbb387E7882836C534bcd738E0E48FbF"
+                    },
+                    {
+                        "name": "poolDeployerV3",
+                        "address": "0x12fB5dbBDB06ab973f047cC46D6bB33ba4d03b96"
+                    },
+                    {
+                        "name": "feeManager",
+                        "address": "0xc4D7807a5571887F7b50182d072f4fF4654099b0"
+                    },
+                    {
+                        "name": "fixedTermRefinancerV2",
+                        "address": "0x510276F01C993De918fa04AFFCd64782FE495846"
+                    },
+                    {
+                        "name": "openTermRefinancer",
+                        "address": "0xb3138B273884696befc074b48923614fb77c2e10"
+                    },
+                    {
+                        "name": "poolPermissionManager",
+                        "address": "0xBe10aDcE8B6E3E02Db384E7FaDA5395DD113D8b3"
                     }
                 ],
-                "poolDeployerV2": "0x02A609c8Cbb387E7882836C534bcd738E0E48FbF",
-                "feeManager": "0xc4D7807a5571887F7b50182d072f4fF4654099b0",
-                "fixedTermLoanInitializerV500": "0x42F53CDF5D74aCa6A62BAD32C97Cd460449090dC",
-                "poolDeployerV1": "",
-                "poolManagerInitializerV100": "",
+                "proxies": [
+                    {
+                        "name": "FixedTermLoanV501",
+                        "implementation": "0xdA46983D7451eeb4d5173F92Ac6F49158dF4FD44",
+                        "initializer": "0x42F53CDF5D74aCa6A62BAD32C97Cd460449090dC"
+                    },
+                    {
+                        "name": "FixedTermLoanV502",
+                        "implementation": "0x7a6F2C7B4F6aD1cB00AB23ECc5b41D25dA439005",
+                        "initializer": "0x42F53CDF5D74aCa6A62BAD32C97Cd460449090dC",
+                        "migrator": "0x6D4416E6C0536fD33127d38Af21bc912475584E3"
+                    },
+                    {
+                        "name": "OpenTermLoanV101",
+                        "implementation": "0x2d60f1245617813BA230AB32fE89C3B8f53ff71c",
+                        "initializer": "0xf7C40F67aA044AaaE180c3f5e836BB23F9DcFd8A"
+                    },
+                    {
+                        "name": "LiquidatorV200",
+                        "implementation": "0x3C7c0B4605ADAdca56DD8b6ede4792c103Eb6743",
+                        "initializer": "0x4de6d4fD3F70E36B037e58DaE9d129882cAaf639"
+                    },
+                    {
+                        "name": "FixedTermLoanManagerV301",
+                        "implementation": "0x7f6B190d3210BffAAdBb0e83456B7C8030bc0f8B",
+                        "initializer": "0xCb122D189e35Cbd4b5e2Bd12408C4D660FCD1584"
+                    },
+                    {
+                        "name": "OpenTermLoanManagerV100",
+                        "implementation": "0xa6D0b2Ca9F973C81Ef94cCd8c62e4044F22972C1",
+                        "initializer": "0x5246ADE26673E4F0e1754948b65ceda25EFA2acC"
+                    },
+                    {
+                        "name": "PoolManagerV200",
+                        "implementation": "0xad1f6749c09AED1D93cCFAe939045CFEa5011416",
+                        "initializer": "0x5D60901Db2201e812aE438C35F12501D9E8f0996"
+                    },
+                    {
+                        "name": "PoolManagerV300",
+                        "implementation": "0x0055c00ba4Dec5ed545A5419C4d430daDa8cb1CE",
+                        "initializer": "0x252C44A1630095504E3D3972b9b296f5ED494911",
+                        "migrator": "0x9450d0D19802Ae0aDD44565752CDAB70E0A1C6ed"
+                    },
+                    {
+                        "name": "PoolManagerV301",
+                        "implementation": "0x5b1D19AC5420bA8819aad6C0B98A41095E5C86c2",
+                        "initializer": "0x252C44A1630095504E3D3972b9b296f5ED494911",
+                        "migrator": "0x9d07A8373E9ABE5A430cCD161d6373e248D7778F"
+                    },
+                    {
+                        "name": "WithdrawalManagerCyclicalV100",
+                        "implementation": "0x5B8387aDa310352198EBFF14a297FAb44428C8CD",
+                        "initializer": "0x899b7d637e35B2C57E845dB1064a4e58639D3A8D"
+                    },
+                    {
+                        "name": "WithdrawalManagerCyclicalV110",
+                        "implementation": "0xCc4e684916aA7Fa0E4fAEF2359B49A755f89C75b",
+                        "initializer": "0x485bA3F5235F150bF8e4Afbd3a25c266cDAdD9Dd"
+                    },
+                    {
+                        "name": "WithdrawalManagerQueueV100",
+                        "implementation": "0x899B57Bbd8597aa2d1898476504f479c982c5c2c",
+                        "initializer": "0x637f8dC4C4d07D1CC30ae131fA94A060dee6be96"
+                    }
+                ],
                 "factories": [
                     {
                         "name": "fixedTermLoanFactory",
@@ -398,7 +478,16 @@
                         "poolDelegateCover": "0x28378DFC7bAe84C668d960c6E8CD862Fda43ba70"
                     }
                 ],
-                "assets": []
+                "assets": [
+                                        {
+                                            "name": "usdc",
+                                            "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913"
+                                        },
+                                        {
+                                            "name": "weth",
+                                            "address": "0x4200000000000000000000000000000000000006"
+                                        }
+                ]
             }
         }
     ]
