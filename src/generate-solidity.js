@@ -25,7 +25,6 @@ registry.chains.forEach(chain => {
     let content = [header, title(chain.name)];
     
     for (const [key, value] of Object.entries(chain.contracts)) {
-
         
         // Handling Pool sections
         if (key == "pools") {
@@ -50,7 +49,7 @@ registry.chains.forEach(chain => {
             }
 
         } else {
-            content.push(section(key));
+            content.push(section(capitalize(key)));
 
             for (const [k, v] of Object.entries(value)) {
                 const longestNameLength = longestName(value).name.length;
@@ -79,7 +78,7 @@ registry.chains.forEach(chain => {
     
     content.push(`}`);
     
-    writeFile(`./MapleAddressRegistry${chain.name}.sol`, content.join('\n'), (err) => {
+    writeFile(`./contracts/MapleAddressRegistry${chain.name}.sol`, content.join('\n'), (err) => {
         if (err) throw err;
         console.log('The file has been saved!');
     });
