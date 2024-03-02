@@ -224,4 +224,15 @@ contract MapleAddressRegistry {
     address constant orthogonalWithdrawalManager    = 0xD8f8BD488ba6DDF2a710f6C357a884fd1706981A;
     address constant orthogonalPoolDelegateCover    = 0xb9Bae8c63593e51A296857AC4C150bae31a4e2c3;
 
+    /**************************************************************************************************************************************/
+    /*** High Yield (Maple Direct) - WETH                                                                                               ***/
+    /**************************************************************************************************************************************/
+
+    address constant highYieldWethPool                   = 0xCCBc525ED9d85Ad8325b7b6C4C6A79f5566dEa3B;
+    address constant highYieldWethPoolManager            = 0xed8b578A01f3CD65488fC19D37E2285eF934e54A;
+    address constant highYieldWethFixedTermLoanManager   = 0xc82095C002E726e4b3C8c26eE769b44C772ef9f7;
+    address constant highYieldWethOpenTermLoanManager    = 0xe3AAC29001c769FAfCef0df072ca396e310ed13b;
+    address constant highYieldWethQueueWithdrawalManager = 0x58A534945f357aa0d2fb56b8BDf7dfA1073bd7a1;
+    address constant highYieldWethPoolDelegateCover      = 0x93cdDB2482812A314DDD6aa90007a41F954ef3eB;
+
 }
