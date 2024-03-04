@@ -235,4 +235,15 @@ contract MapleAddressRegistry {
     address constant highYieldWethQueueWithdrawalManager = 0x58A534945f357aa0d2fb56b8BDf7dfA1073bd7a1;
     address constant highYieldWethPoolDelegateCover      = 0x93cdDB2482812A314DDD6aa90007a41F954ef3eB;
 
+    /**************************************************************************************************************************************/
+    /*** High Yield Secure Lending - USDC                                                                                               ***/
+    /**************************************************************************************************************************************/
+
+    address constant secureLendingUSDCPool                   = 0xC39a5A616F0ad1Ff45077FA2dE3f79ab8eb8b8B9;
+    address constant secureLendingUSDCPoolManager            = 0x9ceF7d1D390A4811bBa1BC40A53B40a506C33B19;
+    address constant secureLendingUSDCFixedTermLoanManager   = 0x78a13c2f24dF55feeF7f8C895396cf1DD21Cf56f;
+    address constant secureLendingUSDCOpenTermLoanManager    = 0xb50D675f3C6D18ce5cCAc691354f92aFebD1675E;
+    address constant secureLendingUSDCQueueWithdrawalManager = 0x8A665131e796203a5232527fac441480e02fbB7F;
+    address constant secureLendingUSDCPoolDelegateCover      = 0x98005A88A32F1A88f68598aB8Ba7dB914Aa6d626;
+
 }
