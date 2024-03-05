@@ -83,5 +83,3 @@ registry.chains.forEach(chain => {
     });
 
 });
-
-  
