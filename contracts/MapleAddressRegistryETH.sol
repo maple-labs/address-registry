@@ -248,4 +248,15 @@ contract MapleAddressRegistryETH {
     address constant public wbtcOracle = 0xF4030086522a5bEEa4988F8cA5B36dbC97BeE88c;
 
 
+    /**************************************************************************************************************************************/
+    /*** Mplv2                                                                                                                          ***/
+    /**************************************************************************************************************************************/
+
+    address constant public mplV2Proxy                  = 0x1915A8dE08A92b846dF7C845e140E4b0714820bd;
+    address constant public mplV2Implementation         = 0x2feb650302d54C227Bb56361005CA3Ec7265a40D;
+    address constant public mplV2Initializer            = 0x7f3C3636208A18c7941BF051807db56864061465;
+    address constant public mplV2Migrator               = 0x7b0267C13B994cdb58b8ED3a65b7A09a07432A76;
+    address constant public mplV2RecapitalizationModule = 0x7D75cF9Aab6cB9598bB6d9Bd81BaAA288cecA9Bf;
+
+
 }

@@ -174,6 +174,26 @@
                         "openTermLoanManager": "0x2638802a78D6a97d0041CC7B52fb9A80994424cd",
                         "withdrawalManagerQueue": "0xEb7B1e9C750190214cDFbbAf0ABE398A5e47D230",
                         "poolDelegateCover": "0xc6cfB7C88d1F072B92984adfcA19D3711C97B416"
+                    },
+                    {
+                        "label": "High Yield (Maple Direct) WETH",
+                        "name": "highYieldWeth",
+                        "address": "0xCCBc525ED9d85Ad8325b7b6C4C6A79f5566dEa3B",
+                        "poolManager": "0xed8b578A01f3CD65488fC19D37E2285eF934e54A",
+                        "fixedTermLoanManager": "0xc82095C002E726e4b3C8c26eE769b44C772ef9f7",
+                        "openTermLoanManager": "0xe3AAC29001c769FAfCef0df072ca396e310ed13b",
+                        "withdrawalManagerQueue": "0x58A534945f357aa0d2fb56b8BDf7dfA1073bd7a1",
+                        "poolDelegateCover": "0x93cdDB2482812A314DDD6aa90007a41F954ef3eB"
+                    },
+                    {
+                        "label": "High Yield Secured Lending - USDC ",
+                        "name": "securedLendingUSDC",
+                        "address": "0xC39a5A616F0ad1Ff45077FA2dE3f79ab8eb8b8B9",
+                        "poolManager": "0x9ceF7d1D390A4811bBa1BC40A53B40a506C33B19",
+                        "fixedTermLoanManager": "0x78a13c2f24dF55feeF7f8C895396cf1DD21Cf56f",
+                        "openTermLoanManager": "0xb50D675f3C6D18ce5cCAc691354f92aFebD1675E",
+                        "withdrawalManagerQueue": "0x8A665131e796203a5232527fac441480e02fbB7F",
+                        "poolDelegateCover": "0x98005A88A32F1A88f68598aB8Ba7dB914Aa6d626"
                     }
                 ],
                 "proxies": [
@@ -323,6 +343,17 @@
                         "name": "wbtc",
                         "address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
                         "oracle": "0xF4030086522a5bEEa4988F8cA5B36dbC97BeE88c"
+                    }
+                ],
+                "mplv2": [
+                    {
+                        "name": "mplV2",
+                        "proxy": "0x1915A8dE08A92b846dF7C845e140E4b0714820bd",
+                        "implementation": "0x2feb650302d54C227Bb56361005CA3Ec7265a40D",
+                        "initializer": "0x7f3C3636208A18c7941BF051807db56864061465",
+                        "migrator": "0x7b0267C13B994cdb58b8ED3a65b7A09a07432A76",
+                        "recapitalizationModule": "0x7D75cF9Aab6cB9598bB6d9Bd81BaAA288cecA9Bf"
+
                     }
                 ]
             }
