@@ -1,9 +1,6 @@
 import { writeFile } from 'fs';
 
-import {
-    importJson,
-} from './utils.js';
-
+import { importJson } from './utils.js';
 
 const registry = await importJson("../address-registry.json");
 
@@ -31,7 +28,7 @@ registry.chains.forEach(chain => {
                     // Push the content label
                     content.push(section(v.label, 2));
                     content.push(tableHeader);
-        
+
                     // Push the pool declaration e.g aqruPool
                     content.push(declaration(v.name + "Pool", v.address, chain.name))
                     
@@ -53,7 +50,7 @@ registry.chains.forEach(chain => {
                     content.push(section(v.name, 2));
                     content.push(tableHeader);
                                     
-                    // Push all other pool relater contracts, always prepending the pool name.
+                    // Push all other pool related contracts, always prepending the pool name.
                     if (Object.keys(extra).length > 0) {
                         for (const [k2, v2] of Object.entries(extra)) {
                             content.push(declaration(capitalize(k2), v2, chain.name))
@@ -70,7 +67,11 @@ registry.chains.forEach(chain => {
                 for (const [k, v] of Object.entries(value)) {
                     const {name, address, ...extra} = v;
                     
-                    content.push(declaration(v.name, v.address))
+                    content.push(declaration(v.name, v.address, chain.name))
+
+                    if (key == "mplv2") {
+                        content.pop();
+                    }
                     
                     if (Object.keys(extra).length > 0) {
                         
@@ -95,5 +96,4 @@ registry.chains.forEach(chain => {
     });
 
 });
-
   

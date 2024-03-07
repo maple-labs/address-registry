@@ -1,8 +1,5 @@
 import { writeFile } from 'fs';
-
-import {
-    importJson,
-} from './utils.js';
+import { importJson } from './utils.js';
 
 
 const registry = await importJson("../address-registry.json");
@@ -54,7 +51,7 @@ registry.chains.forEach(chain => {
                     const longestNameLength = longestName(value).name.length;
                     const {name, address, ...extra} = v;
                     
-                    content.push(declaration(v.name, v.address, key == "tokens" ? 6 : longestNameLength - v.name.length))
+                    content.push(declaration(v.name, v.address, key == "tokens" ? 9 : longestNameLength - v.name.length))
                     
                     if (Object.keys(extra).length > 0) {
                         

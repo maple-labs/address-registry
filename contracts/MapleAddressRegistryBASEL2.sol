@@ -24,6 +24,7 @@ contract MapleAddressRegistryBASEL2 {
     address constant public fixedTermRefinancerV2 = 0x510276F01C993De918fa04AFFCd64782FE495846;
     address constant public openTermRefinancer    = 0xb3138B273884696befc074b48923614fb77c2e10;
     address constant public poolPermissionManager = 0xBe10aDcE8B6E3E02Db384E7FaDA5395DD113D8b3;
+    address constant public protocolHealthChecker = 0x62D0Bf43b43E7Df6076aFb6eedfa64E55423324b;
 
     /**************************************************************************************************************************************/
     /*** Proxies                                                                                                                        ***/

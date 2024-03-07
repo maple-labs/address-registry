@@ -51,12 +51,12 @@ contract MapleAddressRegistryETH {
     /*** Cash Management - USDT                                                                                                         ***/
     /**************************************************************************************************************************************/
 
-    address constant public cashUSTDPool                   = 0x1B61765E954113e6508c4f9db07675989F7f5874;
-    address constant public cashUSTDPoolManager            = 0xE76b219f83E887E2503E14c343Bb7E0B62A7Af5d;
-    address constant public cashUSTDFixedTermLoanManager   = 0x1B61765E954113e6508c4f9db07675989F7f5874;
-    address constant public cashUSTDOpenTermLoanManager    = 0x93b0f6F03Cc6996120C19aBfF3e585FDb8D88648;
-    address constant public cashUSTDWithdrawalManagerQueue = 0xF4DD63ee071178a6485e2035ED279839f5453512;
-    address constant public cashUSTDPoolDelegateCover      = 0x40750d41B4D2e0ff1736623a968fF7598D90F25a;
+    address constant public cashUSDTPool                   = 0x1B61765E954113e6508c4f9db07675989F7f5874;
+    address constant public cashUSDTPoolManager            = 0xE76b219f83E887E2503E14c343Bb7E0B62A7Af5d;
+    address constant public cashUSDTFixedTermLoanManager   = 0x1B61765E954113e6508c4f9db07675989F7f5874;
+    address constant public cashUSDTOpenTermLoanManager    = 0x93b0f6F03Cc6996120C19aBfF3e585FDb8D88648;
+    address constant public cashUSDTWithdrawalManagerQueue = 0xF4DD63ee071178a6485e2035ED279839f5453512;
+    address constant public cashUSDTPoolDelegateCover      = 0x40750d41B4D2e0ff1736623a968fF7598D90F25a;
 
     /**************************************************************************************************************************************/
     /*** Cicada                                                                                                                         ***/
@@ -161,6 +161,28 @@ contract MapleAddressRegistryETH {
     address constant public OppHighYieldUSDCWithdrawalManagerQueue = 0xEb7B1e9C750190214cDFbbAf0ABE398A5e47D230;
     address constant public OppHighYieldUSDCPoolDelegateCover      = 0xc6cfB7C88d1F072B92984adfcA19D3711C97B416;
 
+    /**************************************************************************************************************************************/
+    /*** High Yield (Maple Direct) WETH                                                                                                 ***/
+    /**************************************************************************************************************************************/
+
+    address constant public highYieldWethPool                   = 0xCCBc525ED9d85Ad8325b7b6C4C6A79f5566dEa3B;
+    address constant public highYieldWethPoolManager            = 0xed8b578A01f3CD65488fC19D37E2285eF934e54A;
+    address constant public highYieldWethFixedTermLoanManager   = 0xc82095C002E726e4b3C8c26eE769b44C772ef9f7;
+    address constant public highYieldWethOpenTermLoanManager    = 0xe3AAC29001c769FAfCef0df072ca396e310ed13b;
+    address constant public highYieldWethWithdrawalManagerQueue = 0x58A534945f357aa0d2fb56b8BDf7dfA1073bd7a1;
+    address constant public highYieldWethPoolDelegateCover      = 0x93cdDB2482812A314DDD6aa90007a41F954ef3eB;
+
+    /**************************************************************************************************************************************/
+    /*** High Yield Secured Lending - USDC                                                                                              ***/
+    /**************************************************************************************************************************************/
+
+    address constant public securedLendingUSDCPool                   = 0xC39a5A616F0ad1Ff45077FA2dE3f79ab8eb8b8B9;
+    address constant public securedLendingUSDCPoolManager            = 0x9ceF7d1D390A4811bBa1BC40A53B40a506C33B19;
+    address constant public securedLendingUSDCFixedTermLoanManager   = 0x78a13c2f24dF55feeF7f8C895396cf1DD21Cf56f;
+    address constant public securedLendingUSDCOpenTermLoanManager    = 0xb50D675f3C6D18ce5cCAc691354f92aFebD1675E;
+    address constant public securedLendingUSDCWithdrawalManagerQueue = 0x8A665131e796203a5232527fac441480e02fbB7F;
+    address constant public securedLendingUSDCPoolDelegateCover      = 0x98005A88A32F1A88f68598aB8Ba7dB914Aa6d626;
+
 
     /**************************************************************************************************************************************/
     /*** Proxies                                                                                                                        ***/
@@ -238,15 +260,17 @@ contract MapleAddressRegistryETH {
     /*** Tokens                                                                                                                         ***/
     /**************************************************************************************************************************************/
 
-    address constant public usdc       = 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48;
-    address constant public usdcOracle = 0x5DC5E14be1280E747cD036c089C96744EBF064E7;
+    address constant public usdc          = 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48;
+    address constant public usdcUsdOracle = 0x5DC5E14be1280E747cD036c089C96744EBF064E7;
 
-    address constant public weth       = 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2;
-    address constant public wethOracle = 0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419;
+    address constant public weth          = 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2;
+    address constant public wethUsdOracle = 0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419;
 
-    address constant public wbtc       = 0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599;
-    address constant public wbtcOracle = 0xF4030086522a5bEEa4988F8cA5B36dbC97BeE88c;
+    address constant public wbtc          = 0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599;
+    address constant public wbtcUsdOracle = 0xF4030086522a5bEEa4988F8cA5B36dbC97BeE88c;
 
+    address constant public mplv1          = 0x33349B282065b0284d756F0577FB39c158F935e6;
+    address constant public xmpl          = 0x4937A209D4cDbD3ecD48857277cfd4dA4D82914c;
 
     /**************************************************************************************************************************************/
     /*** Mplv2                                                                                                                          ***/

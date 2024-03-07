@@ -15,6 +15,10 @@
                     {
                         "name": "operationalAdmin",
                         "address": "0xCe1cE7c7F436DCc4E28Bc8bf86115514d3DC34E8"
+                    },
+                    {
+                        "name": "globalAdmin",
+                        "address": "0x0D8b2C1F11c5f9cD51de6dB3b256C1e3b0800200"
                     }
                 ],
                 "factories": [
@@ -74,7 +78,7 @@
                     },
                     {
                         "label": "Cash Management - USDT",
-                        "name": "cashUSTD",
+                        "name": "cashUSDT",
                         "address": "0x1B61765E954113e6508c4f9db07675989F7f5874",
                         "poolManager": "0xE76b219f83E887E2503E14c343Bb7E0B62A7Af5d",
                         "fixedTermLoanManager": "0x1B61765E954113e6508c4f9db07675989F7f5874",
@@ -332,17 +336,25 @@
                     {
                         "name": "usdc",
                         "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-                        "oracle": "0x5DC5E14be1280E747cD036c089C96744EBF064E7"
+                        "UsdOracle": "0x5DC5E14be1280E747cD036c089C96744EBF064E7"
                     },
                     {
                         "name": "weth",
                         "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-                        "oracle": "0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419"
+                        "UsdOracle": "0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419"
                     },
                     {
                         "name": "wbtc",
                         "address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
-                        "oracle": "0xF4030086522a5bEEa4988F8cA5B36dbC97BeE88c"
+                        "UsdOracle": "0xF4030086522a5bEEa4988F8cA5B36dbC97BeE88c"
+                    },
+                    {
+                        "name": "mplv1",
+                        "address": "0x33349B282065b0284d756F0577FB39c158F935e6"
+                    },
+                    {
+                        "name": "xmpl",
+                        "address": "0x4937A209D4cDbD3ecD48857277cfd4dA4D82914c"
                     }
                 ],
                 "mplv2": [
@@ -353,7 +365,6 @@
                         "initializer": "0x7f3C3636208A18c7941BF051807db56864061465",
                         "migrator": "0x7b0267C13B994cdb58b8ED3a65b7A09a07432A76",
                         "recapitalizationModule": "0x7D75cF9Aab6cB9598bB6d9Bd81BaAA288cecA9Bf"
-
                     }
                 ]
             }
@@ -364,7 +375,7 @@
                 "actors": [
                     {
                         "name": "governor",
-                        "address": " 0xD9481a47DFe8E5C35Eb809df25cdB5Bc2E24A3bE"
+                        "address": "0xD9481a47DFe8E5C35Eb809df25cdB5Bc2E24A3bE"
                     },
                     {
                         "name": "securityAdmin",
@@ -407,6 +418,10 @@
                     {
                         "name": "poolPermissionManager",
                         "address": "0xBe10aDcE8B6E3E02Db384E7FaDA5395DD113D8b3"
+                    },
+                    {
+                        "name": "protocolHealthChecker",
+                        "address": "0x62D0Bf43b43E7Df6076aFb6eedfa64E55423324b"
                     }
                 ],
                 "proxies": [

@@ -1,7 +1,7 @@
 # Actors
 | Contract | Address |
 | --- | --- |
-| governor | [ 0xD9481a47DFe8E5C35Eb809df25cdB5Bc2E24A3bE](https://basescan.io/address/ 0xD9481a47DFe8E5C35Eb809df25cdB5Bc2E24A3bE) |
+| governor | [0xD9481a47DFe8E5C35Eb809df25cdB5Bc2E24A3bE](https://basescan.io/address/0xD9481a47DFe8E5C35Eb809df25cdB5Bc2E24A3bE) |
 | securityAdmin | [0x6150371231f783e97906af4861Bc1eD11cE1c9Ea](https://basescan.io/address/0x6150371231f783e97906af4861Bc1eD11cE1c9Ea) |
 | operationalAdmin | [0xa263B86eE90918Ce797E2Cf8d98c74E3Af50367f](https://basescan.io/address/0xa263B86eE90918Ce797E2Cf8d98c74E3Af50367f) |
 # Singletons
@@ -15,6 +15,7 @@
 | fixedTermRefinancerV2 | [0x510276F01C993De918fa04AFFCd64782FE495846](https://basescan.io/address/0x510276F01C993De918fa04AFFCd64782FE495846) |
 | openTermRefinancer | [0xb3138B273884696befc074b48923614fb77c2e10](https://basescan.io/address/0xb3138B273884696befc074b48923614fb77c2e10) |
 | poolPermissionManager | [0xBe10aDcE8B6E3E02Db384E7FaDA5395DD113D8b3](https://basescan.io/address/0xBe10aDcE8B6E3E02Db384E7FaDA5395DD113D8b3) |
+| protocolHealthChecker | [0x62D0Bf43b43E7Df6076aFb6eedfa64E55423324b](https://basescan.io/address/0x62D0Bf43b43E7Df6076aFb6eedfa64E55423324b) |
 # Proxies
 ## FixedTermLoanV501
 | Contract | Address |
