@@ -256,6 +256,16 @@
 | Implementation | [0x899B57Bbd8597aa2d1898476504f479c982c5c2c](https://etherscan.io/address/0x899B57Bbd8597aa2d1898476504f479c982c5c2c) |
 | Initializer | [0x637f8dC4C4d07D1CC30ae131fA94A060dee6be96](https://etherscan.io/address/0x637f8dC4C4d07D1CC30ae131fA94A060dee6be96) |
 
+## globalsV2
+| Contract | Address |
+| --- | --- |
+| Implementation | [0x562374079a8A07417ec4A69d5d52F9CBa796d364](https://etherscan.io/address/0x562374079a8A07417ec4A69d5d52F9CBa796d364) |
+
+## globalsV3
+| Contract | Address |
+| --- | --- |
+| Implementation | [0x5A64417823E8382a7e8957E4411873FE758E73a8](https://etherscan.io/address/0x5A64417823E8382a7e8957E4411873FE758E73a8) |
+
 # Singletons
 | Contract | Address |
 | --- | --- |

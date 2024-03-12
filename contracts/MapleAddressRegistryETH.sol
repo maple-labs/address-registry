@@ -239,6 +239,9 @@ contract MapleAddressRegistryETH {
     address constant public WithdrawalManagerQueueV100Implementation = 0x899B57Bbd8597aa2d1898476504f479c982c5c2c;
     address constant public WithdrawalManagerQueueV100Initializer    = 0x637f8dC4C4d07D1CC30ae131fA94A060dee6be96;
 
+    address constant public globalsV2Implementation = 0x562374079a8A07417ec4A69d5d52F9CBa796d364;
+
+    address constant public globalsV3Implementation = 0x5A64417823E8382a7e8957E4411873FE758E73a8;
 
     /**************************************************************************************************************************************/
     /*** Singletons                                                                                                                     ***/
@@ -282,6 +285,5 @@ contract MapleAddressRegistryETH {
     address constant public mplV2Initializer            = 0x7f3C3636208A18c7941BF051807db56864061465;
     address constant public mplV2Migrator               = 0x7b0267C13B994cdb58b8ED3a65b7A09a07432A76;
     address constant public mplV2RecapitalizationModule = 0x7D75cF9Aab6cB9598bB6d9Bd81BaAA288cecA9Bf;
-
 
 }
