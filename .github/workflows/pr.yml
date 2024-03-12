@@ -3,13 +3,13 @@ name: Update Files on PRs
 on:
   pull_request:
     types: 
-      - created
+      - opened
 
 jobs:
   generate-files:
-    runs-on: ubunto-latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
 
       - name: Generate Files
-        run: node run src/generate-solidity.js && node run src/generate-md.js
+        run: node src/generate-solidity.js && node src/generate-md.js
