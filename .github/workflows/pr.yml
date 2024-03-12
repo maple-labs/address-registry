@@ -1,0 +1,15 @@
+name: Update Files on PRs
+
+on:
+  pull_request:
+    types: 
+      - created
+
+jobs:
+  generate-files:
+    runs-on: ubunto-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate Files
+        run: node run src/generate-solidity.js && node run src/generate-md.js

@@ -11,13 +11,14 @@ contract MapleAddressRegistryETH {
     address constant public governor         = 0xd6d4Bcde6c816F17889f1Dd3000aF0261B03a196;
     address constant public securityAdmin    = 0x6b1A78C1943b03086F7Ee53360f9b0672bD60818;
     address constant public operationalAdmin = 0xCe1cE7c7F436DCc4E28Bc8bf86115514d3DC34E8;
+    address constant public globalAdmin      = 0x0D8b2C1F11c5f9cD51de6dB3b256C1e3b0800200;
 
     /**************************************************************************************************************************************/
     /*** Factories                                                                                                                      ***/
     /**************************************************************************************************************************************/
 
-    address constant public fixedTermLoanFactory             = 0x36a7350309B2Eb30F3B908aB0154851B5ED81db0;
-    address constant public fixedTermLoanManagerFactory      = 0x1551717AE4FdCB65ed028F7fB7abA39908f6A7A6;
+    address constant public fixedTermLoanFactory              = 0x36a7350309B2Eb30F3B908aB0154851B5ED81db0;
+    address constant public fixedTermLoanManagerFactory       = 0x1551717AE4FdCB65ed028F7fB7abA39908f6A7A6;
     address constant public poolManagerFactory               = 0xE463cD473EcC1d1A4ecF20b62624D84DD20a8339;
     address constant public withdrawalManagerCyclicalFactory = 0xb9e25B584dc4a7C9d47aEF577f111fBE5705773B;
     address constant public liquidatorFactory                = 0xa2091116649b070D2a27Fc5C85c9820302114c63;
@@ -250,9 +251,9 @@ contract MapleAddressRegistryETH {
     address constant public poolDeployerV2        = 0x87826F821AF105802064785A3905C794eF259D5C;
     address constant public poolDeployerV3        = 0x12fB5dbBDB06ab973f047cC46D6bB33ba4d03b96;
     address constant public feeManager            = 0xFeACa6A5703E6F9DE0ebE0975C93AE34c00523F2;
-    address constant public fixedTermRefinancerV1 = 0xec90671c2c8f4cCBb6074938f893306a13402251;
-    address constant public fixedTermRefinancerV2 = 0x27ea6e67FB62AB2A603d4ACBc9377D7a9A0fd5e3;
-    address constant public openTermRefinancer    = 0x653D4947620B73a433cAbBc9DFb068c3e9c18984;
+    address constant public fixedTermRefinancerV1   = 0xec90671c2c8f4cCBb6074938f893306a13402251;
+    address constant public fixedTermRefinancerV2   = 0x27ea6e67FB62AB2A603d4ACBc9377D7a9A0fd5e3;
+    address constant public openTermRefinancer     = 0x653D4947620B73a433cAbBc9DFb068c3e9c18984;
     address constant public poolPermissionManager = 0xBe10aDcE8B6E3E02Db384E7FaDA5395DD113D8b3;
     address constant public protocolHealthChecker = 0xfFfFcbA2234b01e7324158EFb83F2f3ED82d1B0D;
 
@@ -269,8 +270,8 @@ contract MapleAddressRegistryETH {
     address constant public wbtc          = 0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599;
     address constant public wbtcUsdOracle = 0xF4030086522a5bEEa4988F8cA5B36dbC97BeE88c;
 
-    address constant public mplv1          = 0x33349B282065b0284d756F0577FB39c158F935e6;
-    address constant public xmpl          = 0x4937A209D4cDbD3ecD48857277cfd4dA4D82914c;
+    address constant public mplv1 = 0x33349B282065b0284d756F0577FB39c158F935e6;
+    address constant public xmpl  = 0x4937A209D4cDbD3ecD48857277cfd4dA4D82914c;
 
     /**************************************************************************************************************************************/
     /*** Mplv2                                                                                                                          ***/
