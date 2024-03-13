@@ -338,6 +338,10 @@
                     {
                         "name": "protocolHealthChecker",
                         "address": "0xfFfFcbA2234b01e7324158EFb83F2f3ED82d1B0D"
+                    },
+                    {
+                        "name": "xmplHealthChecker",
+                        "address": "0xF1714088AA71aedAA8EbdaB7A06cAb0748b84Df8"
                     }
                 ],
                 "tokens": [
@@ -430,6 +434,14 @@
                     {
                         "name": "protocolHealthChecker",
                         "address": "0x62D0Bf43b43E7Df6076aFb6eedfa64E55423324b"
+                    },
+                    {
+                        "name": "openTermHealthChecker",
+                        "address": "0xf3CCa76273cC4526D45E24d11E55e23ea4Aca9Bb"
+                    },
+                    {
+                        "name": "fixedTermHealthChecker",
+                        "address": "0x366a62F2b62984ed354fBdA3c02A9F632c639797"
                     }
                 ],
                 "proxies": [
