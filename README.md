@@ -22,6 +22,14 @@ cd address-registry-private
 forge install
 ```
 
+## Running commands
+To generate the file from the `address-registry.json` file, just run:
+
+```sh
+node src/generate-md.js
+node src/generate-solidity.js
+```
+
 ## About Maple
 
 [Maple Finance](https://maple.finance/) is a decentralized corporate credit market. Maple provides capital to institutional borrowers through globally accessible fixed-income yield opportunities.
