@@ -16,6 +16,8 @@
 | openTermRefinancer | [0xb3138B273884696befc074b48923614fb77c2e10](https://basescan.io/address/0xb3138B273884696befc074b48923614fb77c2e10) |
 | poolPermissionManager | [0xBe10aDcE8B6E3E02Db384E7FaDA5395DD113D8b3](https://basescan.io/address/0xBe10aDcE8B6E3E02Db384E7FaDA5395DD113D8b3) |
 | protocolHealthChecker | [0x62D0Bf43b43E7Df6076aFb6eedfa64E55423324b](https://basescan.io/address/0x62D0Bf43b43E7Df6076aFb6eedfa64E55423324b) |
+| openTermHealthChecker | [0xf3CCa76273cC4526D45E24d11E55e23ea4Aca9Bb](https://basescan.io/address/0xf3CCa76273cC4526D45E24d11E55e23ea4Aca9Bb) |
+| fixedTermHealthChecker | [0x366a62F2b62984ed354fBdA3c02A9F632c639797](https://basescan.io/address/0x366a62F2b62984ed354fBdA3c02A9F632c639797) |
 # Proxies
 ## FixedTermLoanV501
 | Contract | Address |

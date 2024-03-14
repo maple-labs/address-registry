@@ -281,6 +281,7 @@
 | openTermRefinancer | [0x653D4947620B73a433cAbBc9DFb068c3e9c18984](https://etherscan.io/address/0x653D4947620B73a433cAbBc9DFb068c3e9c18984) |
 | poolPermissionManager | [0xBe10aDcE8B6E3E02Db384E7FaDA5395DD113D8b3](https://etherscan.io/address/0xBe10aDcE8B6E3E02Db384E7FaDA5395DD113D8b3) |
 | protocolHealthChecker | [0xfFfFcbA2234b01e7324158EFb83F2f3ED82d1B0D](https://etherscan.io/address/0xfFfFcbA2234b01e7324158EFb83F2f3ED82d1B0D) |
+| xmplHealthChecker | [0xF1714088AA71aedAA8EbdaB7A06cAb0748b84Df8](https://etherscan.io/address/0xF1714088AA71aedAA8EbdaB7A06cAb0748b84Df8) |
 # Tokens
 | Contract | Address |
 | --- | --- |
