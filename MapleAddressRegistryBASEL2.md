@@ -98,6 +98,7 @@
 | Contract | Address |
 | --- | --- |
 | fixedTermLoanFactory | [0x1915A8dE08A92b846dF7C845e140E4b0714820bd](https://basescan.io/address/0x1915A8dE08A92b846dF7C845e140E4b0714820bd) |
+| fixedTermLoanFactoryV2 | [0xeA067DB5B32CE036Ee5D8607DBB02f544768dBC6](https://basescan.io/address/0xeA067DB5B32CE036Ee5D8607DBB02f544768dBC6) |
 | fixedTermLoanManagerFactory | [0x7b0267C13B994cdb58b8ED3a65b7A09a07432A76](https://basescan.io/address/0x7b0267C13B994cdb58b8ED3a65b7A09a07432A76) |
 | openTermLoanFactory | [0x8B487386E432F0f82Ca611F59dBE973761FBb1Ad](https://basescan.io/address/0x8B487386E432F0f82Ca611F59dBE973761FBb1Ad) |
 | openTermLoanManagerFactory | [0xD14D0b4720bDBE03aB88A8Fd53be28c6d46426F5](https://basescan.io/address/0xD14D0b4720bDBE03aB88A8Fd53be28c6d46426F5) |

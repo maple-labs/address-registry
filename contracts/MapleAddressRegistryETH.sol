@@ -17,8 +17,9 @@ contract MapleAddressRegistryETH {
     /*** Factories                                                                                                                      ***/
     /**************************************************************************************************************************************/
 
-    address constant public fixedTermLoanFactory             = 0x36a7350309B2Eb30F3B908aB0154851B5ED81db0;
-    address constant public fixedTermLoanManagerFactory      = 0x1551717AE4FdCB65ed028F7fB7abA39908f6A7A6;
+    address constant public fixedTermLoanFactory              = 0x36a7350309B2Eb30F3B908aB0154851B5ED81db0;
+    address constant public fixedTermLoanFactoryV2            = 0xeA067DB5B32CE036Ee5D8607DBB02f544768dBC6;
+    address constant public fixedTermLoanManagerFactory       = 0x1551717AE4FdCB65ed028F7fB7abA39908f6A7A6;
     address constant public poolManagerFactory               = 0xE463cD473EcC1d1A4ecF20b62624D84DD20a8339;
     address constant public withdrawalManagerCyclicalFactory = 0xb9e25B584dc4a7C9d47aEF577f111fBE5705773B;
     address constant public liquidatorFactory                = 0xa2091116649b070D2a27Fc5C85c9820302114c63;
@@ -183,7 +184,6 @@ contract MapleAddressRegistryETH {
     address constant public securedLendingUSDCOpenTermLoanManager    = 0xb50D675f3C6D18ce5cCAc691354f92aFebD1675E;
     address constant public securedLendingUSDCWithdrawalManagerQueue = 0x8A665131e796203a5232527fac441480e02fbB7F;
     address constant public securedLendingUSDCPoolDelegateCover      = 0x98005A88A32F1A88f68598aB8Ba7dB914Aa6d626;
-
 
     /**************************************************************************************************************************************/
     /*** Proxies                                                                                                                        ***/

@@ -9,6 +9,7 @@
 | Contract | Address |
 | --- | --- |
 | fixedTermLoanFactory | [0x36a7350309B2Eb30F3B908aB0154851B5ED81db0](https://etherscan.io/address/0x36a7350309B2Eb30F3B908aB0154851B5ED81db0) |
+| fixedTermLoanFactoryV2 | [0xeA067DB5B32CE036Ee5D8607DBB02f544768dBC6](https://etherscan.io/address/0xeA067DB5B32CE036Ee5D8607DBB02f544768dBC6) |
 | fixedTermLoanManagerFactory | [0x1551717AE4FdCB65ed028F7fB7abA39908f6A7A6](https://etherscan.io/address/0x1551717AE4FdCB65ed028F7fB7abA39908f6A7A6) |
 | poolManagerFactory | [0xE463cD473EcC1d1A4ecF20b62624D84DD20a8339](https://etherscan.io/address/0xE463cD473EcC1d1A4ecF20b62624D84DD20a8339) |
 | withdrawalManagerCyclicalFactory | [0xb9e25B584dc4a7C9d47aEF577f111fBE5705773B](https://etherscan.io/address/0xb9e25B584dc4a7C9d47aEF577f111fBE5705773B) |
