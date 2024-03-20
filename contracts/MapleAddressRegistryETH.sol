@@ -17,9 +17,9 @@ contract MapleAddressRegistryETH {
     /*** Factories                                                                                                                      ***/
     /**************************************************************************************************************************************/
 
-    address constant public fixedTermLoanFactory              = 0x36a7350309B2Eb30F3B908aB0154851B5ED81db0;
-    address constant public fixedTermLoanFactoryV2            = 0xeA067DB5B32CE036Ee5D8607DBB02f544768dBC6;
-    address constant public fixedTermLoanManagerFactory       = 0x1551717AE4FdCB65ed028F7fB7abA39908f6A7A6;
+    address constant public fixedTermLoanFactory             = 0x36a7350309B2Eb30F3B908aB0154851B5ED81db0;
+    address constant public fixedTermLoanFactoryV2           = 0xeA067DB5B32CE036Ee5D8607DBB02f544768dBC6;
+    address constant public fixedTermLoanManagerFactory      = 0x1551717AE4FdCB65ed028F7fB7abA39908f6A7A6;
     address constant public poolManagerFactory               = 0xE463cD473EcC1d1A4ecF20b62624D84DD20a8339;
     address constant public withdrawalManagerCyclicalFactory = 0xb9e25B584dc4a7C9d47aEF577f111fBE5705773B;
     address constant public liquidatorFactory                = 0xa2091116649b070D2a27Fc5C85c9820302114c63;
@@ -247,19 +247,19 @@ contract MapleAddressRegistryETH {
     /*** Singletons                                                                                                                     ***/
     /**************************************************************************************************************************************/
 
-    address constant public accountingChecker     = 0x78da667CaADD8827690111BEBeCA875723fEAf7C;
-    address constant public globals               = 0x804a6F5F667170F545Bf14e5DDB48C70B788390C;
-    address constant public treasury              = 0xa9466EaBd096449d650D5AEB0dD3dA6F52FD0B19;
-    address constant public poolDeployerV1        = 0x9322fCbb9cf9F04728AD9CB62c80a12615FF9aDc;
-    address constant public poolDeployerV2        = 0x87826F821AF105802064785A3905C794eF259D5C;
-    address constant public poolDeployerV3        = 0x12fB5dbBDB06ab973f047cC46D6bB33ba4d03b96;
-    address constant public feeManager            = 0xFeACa6A5703E6F9DE0ebE0975C93AE34c00523F2;
-    address constant public fixedTermRefinancerV1   = 0xec90671c2c8f4cCBb6074938f893306a13402251;
-    address constant public fixedTermRefinancerV2   = 0x27ea6e67FB62AB2A603d4ACBc9377D7a9A0fd5e3;
+    address constant public accountingChecker      = 0x78da667CaADD8827690111BEBeCA875723fEAf7C;
+    address constant public globals                = 0x804a6F5F667170F545Bf14e5DDB48C70B788390C;
+    address constant public treasury               = 0xa9466EaBd096449d650D5AEB0dD3dA6F52FD0B19;
+    address constant public poolDeployerV1         = 0x9322fCbb9cf9F04728AD9CB62c80a12615FF9aDc;
+    address constant public poolDeployerV2         = 0x87826F821AF105802064785A3905C794eF259D5C;
+    address constant public poolDeployerV3         = 0x12fB5dbBDB06ab973f047cC46D6bB33ba4d03b96;
+    address constant public feeManager             = 0xFeACa6A5703E6F9DE0ebE0975C93AE34c00523F2;
+    address constant public fixedTermRefinancerV1  = 0xec90671c2c8f4cCBb6074938f893306a13402251;
+    address constant public fixedTermRefinancerV2  = 0x27ea6e67FB62AB2A603d4ACBc9377D7a9A0fd5e3;
     address constant public openTermRefinancer     = 0x653D4947620B73a433cAbBc9DFb068c3e9c18984;
-    address constant public poolPermissionManager = 0xBe10aDcE8B6E3E02Db384E7FaDA5395DD113D8b3;
-    address constant public protocolHealthChecker = 0xfFfFcbA2234b01e7324158EFb83F2f3ED82d1B0D;
-    address constant public xmplHealthChecker     = 0xF1714088AA71aedAA8EbdaB7A06cAb0748b84Df8;
+    address constant public poolPermissionManager  = 0xBe10aDcE8B6E3E02Db384E7FaDA5395DD113D8b3;
+    address constant public protocolHealthChecker  = 0xfFfFcbA2234b01e7324158EFb83F2f3ED82d1B0D;
+    address constant public xmplHealthChecker      = 0xF1714088AA71aedAA8EbdaB7A06cAb0748b84Df8;
 
     /**************************************************************************************************************************************/
     /*** Tokens                                                                                                                         ***/
