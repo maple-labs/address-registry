@@ -27,6 +27,10 @@
                         "address": "0x36a7350309B2Eb30F3B908aB0154851B5ED81db0"
                     },
                     {
+                        "name": "fixedTermLoanFactoryV2",
+                        "address": "0xeA067DB5B32CE036Ee5D8607DBB02f544768dBC6"
+                    },  
+                    {
                         "name": "fixedTermLoanManagerFactory",
                         "address": "0x1551717AE4FdCB65ed028F7fB7abA39908f6A7A6"
                     },
@@ -515,6 +519,11 @@
                         "address": "0x1915A8dE08A92b846dF7C845e140E4b0714820bd"
                     },
                     {
+                        "name": "fixedTermLoanFactoryV2",
+                        "address": "0xeA067DB5B32CE036Ee5D8607DBB02f544768dBC6"
+                    },
+
+                    {
                         "name": "fixedTermLoanManagerFactory",
                         "address": "0x7b0267C13B994cdb58b8ED3a65b7A09a07432A76"
                     },
@@ -569,3 +578,4 @@
         }
     ]
 }
+ 
