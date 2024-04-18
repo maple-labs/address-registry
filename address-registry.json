@@ -83,7 +83,7 @@
                     {
                         "label": "Cash Management - USDT",
                         "name": "cashUSDT",
-                        "address": "0x1B61765E954113e6508c4f9db07675989F7f5874",
+                        "address": "0xf05681A33a9ADF14076990789A89ab3dA3F6B536",
                         "poolManager": "0xE76b219f83E887E2503E14c343Bb7E0B62A7Af5d",
                         "fixedTermLoanManager": "0x1B61765E954113e6508c4f9db07675989F7f5874",
                         "openTermLoanManager": "0x93b0f6F03Cc6996120C19aBfF3e585FDb8D88648",
