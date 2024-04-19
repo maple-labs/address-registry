@@ -274,8 +274,8 @@ contract MapleAddressRegistryETH {
     address constant public wbtc          = 0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599;
     address constant public wbtcUsdOracle = 0xF4030086522a5bEEa4988F8cA5B36dbC97BeE88c;
 
-    address constant public mplv1          = 0x33349B282065b0284d756F0577FB39c158F935e6;
-    address constant public xmpl          = 0x4937A209D4cDbD3ecD48857277cfd4dA4D82914c;
+    address constant public mplv1 = 0x33349B282065b0284d756F0577FB39c158F935e6;
+    address constant public xmpl  = 0x4937A209D4cDbD3ecD48857277cfd4dA4D82914c;
 
     /**************************************************************************************************************************************/
     /*** Mplv2                                                                                                                          ***/
