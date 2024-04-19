@@ -53,7 +53,7 @@ contract MapleAddressRegistryETH {
     /*** Cash Management - USDT                                                                                                         ***/
     /**************************************************************************************************************************************/
 
-    address constant public cashUSDTPool                   = 0x1B61765E954113e6508c4f9db07675989F7f5874;
+    address constant public cashUSDTPool                   = 0xf05681A33a9ADF14076990789A89ab3dA3F6B536;
     address constant public cashUSDTPoolManager            = 0xE76b219f83E887E2503E14c343Bb7E0B62A7Af5d;
     address constant public cashUSDTFixedTermLoanManager   = 0x1B61765E954113e6508c4f9db07675989F7f5874;
     address constant public cashUSDTOpenTermLoanManager    = 0x93b0f6F03Cc6996120C19aBfF3e585FDb8D88648;
@@ -96,12 +96,12 @@ contract MapleAddressRegistryETH {
     /*** Maple Direct USDC1                                                                                                             ***/
     /**************************************************************************************************************************************/
 
-    address constant public mapleDirectUSDCPool                      = 0xc1dD3F011290F212227170F0D02F511EBF57E433;
-    address constant public mapleDirectUSDCPoolManager               = 0x5eE9587Bf5f4ccceEEd87B0216a31EBb513fAC25;
-    address constant public mapleDirectUSDCFixedTermLoanManager      = 0x91582bDFEF0Bf36Fc326A4aB9b59aAcD61c105fF;
-    address constant public mapleDirectUSDCOpenTermLoanManager       = 0xdC9b93A8A336fe5dc9DB97616eA2118000d70fc0;
-    address constant public mapleDirectUSDCWithdrawalManagerCyclical = 0xB7ae6358ABA6E7a60C7B921B8Cbb3fddB3EE9060;
-    address constant public mapleDirectUSDCPoolDelegateCover         = 0x773C634B1c12A4A7036eeeA21586dAeD1Df313C5;
+    address constant public mapleDirectUSDCPool                   = 0xc1dD3F011290F212227170F0D02F511EBF57E433;
+    address constant public mapleDirectUSDCPoolManager            = 0x5eE9587Bf5f4ccceEEd87B0216a31EBb513fAC25;
+    address constant public mapleDirectUSDCFixedTermLoanManager   = 0x91582bDFEF0Bf36Fc326A4aB9b59aAcD61c105fF;
+    address constant public mapleDirectUSDCOpenTermLoanManager    = 0xdC9b93A8A336fe5dc9DB97616eA2118000d70fc0;
+    address constant public mapleDirectUSDCWithdrawalManagerQueue = 0xf18066Db3A9590C401e1841598ad90663B4C6d23;
+    address constant public mapleDirectUSDCPoolDelegateCover      = 0x773C634B1c12A4A7036eeeA21586dAeD1Df313C5;
 
     /**************************************************************************************************************************************/
     /*** Maven11 Permissioned                                                                                                           ***/
@@ -274,8 +274,8 @@ contract MapleAddressRegistryETH {
     address constant public wbtc          = 0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599;
     address constant public wbtcUsdOracle = 0xF4030086522a5bEEa4988F8cA5B36dbC97BeE88c;
 
-    address constant public mplv1 = 0x33349B282065b0284d756F0577FB39c158F935e6;
-    address constant public xmpl  = 0x4937A209D4cDbD3ecD48857277cfd4dA4D82914c;
+    address constant public mplv1          = 0x33349B282065b0284d756F0577FB39c158F935e6;
+    address constant public xmpl          = 0x4937A209D4cDbD3ecD48857277cfd4dA4D82914c;
 
     /**************************************************************************************************************************************/
     /*** Mplv2                                                                                                                          ***/
