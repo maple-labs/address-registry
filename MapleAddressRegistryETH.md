@@ -5,6 +5,7 @@
 | securityAdmin | [0x6b1A78C1943b03086F7Ee53360f9b0672bD60818](https://etherscan.io/address/0x6b1A78C1943b03086F7Ee53360f9b0672bD60818) |
 | operationalAdmin | [0xCe1cE7c7F436DCc4E28Bc8bf86115514d3DC34E8](https://etherscan.io/address/0xCe1cE7c7F436DCc4E28Bc8bf86115514d3DC34E8) |
 | globalAdmin | [0x0D8b2C1F11c5f9cD51de6dB3b256C1e3b0800200](https://etherscan.io/address/0x0D8b2C1F11c5f9cD51de6dB3b256C1e3b0800200) |
+| permissionsAdmin | [0x54b130c704919320E17F4F1Ffa4832A91AB29Dca](https://etherscan.io/address/0x54b130c704919320E17F4F1Ffa4832A91AB29Dca) |
 # Factories
 | Contract | Address |
 | --- | --- |

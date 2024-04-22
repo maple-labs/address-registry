@@ -12,6 +12,7 @@ contract MapleAddressRegistryETH {
     address constant public securityAdmin    = 0x6b1A78C1943b03086F7Ee53360f9b0672bD60818;
     address constant public operationalAdmin = 0xCe1cE7c7F436DCc4E28Bc8bf86115514d3DC34E8;
     address constant public globalAdmin      = 0x0D8b2C1F11c5f9cD51de6dB3b256C1e3b0800200;
+    address constant public permissionsAdmin = 0x54b130c704919320E17F4F1Ffa4832A91AB29Dca;
 
     /**************************************************************************************************************************************/
     /*** Factories                                                                                                                      ***/
@@ -194,5 +195,5 @@ contract MapleAddressRegistryETH {
     address constant public mplV2Initializer            = 0x7f3C3636208A18c7941BF051807db56864061465;
     address constant public mplV2Migrator               = 0x7b0267C13B994cdb58b8ED3a65b7A09a07432A76;
     address constant public mplV2RecapitalizationModule = 0x7D75cF9Aab6cB9598bB6d9Bd81BaAA288cecA9Bf;
-    
+
 }

@@ -19,6 +19,10 @@
                     {
                         "name": "globalAdmin",
                         "address": "0x0D8b2C1F11c5f9cD51de6dB3b256C1e3b0800200"
+                    },
+                    {
+                        "name": "permissionsAdmin",
+                        "address": "0x54b130c704919320E17F4F1Ffa4832A91AB29Dca"
                     }
                 ],
                 "factories": [
