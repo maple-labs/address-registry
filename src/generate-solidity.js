@@ -45,6 +45,8 @@ registry.chains.forEach(chain => {
                     }
                 }
                 break;
+            case "inactivePools": 
+                break;
             default:
                 content.push(section(capitalize(key)));
                 for (const [k, v] of Object.entries(value)) {

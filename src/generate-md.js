@@ -21,6 +21,7 @@ registry.chains.forEach(chain => {
 
         switch (key) {
             case "pools":
+            case "inactivePools":    
                 content.push(section(capitalize(key)));
                 for (const [k, v] of Object.entries(value)) {
                     const {name, address, label, ...extra} = v;
