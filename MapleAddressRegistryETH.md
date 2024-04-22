@@ -41,7 +41,7 @@
 ## Cash Management - USDT
 | Contract | Address |
 | --- | --- |
-| cashUSDTPool | [0x1B61765E954113e6508c4f9db07675989F7f5874](https://etherscan.io/address/0x1B61765E954113e6508c4f9db07675989F7f5874) |
+| cashUSDTPool | [0xf05681A33a9ADF14076990789A89ab3dA3F6B536](https://etherscan.io/address/0xf05681A33a9ADF14076990789A89ab3dA3F6B536) |
 | PoolManager | [0xE76b219f83E887E2503E14c343Bb7E0B62A7Af5d](https://etherscan.io/address/0xE76b219f83E887E2503E14c343Bb7E0B62A7Af5d) |
 | FixedTermLoanManager | [0x1B61765E954113e6508c4f9db07675989F7f5874](https://etherscan.io/address/0x1B61765E954113e6508c4f9db07675989F7f5874) |
 | OpenTermLoanManager | [0x93b0f6F03Cc6996120C19aBfF3e585FDb8D88648](https://etherscan.io/address/0x93b0f6F03Cc6996120C19aBfF3e585FDb8D88648) |
@@ -84,7 +84,7 @@
 | PoolManager | [0x5eE9587Bf5f4ccceEEd87B0216a31EBb513fAC25](https://etherscan.io/address/0x5eE9587Bf5f4ccceEEd87B0216a31EBb513fAC25) |
 | FixedTermLoanManager | [0x91582bDFEF0Bf36Fc326A4aB9b59aAcD61c105fF](https://etherscan.io/address/0x91582bDFEF0Bf36Fc326A4aB9b59aAcD61c105fF) |
 | OpenTermLoanManager | [0xdC9b93A8A336fe5dc9DB97616eA2118000d70fc0](https://etherscan.io/address/0xdC9b93A8A336fe5dc9DB97616eA2118000d70fc0) |
-| WithdrawalManagerCyclical | [0xB7ae6358ABA6E7a60C7B921B8Cbb3fddB3EE9060](https://etherscan.io/address/0xB7ae6358ABA6E7a60C7B921B8Cbb3fddB3EE9060) |
+| WithdrawalManagerQueue | [0xf18066Db3A9590C401e1841598ad90663B4C6d23](https://etherscan.io/address/0xf18066Db3A9590C401e1841598ad90663B4C6d23) |
 | PoolDelegateCover | [0x773C634B1c12A4A7036eeeA21586dAeD1Df313C5](https://etherscan.io/address/0x773C634B1c12A4A7036eeeA21586dAeD1Df313C5) |
 
 ## Maven11 Permissioned
