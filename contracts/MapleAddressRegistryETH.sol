@@ -12,6 +12,7 @@ contract MapleAddressRegistryETH {
     address constant public securityAdmin    = 0x6b1A78C1943b03086F7Ee53360f9b0672bD60818;
     address constant public operationalAdmin = 0xCe1cE7c7F436DCc4E28Bc8bf86115514d3DC34E8;
     address constant public globalAdmin      = 0x0D8b2C1F11c5f9cD51de6dB3b256C1e3b0800200;
+    address constant public permissionsAdmin = 0x54b130c704919320E17F4F1Ffa4832A91AB29Dca;
 
     /**************************************************************************************************************************************/
     /*** Factories                                                                                                                      ***/
@@ -39,7 +40,7 @@ contract MapleAddressRegistryETH {
     address constant public aqruPoolDelegateCover         = 0x845bD1C0DBeA5eacd97E6B4544a48176F5f31Db9;
 
     /**************************************************************************************************************************************/
-    /*** Cash Management - USDC                                                                                                         ***/
+    /*** Cash Management USDC                                                                                                           ***/
     /**************************************************************************************************************************************/
 
     address constant public cashUSDCPool                   = 0xfe119e9C24ab79F1bDd5dd884B86Ceea2eE75D92;
@@ -50,129 +51,37 @@ contract MapleAddressRegistryETH {
     address constant public cashUSDCPoolDelegateCover      = 0x324bd0ae17CCBc16F17ffC085E5B03Fd2aCf0A72;
 
     /**************************************************************************************************************************************/
-    /*** Cash Management - USDT                                                                                                         ***/
+    /*** Blue Chip Secured Lending USDC                                                                                                 ***/
     /**************************************************************************************************************************************/
 
-    address constant public cashUSDTPool                   = 0xf05681A33a9ADF14076990789A89ab3dA3F6B536;
-    address constant public cashUSDTPoolManager            = 0xE76b219f83E887E2503E14c343Bb7E0B62A7Af5d;
-    address constant public cashUSDTFixedTermLoanManager   = 0x1B61765E954113e6508c4f9db07675989F7f5874;
-    address constant public cashUSDTOpenTermLoanManager    = 0x93b0f6F03Cc6996120C19aBfF3e585FDb8D88648;
-    address constant public cashUSDTWithdrawalManagerQueue = 0xF4DD63ee071178a6485e2035ED279839f5453512;
-    address constant public cashUSDTPoolDelegateCover      = 0x40750d41B4D2e0ff1736623a968fF7598D90F25a;
+    address constant public blueChipSecuredUSDCPool                   = 0xc1dD3F011290F212227170F0D02F511EBF57E433;
+    address constant public blueChipSecuredUSDCPoolManager            = 0x5eE9587Bf5f4ccceEEd87B0216a31EBb513fAC25;
+    address constant public blueChipSecuredUSDCFixedTermLoanManager   = 0x91582bDFEF0Bf36Fc326A4aB9b59aAcD61c105fF;
+    address constant public blueChipSecuredUSDCOpenTermLoanManager    = 0xdC9b93A8A336fe5dc9DB97616eA2118000d70fc0;
+    address constant public blueChipSecuredUSDCWithdrawalManagerQueue = 0xf18066Db3A9590C401e1841598ad90663B4C6d23;
+    address constant public blueChipSecuredUSDCPoolDelegateCover      = 0x773C634B1c12A4A7036eeeA21586dAeD1Df313C5;
 
     /**************************************************************************************************************************************/
-    /*** Cicada                                                                                                                         ***/
+    /*** High Yield Corporate Loan USDC                                                                                                 ***/
     /**************************************************************************************************************************************/
 
-    address constant public cicadaPool                      = 0xf025edFA685c9Ea873ea4B22DA85E7e1Fba24381;
-    address constant public cicadaPoolManager               = 0xba5936d5D8E5b050159ff8Ccb2589309e3071c2a;
-    address constant public cicadaFixedTermLoanManager      = 0xD7217F29d51deFfc6d5F95fF0a5200F3d34c0f66;
-    address constant public cicadaOpenTermLoanManager       = 0xd205B3eD8408afcA53315798b891F37Bd4c5Ce2a;
-    address constant public cicadaWithdrawalManagerCyclical = 0x4a5f63D9425070785EB10f5a0C33E42F16BB8639;
-    address constant public cicadaPoolDelegateCover         = 0xd1a42064B7EE5525FdBb779170462abF24395D6F;
+    address constant public highYieldCorpUSDCPool                   = 0x6174A27160f4D7885Db4FFeD1C0b5fbD66c87F3a;
+    address constant public highYieldCorpUSDCPoolManager            = 0x81525e55ccfec06f11f1Fdeaf446652c4eC2064F;
+    address constant public highYieldCorpUSDCFixedTermLoanManager   = 0xEca9d2C5f81DD50DCe7493104467dC33362a436F;
+    address constant public highYieldCorpUSDCOpenTermLoanManager    = 0x2638802a78D6a97d0041CC7B52fb9A80994424cd;
+    address constant public highYieldCorpUSDCWithdrawalManagerQueue = 0xEb7B1e9C750190214cDFbbAf0ABE398A5e47D230;
+    address constant public highYieldCorpUSDCPoolDelegateCover      = 0xc6cfB7C88d1F072B92984adfcA19D3711C97B416;
 
     /**************************************************************************************************************************************/
-    /*** Icebreaker                                                                                                                     ***/
+    /*** High Yield Corporate Loan WETH                                                                                                 ***/
     /**************************************************************************************************************************************/
 
-    address constant public icebreakerPool                      = 0x137F2EA5cfB0fE59408BAb2779E33EE868F1810E;
-    address constant public icebreakerPoolManager               = 0xC0323b64eF95E5698B30fEbD6A54BFD66ca2210E;
-    address constant public icebreakerFixedTermLoanManager      = 0x7dCA0cd3F1eBAE3640AC4c66688A9d3A184aF822;
-    address constant public icebreakerWithdrawalManagerCyclical = 0x4ec570457C3954feE01309A30C603ABD51899C77;
-    address constant public icebreakerPoolDelegateCover         = 0xA198C1dc00297Ae477F2D42D5a9E1cd4a364191f;
-
-    /**************************************************************************************************************************************/
-    /*** Laser                                                                                                                          ***/
-    /**************************************************************************************************************************************/
-
-    address constant public laserPool                      = 0xd020c197497DB6Db12CFF97a8575451c6FAa54B3;
-    address constant public laserPoolManager               = 0xe7C2Ab602A23F09faAdaB822bb64278fFf171427;
-    address constant public laserFixedTermLoanManager      = 0x7a459F1fB7d257fC62E23aaa8b802e061CEc68D7;
-    address constant public laserOpenTermLoanManager       = 0xA34e6B033275567A0F90A5BF93bA1485C657f092;
-    address constant public laserWithdrawalManagerCyclical = 0xf817eC56Cb26117cf3bd5a8a8f128d64998fF234;
-    address constant public laserPoolDelegateCover         = 0x412A26d5f8220182cb2A5aBB751A1AeD22225271;
-
-    /**************************************************************************************************************************************/
-    /*** Maple Direct USDC1                                                                                                             ***/
-    /**************************************************************************************************************************************/
-
-    address constant public mapleDirectUSDCPool                   = 0xc1dD3F011290F212227170F0D02F511EBF57E433;
-    address constant public mapleDirectUSDCPoolManager            = 0x5eE9587Bf5f4ccceEEd87B0216a31EBb513fAC25;
-    address constant public mapleDirectUSDCFixedTermLoanManager   = 0x91582bDFEF0Bf36Fc326A4aB9b59aAcD61c105fF;
-    address constant public mapleDirectUSDCOpenTermLoanManager    = 0xdC9b93A8A336fe5dc9DB97616eA2118000d70fc0;
-    address constant public mapleDirectUSDCWithdrawalManagerQueue = 0xf18066Db3A9590C401e1841598ad90663B4C6d23;
-    address constant public mapleDirectUSDCPoolDelegateCover      = 0x773C634B1c12A4A7036eeeA21586dAeD1Df313C5;
-
-    /**************************************************************************************************************************************/
-    /*** Maven11 Permissioned                                                                                                           ***/
-    /**************************************************************************************************************************************/
-
-    address constant public mavenPermissionedPool                      = 0x00e0C1ea2085e30E5233E98CFA940ca8cbB1b0b7;
-    address constant public mavenPermissionedPoolManager               = 0x24617612DeC91855e126e6330580425F6A262ee9;
-    address constant public mavenPermissionedFixedTermLoanManager      = 0x6B6491AAa92Ce7e901330D8F91Ec99C2a157EBd7;
-    address constant public mavenPermissionedWithdrawalManagerCyclical = 0x1B56856eB74bB1AA9e9F1997386dDB28DEf532eE;
-    address constant public mavenPermissionedPoolDelegateCover         = 0x9e71Da2edaD3F8053C00b697362A365383e9c518;
-
-    /**************************************************************************************************************************************/
-    /*** Maven11 USDC-3                                                                                                                 ***/
-    /**************************************************************************************************************************************/
-
-    address constant public mavenUSDC3Pool                      = 0xD2b01f8327eECa47829EFC731F1A89C6d07E6B92;
-    address constant public mavenUSDC3PoolManager               = 0x83376E49c7Bf776495313C89F9Bf226c8b8971B6;
-    address constant public mavenUSDC3FixedTermLoanManager      = 0x9B300a28d7DC7D422c7D1b9442db0B51a6346e00;
-    address constant public mavenUSDC3WithdrawalManagerCyclical = 0x7F0d63e2250bC99f48985B183AF0c9a66BbC8ac3;
-    address constant public mavenUSDC3PoolDelegateCover         = 0x4Ab7F6F8DE3FE2575806a21F9Cac630DD51a84Af;
-
-    /**************************************************************************************************************************************/
-    /*** Maven11 USDC                                                                                                                   ***/
-    /**************************************************************************************************************************************/
-
-    address constant public mavenUSDCPool                      = 0xd3cd37a7299B963bbc69592e5Ba933388f70dc88;
-    address constant public mavenUSDCPoolManager               = 0x00d950A41a0d277ed91bF9fD366a5523FEF0371e;
-    address constant public mavenUSDCWithdrawalManagerCyclical = 0x7ED195a0AE212D265511b0978Af577F59876C9BB;
-    address constant public mavenUSDCPoolDelegateCover         = 0x9c74C5147653041239bb31C799c54767D9953f7D;
-
-    /**************************************************************************************************************************************/
-    /*** Maven11 WETH                                                                                                                   ***/
-    /**************************************************************************************************************************************/
-
-    address constant public mavenWethPool                      = 0xFfF9A1CAf78b2e5b0A49355a8637EA78b43fB6c3;
-    address constant public mavenWethPoolManager               = 0x833A5c9Fc016a87419D21B10B64e24082Bd1e49d;
-    address constant public mavenWethFixedTermLoanManager      = 0x373BDCf21F6a939713d5DE94096ffdb24A406391;
-    address constant public mavenWethWithdrawalManagerCyclical = 0x1Bb73D6384ae73DA2101a4556a42eaB82803Ef3d;
-    address constant public mavenWethPoolDelegateCover         = 0xdfDDE84b117f038785A2B1805B10D5C4d616dA08;
-
-    /**************************************************************************************************************************************/
-    /*** Orthogonal USDC                                                                                                                ***/
-    /**************************************************************************************************************************************/
-
-    address constant public orthogonalPool                      = 0x79400A2c9a5E2431419CaC98Bf46893c86E8bDd7;
-    address constant public orthogonalPoolManager               = 0xE10A065D15A6eCA69bb8A0063Fe57eDdb66999DF;
-    address constant public orthogonalFixedTermLoanManager      = 0xFdC7541201aA6831A64F96582111cED633fA5078;
-    address constant public orthogonalWithdrawalManagerCyclical = 0xD8f8BD488ba6DDF2a710f6C357a884fd1706981A;
-    address constant public orthogonalPoolDelegateCover         = 0xb9Bae8c63593e51A296857AC4C150bae31a4e2c3;
-
-    /**************************************************************************************************************************************/
-    /*** Opportunistic High Yield USDC                                                                                                  ***/
-    /**************************************************************************************************************************************/
-
-    address constant public OppHighYieldUSDCPool                   = 0x6174A27160f4D7885Db4FFeD1C0b5fbD66c87F3a;
-    address constant public OppHighYieldUSDCPoolManager            = 0x81525e55ccfec06f11f1Fdeaf446652c4eC2064F;
-    address constant public OppHighYieldUSDCFixedTermLoanManager   = 0xEca9d2C5f81DD50DCe7493104467dC33362a436F;
-    address constant public OppHighYieldUSDCOpenTermLoanManager    = 0x2638802a78D6a97d0041CC7B52fb9A80994424cd;
-    address constant public OppHighYieldUSDCWithdrawalManagerQueue = 0xEb7B1e9C750190214cDFbbAf0ABE398A5e47D230;
-    address constant public OppHighYieldUSDCPoolDelegateCover      = 0xc6cfB7C88d1F072B92984adfcA19D3711C97B416;
-
-    /**************************************************************************************************************************************/
-    /*** High Yield (Maple Direct) WETH                                                                                                 ***/
-    /**************************************************************************************************************************************/
-
-    address constant public highYieldWethPool                   = 0xCCBc525ED9d85Ad8325b7b6C4C6A79f5566dEa3B;
-    address constant public highYieldWethPoolManager            = 0xed8b578A01f3CD65488fC19D37E2285eF934e54A;
-    address constant public highYieldWethFixedTermLoanManager   = 0xc82095C002E726e4b3C8c26eE769b44C772ef9f7;
-    address constant public highYieldWethOpenTermLoanManager    = 0xe3AAC29001c769FAfCef0df072ca396e310ed13b;
-    address constant public highYieldWethWithdrawalManagerQueue = 0x58A534945f357aa0d2fb56b8BDf7dfA1073bd7a1;
-    address constant public highYieldWethPoolDelegateCover      = 0x93cdDB2482812A314DDD6aa90007a41F954ef3eB;
+    address constant public highYieldCorpWETHPool                   = 0xCCBc525ED9d85Ad8325b7b6C4C6A79f5566dEa3B;
+    address constant public highYieldCorpWETHPoolManager            = 0xed8b578A01f3CD65488fC19D37E2285eF934e54A;
+    address constant public highYieldCorpWETHFixedTermLoanManager   = 0xc82095C002E726e4b3C8c26eE769b44C772ef9f7;
+    address constant public highYieldCorpWETHOpenTermLoanManager    = 0xe3AAC29001c769FAfCef0df072ca396e310ed13b;
+    address constant public highYieldCorpWETHWithdrawalManagerQueue = 0x58A534945f357aa0d2fb56b8BDf7dfA1073bd7a1;
+    address constant public highYieldCorpWETHPoolDelegateCover      = 0x93cdDB2482812A314DDD6aa90007a41F954ef3eB;
 
     /**************************************************************************************************************************************/
     /*** High Yield Secured Lending - USDC                                                                                              ***/
