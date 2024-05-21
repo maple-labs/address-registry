@@ -95,6 +95,17 @@ contract MapleAddressRegistryETH {
     address constant public securedLendingUSDCPoolDelegateCover      = 0x98005A88A32F1A88f68598aB8Ba7dB914Aa6d626;
 
     /**************************************************************************************************************************************/
+    /*** Syrup USDC                                                                                                                     ***/
+    /**************************************************************************************************************************************/
+
+    address constant public syrupUSDCPool                   = 0x80ac24aa929eaf5013f6436cda2a7ba190f5cc0b;
+    address constant public syrupUSDCPoolManager            = 0x7ad5ffa5fdf509e30186f4609c2f6269f4b6158f;
+    address constant public syrupUSDCFixedTermLoanManager   = 0x4a1c3f0d9ad0b3f9da085bebfc22dea54263371b;
+    address constant public syrupUSDCOpenTermLoanManager    = 0x6aceb4caba81fa6a8065059f3a944fb066a10fac;
+    address constant public syrupUSDCWithdrawalManagerQueue = 0x1bc47a0dd0fdab96e9ef982fdf1f34dc6207cfe3;
+    address constant public syrupUSDCPoolDelegateCover      = 0x9e62FE15d0E99cE2b30CE0D256e9Ab7b6893AfF5;
+
+    /**************************************************************************************************************************************/
     /*** Proxies                                                                                                                        ***/
     /**************************************************************************************************************************************/
 
