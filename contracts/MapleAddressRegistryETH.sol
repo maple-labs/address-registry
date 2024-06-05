@@ -180,6 +180,8 @@ contract MapleAddressRegistryETH {
     address constant public poolPermissionManager = 0xBe10aDcE8B6E3E02Db384E7FaDA5395DD113D8b3;
     address constant public protocolHealthChecker = 0xfFfFcbA2234b01e7324158EFb83F2f3ED82d1B0D;
     address constant public xmplHealthChecker     = 0xF1714088AA71aedAA8EbdaB7A06cAb0748b84Df8;
+    address constant public syrupRouter           = 0x134cCaaA4F1e4552eC8aEcb9E4A2360dDcF8df76;
+    address constant public syrupRateProvider     = 0xd2C59781F1Db84080A0592CE83Fe265642A4a8Eb;
 
     /**************************************************************************************************************************************/
     /*** Tokens                                                                                                                         ***/
