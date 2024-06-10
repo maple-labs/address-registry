@@ -98,11 +98,11 @@ contract MapleAddressRegistryETH {
     /*** Syrup USDC                                                                                                                     ***/
     /**************************************************************************************************************************************/
 
-    address constant public syrupUSDCPool                   = 0x80ac24aa929eaf5013f6436cda2a7ba190f5cc0b;
-    address constant public syrupUSDCPoolManager            = 0x7ad5ffa5fdf509e30186f4609c2f6269f4b6158f;
-    address constant public syrupUSDCFixedTermLoanManager   = 0x4a1c3f0d9ad0b3f9da085bebfc22dea54263371b;
-    address constant public syrupUSDCOpenTermLoanManager    = 0x6aceb4caba81fa6a8065059f3a944fb066a10fac;
-    address constant public syrupUSDCWithdrawalManagerQueue = 0x1bc47a0dd0fdab96e9ef982fdf1f34dc6207cfe3;
+    address constant public syrupUSDCPool                   = 0x80ac24aA929eaF5013f6436cdA2a7ba190f5Cc0b;
+    address constant public syrupUSDCPoolManager            = 0x7aD5fFa5fdF509E30186F4609c2f6269f4B6158F;
+    address constant public syrupUSDCFixedTermLoanManager   = 0x4A1c3F0D9aD0b3f9dA085bEBfc22dEA54263371b;
+    address constant public syrupUSDCOpenTermLoanManager    = 0x6ACEb4cAbA81Fa6a8065059f3A944fb066A10fAc;
+    address constant public syrupUSDCWithdrawalManagerQueue = 0x1bc47a0Dd0FdaB96E9eF982fdf1F34DC6207cfE3;
     address constant public syrupUSDCPoolDelegateCover      = 0x9e62FE15d0E99cE2b30CE0D256e9Ab7b6893AfF5;
 
     /**************************************************************************************************************************************/
