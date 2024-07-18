@@ -115,7 +115,7 @@
 | Contract | Address |
 | --- | --- |
 | Implementation | [0x085176E2a201c90cE506be00BFc4f411bf9b3998](https://etherscan.io/address/0x085176E2a201c90cE506be00BFc4f411bf9b3998) |
-| Initializer | [0xED9D14F83eddd08572c403175FFf41c42a35a149](https://etherscan.io/address/0xED9D14F83eddd08572c403175FFf41c42a35a149) |
+| Initializer | [0x92d40038e411612E8cE633cCC29158c6A55CD9f3](https://etherscan.io/address/0x92d40038e411612E8cE633cCC29158c6A55CD9f3) |
 
 ## liquidatorV200
 | Contract | Address |

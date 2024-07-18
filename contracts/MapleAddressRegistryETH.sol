@@ -122,7 +122,7 @@ contract MapleAddressRegistryETH {
     address constant public fixedTermLoanV502Migrator       = 0x6D4416E6C0536fD33127d38Af21bc912475584E3;
 
     address constant public openTermLoanV101Implementation = 0x085176E2a201c90cE506be00BFc4f411bf9b3998;
-    address constant public openTermLoanV101Initializer    = 0xED9D14F83eddd08572c403175FFf41c42a35a149;
+    address constant public openTermLoanV101Initializer    = 0x92d40038e411612E8cE633cCC29158c6A55CD9f3;
 
     address constant public liquidatorV200Implementation = 0xe6a03Ba967172a1FF218FEE686445f444258021A;
     address constant public liquidatorV200Initializer    = 0xED9D14F83eddd08572c403175FFf41c42a35a149;
@@ -196,8 +196,8 @@ contract MapleAddressRegistryETH {
     address constant public wbtc          = 0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599;
     address constant public wbtcUsdOracle = 0xF4030086522a5bEEa4988F8cA5B36dbC97BeE88c;
 
-    address constant public mplv1 = 0x33349B282065b0284d756F0577FB39c158F935e6;
-    address constant public xmpl  = 0x4937A209D4cDbD3ecD48857277cfd4dA4D82914c;
+    address constant public mplv1          = 0x33349B282065b0284d756F0577FB39c158F935e6;
+    address constant public xmpl           = 0x4937A209D4cDbD3ecD48857277cfd4dA4D82914c;
 
     /**************************************************************************************************************************************/
     /*** Mplv2                                                                                                                          ***/
