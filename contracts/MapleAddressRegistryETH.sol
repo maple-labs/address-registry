@@ -122,7 +122,7 @@ contract MapleAddressRegistryETH {
     address constant public fixedTermLoanV502Migrator       = 0x6D4416E6C0536fD33127d38Af21bc912475584E3;
 
     address constant public openTermLoanV101Implementation = 0x085176E2a201c90cE506be00BFc4f411bf9b3998;
-    address constant public openTermLoanV101Initializer    = 0xED9D14F83eddd08572c403175FFf41c42a35a149;
+    address constant public openTermLoanV101Initializer    = 0x92d40038e411612E8cE633cCC29158c6A55CD9f3;
 
     address constant public liquidatorV200Implementation = 0xe6a03Ba967172a1FF218FEE686445f444258021A;
     address constant public liquidatorV200Initializer    = 0xED9D14F83eddd08572c403175FFf41c42a35a149;
