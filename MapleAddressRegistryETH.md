@@ -89,6 +89,16 @@
 | WithdrawalManagerQueue | [0x1bc47a0Dd0FdaB96E9eF982fdf1F34DC6207cfE3](https://etherscan.io/address/0x1bc47a0Dd0FdaB96E9eF982fdf1F34DC6207cfE3) |
 | PoolDelegateCover | [0x9e62FE15d0E99cE2b30CE0D256e9Ab7b6893AfF5](https://etherscan.io/address/0x9e62FE15d0E99cE2b30CE0D256e9Ab7b6893AfF5) |
 
+## Syrup USDT 
+| Contract | Address |
+| --- | --- |
+| syrupUSDTPool | [0x356B8d89c1e1239Cbbb9dE4815c39A1474d5BA7D](https://etherscan.io/address/0x356B8d89c1e1239Cbbb9dE4815c39A1474d5BA7D) |
+| PoolManager | [0x0cdA32E08B48bFDDbc7eE96B44b09cf286F9E21a](https://etherscan.io/address/0x0cdA32E08B48bFDDbc7eE96B44b09cf286F9E21a) |
+| FixedTermLoanManager | [0xC17aa0Cb662bC4787bB16bD3Bc13d0d88eB7aBDd](https://etherscan.io/address/0xC17aa0Cb662bC4787bB16bD3Bc13d0d88eB7aBDd) |
+| OpenTermLoanManager | [0x616022E54324eF9c13B99c229Dac8ea69AF4FAFf](https://etherscan.io/address/0x616022E54324eF9c13B99c229Dac8ea69AF4FAFf) |
+| WithdrawalManagerQueue | [0x86eBDf902d800F2a82038290B6DBb2A5eE29eB8C](https://etherscan.io/address/0x86eBDf902d800F2a82038290B6DBb2A5eE29eB8C) |
+| PoolDelegateCover | [0x610d99d86d48b385b2ed17a0063e53B5c98E15A1](https://etherscan.io/address/0x610d99d86d48b385b2ed17a0063e53B5c98E15A1) |
+
 # Proxies
 ## fixedTermLoanV400
 | Contract | Address |
