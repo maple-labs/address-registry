@@ -133,6 +133,16 @@
                         "openTermLoanManager": "0x6ACEb4cAbA81Fa6a8065059f3A944fb066A10fAc",
                         "withdrawalManagerQueue": "0x1bc47a0Dd0FdaB96E9eF982fdf1F34DC6207cfE3",
                         "poolDelegateCover": "0x9e62FE15d0E99cE2b30CE0D256e9Ab7b6893AfF5"
+                    },
+                    {
+                        "label": "Syrup USDT ",
+                        "name": "syrupUSDT",
+                        "address": "0x356B8d89c1e1239Cbbb9dE4815c39A1474d5BA7D",
+                        "poolManager": "0x0cdA32E08B48bFDDbc7eE96B44b09cf286F9E21a",
+                        "fixedTermLoanManager": "0xC17aa0Cb662bC4787bB16bD3Bc13d0d88eB7aBDd",
+                        "openTermLoanManager": "0x616022E54324eF9c13B99c229Dac8ea69AF4FAFf",
+                        "withdrawalManagerQueue": "0x86eBDf902d800F2a82038290B6DBb2A5eE29eB8C",
+                        "poolDelegateCover": "0x610d99d86d48b385b2ed17a0063e53B5c98E15A1"
                     }
                 ],
                 "proxies": [

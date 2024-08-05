@@ -1,5 +1,5 @@
-// SPDX-License-Identifier: BUSL-1.1 
-pragma solidity ^0.8.7; 
+// SPDX-License-Identifier: BUSL-1.1
+pragma solidity ^0.8.7;
 
 // WARNING: File generated automatically, do not edit manually
 contract MapleAddressRegistryETH {
@@ -104,6 +104,18 @@ contract MapleAddressRegistryETH {
     address constant public syrupUSDCOpenTermLoanManager    = 0x6ACEb4cAbA81Fa6a8065059f3A944fb066A10fAc;
     address constant public syrupUSDCWithdrawalManagerQueue = 0x1bc47a0Dd0FdaB96E9eF982fdf1F34DC6207cfE3;
     address constant public syrupUSDCPoolDelegateCover      = 0x9e62FE15d0E99cE2b30CE0D256e9Ab7b6893AfF5;
+
+    /**************************************************************************************************************************************/
+    /*** Syrup USDT                                                                                                                     ***/
+    /**************************************************************************************************************************************/
+
+    address constant public syrupUSDTPool                   = 0x356B8d89c1e1239Cbbb9dE4815c39A1474d5BA7D;
+    address constant public syrupUSDTPoolManager            = 0x0cdA32E08B48bFDDbc7eE96B44b09cf286F9E21a;
+    address constant public syrupUSDTFixedTermLoanManager   = 0xC17aa0Cb662bC4787bB16bD3Bc13d0d88eB7aBDd;
+    address constant public syrupUSDTOpenTermLoanManager    = 0x616022E54324eF9c13B99c229Dac8ea69AF4FAFf;
+    address constant public syrupUSDTWithdrawalManagerQueue = 0x86eBDf902d800F2a82038290B6DBb2A5eE29eB8C;
+    address constant public syrupUSDTPoolDelegateCover      = 0x610d99d86d48b385b2ed17a0063e53B5c98E15A1;
+
 
     /**************************************************************************************************************************************/
     /*** Proxies                                                                                                                        ***/
