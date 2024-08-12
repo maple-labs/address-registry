@@ -132,7 +132,8 @@
                         "fixedTermLoanManager": "0x4A1c3F0D9aD0b3f9dA085bEBfc22dEA54263371b",
                         "openTermLoanManager": "0x6ACEb4cAbA81Fa6a8065059f3A944fb066A10fAc",
                         "withdrawalManagerQueue": "0x1bc47a0Dd0FdaB96E9eF982fdf1F34DC6207cfE3",
-                        "poolDelegateCover": "0x9e62FE15d0E99cE2b30CE0D256e9Ab7b6893AfF5"
+                        "poolDelegateCover": "0x9e62FE15d0E99cE2b30CE0D256e9Ab7b6893AfF5",
+                        "syrupRouter": "0x134cCaaA4F1e4552eC8aEcb9E4A2360dDcF8df76"
                     },
                     {
                         "label": "Syrup USDT ",
@@ -142,7 +143,8 @@
                         "fixedTermLoanManager": "0xC17aa0Cb662bC4787bB16bD3Bc13d0d88eB7aBDd",
                         "openTermLoanManager": "0x616022E54324eF9c13B99c229Dac8ea69AF4FAFf",
                         "withdrawalManagerQueue": "0x86eBDf902d800F2a82038290B6DBb2A5eE29eB8C",
-                        "poolDelegateCover": "0x610d99d86d48b385b2ed17a0063e53B5c98E15A1"
+                        "poolDelegateCover": "0x610d99d86d48b385b2ed17a0063e53B5c98E15A1",
+                        "syrupRouter": "0xf007476bb27430795138c511f18f821e8d1e5ee2"
                     }
                 ],
                 "proxies": [
@@ -287,10 +289,6 @@
                     {
                         "name": "xmplHealthChecker",
                         "address": "0xF1714088AA71aedAA8EbdaB7A06cAb0748b84Df8"
-                    },
-                    {
-                        "name": "syrupRouter",
-                        "address": "0x134cCaaA4F1e4552eC8aEcb9E4A2360dDcF8df76"
                     },
                     {
                         "name": "syrupRateProvider",
