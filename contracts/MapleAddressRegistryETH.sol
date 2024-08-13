@@ -104,6 +104,7 @@ contract MapleAddressRegistryETH {
     address constant public syrupUSDCOpenTermLoanManager    = 0x6ACEb4cAbA81Fa6a8065059f3A944fb066A10fAc;
     address constant public syrupUSDCWithdrawalManagerQueue = 0x1bc47a0Dd0FdaB96E9eF982fdf1F34DC6207cfE3;
     address constant public syrupUSDCPoolDelegateCover      = 0x9e62FE15d0E99cE2b30CE0D256e9Ab7b6893AfF5;
+    address constant public syrupUSDCSyrupRouter            = 0x134cCaaA4F1e4552eC8aEcb9E4A2360dDcF8df76;
 
     /**************************************************************************************************************************************/
     /*** Syrup USDT                                                                                                                     ***/
@@ -115,7 +116,7 @@ contract MapleAddressRegistryETH {
     address constant public syrupUSDTOpenTermLoanManager    = 0x616022E54324eF9c13B99c229Dac8ea69AF4FAFf;
     address constant public syrupUSDTWithdrawalManagerQueue = 0x86eBDf902d800F2a82038290B6DBb2A5eE29eB8C;
     address constant public syrupUSDTPoolDelegateCover      = 0x610d99d86d48b385b2ed17a0063e53B5c98E15A1;
-
+    address constant public syrupUSDTSyrupRouter            = 0xf007476bb27430795138c511f18f821e8d1e5ee2;
 
     /**************************************************************************************************************************************/
     /*** Proxies                                                                                                                        ***/
@@ -192,7 +193,6 @@ contract MapleAddressRegistryETH {
     address constant public poolPermissionManager = 0xBe10aDcE8B6E3E02Db384E7FaDA5395DD113D8b3;
     address constant public protocolHealthChecker = 0xfFfFcbA2234b01e7324158EFb83F2f3ED82d1B0D;
     address constant public xmplHealthChecker     = 0xF1714088AA71aedAA8EbdaB7A06cAb0748b84Df8;
-    address constant public syrupRouter           = 0x134cCaaA4F1e4552eC8aEcb9E4A2360dDcF8df76;
     address constant public syrupRateProvider     = 0xd2C59781F1Db84080A0592CE83Fe265642A4a8Eb;
 
     /**************************************************************************************************************************************/

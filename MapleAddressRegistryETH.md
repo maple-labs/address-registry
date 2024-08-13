@@ -88,6 +88,7 @@
 | OpenTermLoanManager | [0x6ACEb4cAbA81Fa6a8065059f3A944fb066A10fAc](https://etherscan.io/address/0x6ACEb4cAbA81Fa6a8065059f3A944fb066A10fAc) |
 | WithdrawalManagerQueue | [0x1bc47a0Dd0FdaB96E9eF982fdf1F34DC6207cfE3](https://etherscan.io/address/0x1bc47a0Dd0FdaB96E9eF982fdf1F34DC6207cfE3) |
 | PoolDelegateCover | [0x9e62FE15d0E99cE2b30CE0D256e9Ab7b6893AfF5](https://etherscan.io/address/0x9e62FE15d0E99cE2b30CE0D256e9Ab7b6893AfF5) |
+| SyrupRouter | [0x134cCaaA4F1e4552eC8aEcb9E4A2360dDcF8df76](https://etherscan.io/address/0x134cCaaA4F1e4552eC8aEcb9E4A2360dDcF8df76) |
 
 ## Syrup USDT 
 | Contract | Address |
@@ -98,6 +99,7 @@
 | OpenTermLoanManager | [0x616022E54324eF9c13B99c229Dac8ea69AF4FAFf](https://etherscan.io/address/0x616022E54324eF9c13B99c229Dac8ea69AF4FAFf) |
 | WithdrawalManagerQueue | [0x86eBDf902d800F2a82038290B6DBb2A5eE29eB8C](https://etherscan.io/address/0x86eBDf902d800F2a82038290B6DBb2A5eE29eB8C) |
 | PoolDelegateCover | [0x610d99d86d48b385b2ed17a0063e53B5c98E15A1](https://etherscan.io/address/0x610d99d86d48b385b2ed17a0063e53B5c98E15A1) |
+| SyrupRouter | [0xf007476bb27430795138c511f18f821e8d1e5ee2](https://etherscan.io/address/0xf007476bb27430795138c511f18f821e8d1e5ee2) |
 
 # Proxies
 ## fixedTermLoanV400
@@ -221,7 +223,6 @@
 | poolPermissionManager | [0xBe10aDcE8B6E3E02Db384E7FaDA5395DD113D8b3](https://etherscan.io/address/0xBe10aDcE8B6E3E02Db384E7FaDA5395DD113D8b3) |
 | protocolHealthChecker | [0xfFfFcbA2234b01e7324158EFb83F2f3ED82d1B0D](https://etherscan.io/address/0xfFfFcbA2234b01e7324158EFb83F2f3ED82d1B0D) |
 | xmplHealthChecker | [0xF1714088AA71aedAA8EbdaB7A06cAb0748b84Df8](https://etherscan.io/address/0xF1714088AA71aedAA8EbdaB7A06cAb0748b84Df8) |
-| syrupRouter | [0x134cCaaA4F1e4552eC8aEcb9E4A2360dDcF8df76](https://etherscan.io/address/0x134cCaaA4F1e4552eC8aEcb9E4A2360dDcF8df76) |
 | syrupRateProvider | [0xd2C59781F1Db84080A0592CE83Fe265642A4a8Eb](https://etherscan.io/address/0xd2C59781F1Db84080A0592CE83Fe265642A4a8Eb) |
 # Tokens
 | Contract | Address |
