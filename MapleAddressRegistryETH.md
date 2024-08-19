@@ -99,7 +99,7 @@
 | OpenTermLoanManager | [0x616022E54324eF9c13B99c229Dac8ea69AF4FAFf](https://etherscan.io/address/0x616022E54324eF9c13B99c229Dac8ea69AF4FAFf) |
 | WithdrawalManagerQueue | [0x86eBDf902d800F2a82038290B6DBb2A5eE29eB8C](https://etherscan.io/address/0x86eBDf902d800F2a82038290B6DBb2A5eE29eB8C) |
 | PoolDelegateCover | [0x610d99d86d48b385b2ed17a0063e53B5c98E15A1](https://etherscan.io/address/0x610d99d86d48b385b2ed17a0063e53B5c98E15A1) |
-| SyrupRouter | [0xf007476bb27430795138c511f18f821e8d1e5ee2](https://etherscan.io/address/0xf007476bb27430795138c511f18f821e8d1e5ee2) |
+| SyrupRouter | [0xF007476Bb27430795138C511F18F821e8D1e5Ee2](https://etherscan.io/address/0xF007476Bb27430795138C511F18F821e8D1e5Ee2) |
 
 # Proxies
 ## fixedTermLoanV400
