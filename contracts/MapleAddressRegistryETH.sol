@@ -116,7 +116,8 @@ contract MapleAddressRegistryETH {
     address constant public syrupUSDTOpenTermLoanManager    = 0x616022E54324eF9c13B99c229Dac8ea69AF4FAFf;
     address constant public syrupUSDTWithdrawalManagerQueue = 0x86eBDf902d800F2a82038290B6DBb2A5eE29eB8C;
     address constant public syrupUSDTPoolDelegateCover      = 0x610d99d86d48b385b2ed17a0063e53B5c98E15A1;
-    address constant public syrupUSDTSyrupRouter            = 0xf007476bb27430795138c511f18f821e8d1e5ee2;
+    address constant public syrupUSDTSyrupRouter            = 0xF007476Bb27430795138C511F18F821e8D1e5Ee2;
+
 
     /**************************************************************************************************************************************/
     /*** Proxies                                                                                                                        ***/
@@ -176,6 +177,7 @@ contract MapleAddressRegistryETH {
 
     address constant public globalsV3Implementation = 0x5A64417823E8382a7e8957E4411873FE758E73a8;
 
+
     /**************************************************************************************************************************************/
     /*** Singletons                                                                                                                     ***/
     /**************************************************************************************************************************************/
@@ -208,8 +210,8 @@ contract MapleAddressRegistryETH {
     address constant public wbtc          = 0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599;
     address constant public wbtcUsdOracle = 0xF4030086522a5bEEa4988F8cA5B36dbC97BeE88c;
 
-    address constant public mplv1 = 0x33349B282065b0284d756F0577FB39c158F935e6;
-    address constant public xmpl  = 0x4937A209D4cDbD3ecD48857277cfd4dA4D82914c;
+    address constant public mplv1         = 0x33349B282065b0284d756F0577FB39c158F935e6;
+    address constant public xmpl          = 0x4937A209D4cDbD3ecD48857277cfd4dA4D82914c;
 
     /**************************************************************************************************************************************/
     /*** Mplv2                                                                                                                          ***/
@@ -220,5 +222,7 @@ contract MapleAddressRegistryETH {
     address constant public mplV2Initializer            = 0x7f3C3636208A18c7941BF051807db56864061465;
     address constant public mplV2Migrator               = 0x7b0267C13B994cdb58b8ED3a65b7A09a07432A76;
     address constant public mplV2RecapitalizationModule = 0x7D75cF9Aab6cB9598bB6d9Bd81BaAA288cecA9Bf;
+
+
 
 }

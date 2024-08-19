@@ -144,7 +144,7 @@
                         "openTermLoanManager": "0x616022E54324eF9c13B99c229Dac8ea69AF4FAFf",
                         "withdrawalManagerQueue": "0x86eBDf902d800F2a82038290B6DBb2A5eE29eB8C",
                         "poolDelegateCover": "0x610d99d86d48b385b2ed17a0063e53B5c98E15A1",
-                        "syrupRouter": "0xf007476bb27430795138c511f18f821e8d1e5ee2"
+                        "syrupRouter": "0xF007476Bb27430795138C511F18F821e8D1e5Ee2"
                     }
                 ],
                 "proxies": [
