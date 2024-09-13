@@ -1,5 +1,5 @@
-// SPDX-License-Identifier: BUSL-1.1
-pragma solidity ^0.8.7;
+// SPDX-License-Identifier: BUSL-1.1 
+pragma solidity ^0.8.7; 
 
 // WARNING: File generated automatically, do not edit manually
 contract MapleAddressRegistryETH {
@@ -8,11 +8,12 @@ contract MapleAddressRegistryETH {
     /*** Actors                                                                                                                         ***/
     /**************************************************************************************************************************************/
 
-    address constant public governor         = 0xd6d4Bcde6c816F17889f1Dd3000aF0261B03a196;
-    address constant public securityAdmin    = 0x6b1A78C1943b03086F7Ee53360f9b0672bD60818;
-    address constant public operationalAdmin = 0xCe1cE7c7F436DCc4E28Bc8bf86115514d3DC34E8;
-    address constant public globalAdmin      = 0x0D8b2C1F11c5f9cD51de6dB3b256C1e3b0800200;
-    address constant public permissionsAdmin = 0x54b130c704919320E17F4F1Ffa4832A91AB29Dca;
+    address constant public governor                = 0xd6d4Bcde6c816F17889f1Dd3000aF0261B03a196;
+    address constant public securityAdmin           = 0x6b1A78C1943b03086F7Ee53360f9b0672bD60818;
+    address constant public operationalAdmin        = 0xCe1cE7c7F436DCc4E28Bc8bf86115514d3DC34E8;
+    address constant public globalAdmin             = 0x0D8b2C1F11c5f9cD51de6dB3b256C1e3b0800200;
+    address constant public permissionsAdmin        = 0x54b130c704919320E17F4F1Ffa4832A91AB29Dca;
+    address constant public recapitalizationClaimer = 0x6b1A78C1943b03086F7Ee53360f9b0672bD60818;
 
     /**************************************************************************************************************************************/
     /*** Factories                                                                                                                      ***/
@@ -210,19 +211,20 @@ contract MapleAddressRegistryETH {
     address constant public wbtc          = 0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599;
     address constant public wbtcUsdOracle = 0xF4030086522a5bEEa4988F8cA5B36dbC97BeE88c;
 
-    address constant public mplv1         = 0x33349B282065b0284d756F0577FB39c158F935e6;
-    address constant public xmpl          = 0x4937A209D4cDbD3ecD48857277cfd4dA4D82914c;
+    address constant public mplv1 = 0x33349B282065b0284d756F0577FB39c158F935e6;
+    address constant public xmpl  = 0x4937A209D4cDbD3ecD48857277cfd4dA4D82914c;
 
     /**************************************************************************************************************************************/
-    /*** Mplv2                                                                                                                          ***/
+    /*** SyrupToken                                                                                                                     ***/
     /**************************************************************************************************************************************/
 
-    address constant public mplV2Proxy                  = 0x1915A8dE08A92b846dF7C845e140E4b0714820bd;
-    address constant public mplV2Implementation         = 0x2feb650302d54C227Bb56361005CA3Ec7265a40D;
-    address constant public mplV2Initializer            = 0x7f3C3636208A18c7941BF051807db56864061465;
-    address constant public mplV2Migrator               = 0x7b0267C13B994cdb58b8ED3a65b7A09a07432A76;
-    address constant public mplV2RecapitalizationModule = 0x7D75cF9Aab6cB9598bB6d9Bd81BaAA288cecA9Bf;
-
-
+    address constant public syrupProxy                  = 0x643C4E15d7d62Ad0aBeC4a9BD4b001aA3Ef52d66;
+    address constant public syrupImplementation         = 0x6eD767EBCfF51533E5181f7bf818F2b9bD767aec;
+    address constant public syrupInitializer            = 0xfE4a4fd3bd2E0Eb400355aeF5Aa1752bC54B30FC;
+    address constant public syrupMigrator               = 0x9c9499edD0cd2dCBc3C9Dd5070bAf54777AD8F2C;
+    address constant public syrupRecapitalizationModule = 0x5dfe0460f66fa06bFCbB3211e723556be6B3f69D;
+    address constant public syrupStSyrup                = 0xc7E8b36E0766D9B04c93De68A9D47dD11f260B45;
+    address constant public syrupSyrupDrip              = 0x509712F368255E92410893Ba2E488f40f7E986EA;
+    address constant public syrupMplUserActions         = 0x75B7B44dCD28df0beda913Ae2809ede986e8F461;
 
 }
