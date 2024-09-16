@@ -178,7 +178,6 @@ contract MapleAddressRegistryETH {
 
     address constant public globalsV3Implementation = 0x5A64417823E8382a7e8957E4411873FE758E73a8;
 
-
     /**************************************************************************************************************************************/
     /*** Singletons                                                                                                                     ***/
     /**************************************************************************************************************************************/
@@ -197,6 +196,8 @@ contract MapleAddressRegistryETH {
     address constant public protocolHealthChecker = 0xfFfFcbA2234b01e7324158EFb83F2f3ED82d1B0D;
     address constant public xmplHealthChecker     = 0xF1714088AA71aedAA8EbdaB7A06cAb0748b84Df8;
     address constant public syrupRateProvider     = 0xd2C59781F1Db84080A0592CE83Fe265642A4a8Eb;
+    address constant public mplUserActions        = 0x75B7B44dCD28df0beda913Ae2809ede986e8F461;
+    address constant public syrupDrip             = 0x509712F368255E92410893Ba2E488f40f7E986EA;
 
     /**************************************************************************************************************************************/
     /*** Tokens                                                                                                                         ***/
@@ -224,7 +225,5 @@ contract MapleAddressRegistryETH {
     address constant public syrupMigrator               = 0x9c9499edD0cd2dCBc3C9Dd5070bAf54777AD8F2C;
     address constant public syrupRecapitalizationModule = 0x5dfe0460f66fa06bFCbB3211e723556be6B3f69D;
     address constant public syrupStSyrup                = 0xc7E8b36E0766D9B04c93De68A9D47dD11f260B45;
-    address constant public syrupSyrupDrip              = 0x509712F368255E92410893Ba2E488f40f7E986EA;
-    address constant public syrupMplUserActions         = 0x75B7B44dCD28df0beda913Ae2809ede986e8F461;
 
 }

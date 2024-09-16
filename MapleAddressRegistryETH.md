@@ -225,6 +225,8 @@
 | protocolHealthChecker | [0xfFfFcbA2234b01e7324158EFb83F2f3ED82d1B0D](https://etherscan.io/address/0xfFfFcbA2234b01e7324158EFb83F2f3ED82d1B0D) |
 | xmplHealthChecker | [0xF1714088AA71aedAA8EbdaB7A06cAb0748b84Df8](https://etherscan.io/address/0xF1714088AA71aedAA8EbdaB7A06cAb0748b84Df8) |
 | syrupRateProvider | [0xd2C59781F1Db84080A0592CE83Fe265642A4a8Eb](https://etherscan.io/address/0xd2C59781F1Db84080A0592CE83Fe265642A4a8Eb) |
+| mplUserActions | [0x75B7B44dCD28df0beda913Ae2809ede986e8F461](https://etherscan.io/address/0x75B7B44dCD28df0beda913Ae2809ede986e8F461) |
+| syrupDrip | [0x509712F368255E92410893Ba2E488f40f7E986EA](https://etherscan.io/address/0x509712F368255E92410893Ba2E488f40f7E986EA) |
 # Tokens
 | Contract | Address |
 | --- | --- |
@@ -239,15 +241,12 @@
 # SyrupToken
 | Contract | Address |
 | --- | --- |
-| syrup | [undefined](https://etherscan.io/address/undefined) |
 | Proxy | [0x643C4E15d7d62Ad0aBeC4a9BD4b001aA3Ef52d66](https://etherscan.io/address/0x643C4E15d7d62Ad0aBeC4a9BD4b001aA3Ef52d66) |
 | Implementation | [0x6eD767EBCfF51533E5181f7bf818F2b9bD767aec](https://etherscan.io/address/0x6eD767EBCfF51533E5181f7bf818F2b9bD767aec) |
 | Initializer | [0xfE4a4fd3bd2E0Eb400355aeF5Aa1752bC54B30FC](https://etherscan.io/address/0xfE4a4fd3bd2E0Eb400355aeF5Aa1752bC54B30FC) |
 | Migrator | [0x9c9499edD0cd2dCBc3C9Dd5070bAf54777AD8F2C](https://etherscan.io/address/0x9c9499edD0cd2dCBc3C9Dd5070bAf54777AD8F2C) |
 | RecapitalizationModule | [0x5dfe0460f66fa06bFCbB3211e723556be6B3f69D](https://etherscan.io/address/0x5dfe0460f66fa06bFCbB3211e723556be6B3f69D) |
 | StSyrup | [0xc7E8b36E0766D9B04c93De68A9D47dD11f260B45](https://etherscan.io/address/0xc7E8b36E0766D9B04c93De68A9D47dD11f260B45) |
-| SyrupDrip | [0x509712F368255E92410893Ba2E488f40f7E986EA](https://etherscan.io/address/0x509712F368255E92410893Ba2E488f40f7E986EA) |
-| MplUserActions | [0x75B7B44dCD28df0beda913Ae2809ede986e8F461](https://etherscan.io/address/0x75B7B44dCD28df0beda913Ae2809ede986e8F461) |
 # InactivePools
 ## Cash Management - USDT
 | Contract | Address |
