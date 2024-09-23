@@ -70,7 +70,7 @@ registry.chains.forEach(chain => {
                     
                     content.push(declaration(v.name, v.address, chain.name))
 
-                    if (key == "mplv2") {
+                    if (key == "syrupToken") {
                         content.pop();
                     }
                     
