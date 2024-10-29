@@ -247,6 +247,14 @@
 | Migrator | [0x9c9499edD0cd2dCBc3C9Dd5070bAf54777AD8F2C](https://etherscan.io/address/0x9c9499edD0cd2dCBc3C9Dd5070bAf54777AD8F2C) |
 | RecapitalizationModule | [0x5dfe0460f66fa06bFCbB3211e723556be6B3f69D](https://etherscan.io/address/0x5dfe0460f66fa06bFCbB3211e723556be6B3f69D) |
 | StSyrup | [0xc7E8b36E0766D9B04c93De68A9D47dD11f260B45](https://etherscan.io/address/0xc7E8b36E0766D9B04c93De68A9D47dD11f260B45) |
+# ExternalContracts
+| Contract | Address |
+| --- | --- |
+| usdsLitePSM | [0xA188EEC8F81263234dA3622A406892F3D630f98c](https://etherscan.io/address/0xA188EEC8F81263234dA3622A406892F3D630f98c) |
+| savingsUsds | [0xa3931d71877C0E7a3148CB7Eb4463524FEc27fbD](https://etherscan.io/address/0xa3931d71877C0E7a3148CB7Eb4463524FEc27fbD) |
+| usds | [0xdC035D45d973E3EC169d2276DDab16f1e407384F](https://etherscan.io/address/0xdC035D45d973E3EC169d2276DDab16f1e407384F) |
+| aUsdt | [0x23878914EFE38d27C4D67Ab83ed1b93A74D4086a](https://etherscan.io/address/0x23878914EFE38d27C4D67Ab83ed1b93A74D4086a) |
+| aUsdc | [0x98C23E9d8f34FEFb1B7BD6a91B7FF122F4e16F5c](https://etherscan.io/address/0x98C23E9d8f34FEFb1B7BD6a91B7FF122F4e16F5c) |
 # InactivePools
 ## Cash Management - USDT
 | Contract | Address |
