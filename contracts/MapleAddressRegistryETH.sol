@@ -226,4 +226,14 @@ contract MapleAddressRegistryETH {
     address constant public syrupRecapitalizationModule = 0x5dfe0460f66fa06bFCbB3211e723556be6B3f69D;
     address constant public syrupStSyrup                = 0xc7E8b36E0766D9B04c93De68A9D47dD11f260B45;
 
+    /**************************************************************************************************************************************/
+    /*** External Protocol Contracts                                                                                                    ***/
+    /**************************************************************************************************************************************/
+
+    address constant public usdsLitePSM = 0xA188EEC8F81263234dA3622A406892F3D630f98c;
+    address constant public savingsUsds = 0xa3931d71877C0E7a3148CB7Eb4463524FEc27fbD;
+    address constant public usds        = 0xdC035D45d973E3EC169d2276DDab16f1e407384F;
+    address constant public aUsdt       = 0x23878914EFE38d27C4D67Ab83ed1b93A74D4086a;
+    address constant public aUsdc       = 0x98C23E9d8f34FEFb1B7BD6a91B7FF122F4e16F5c;
+
 }

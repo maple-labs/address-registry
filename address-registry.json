@@ -343,6 +343,28 @@
                         "stSyrup": "0xc7E8b36E0766D9B04c93De68A9D47dD11f260B45"
                     }
                 ],
+                "externalProtocolContracts": [
+                    {
+                        "name": "usdsLitePSM",
+                        "address": "0xA188EEC8F81263234dA3622A406892F3D630f98c"
+                    },
+                    {
+                        "name": "savingsUsds",
+                        "address": "0xa3931d71877C0E7a3148CB7Eb4463524FEc27fbD"
+                    },
+                    {
+                        "name": "usds",
+                        "address": "0xdC035D45d973E3EC169d2276DDab16f1e407384F"
+                    },
+                    {
+                        "name": "aUsdt",
+                        "address": "0x23878914EFE38d27C4D67Ab83ed1b93A74D4086a"
+                    },
+                    {
+                        "name": "aUsdc",
+                        "address": "0x98C23E9d8f34FEFb1B7BD6a91B7FF122F4e16F5c"
+                    }
+                ],
                 "inactivePools": [
                     {
                         "label": "Cash Management - USDT",
