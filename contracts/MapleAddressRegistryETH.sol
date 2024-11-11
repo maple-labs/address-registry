@@ -228,7 +228,7 @@ contract MapleAddressRegistryETH {
     address constant public syrupOftAdapter             = 0x7E0e1fE79594f738A4deA8Bb1085C9626f0935bC;
 
     /**************************************************************************************************************************************/
-    /*** ExternalProtocolContracts                                                                                                      ***/
+    /*** External Protocol Contracts                                                                                                    ***/
     /**************************************************************************************************************************************/
 
     address constant public usdsLitePSM = 0xA188EEC8F81263234dA3622A406892F3D630f98c;
