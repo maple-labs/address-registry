@@ -117,6 +117,10 @@
 | WithdrawalManagerQueue | [0xcB617285163D60B7e8451a1631064B4Bc9d62F8d](https://basescan.io/address/0xcB617285163D60B7e8451a1631064B4Bc9d62F8d) |
 | PoolDelegateCover | [0x28378DFC7bAe84C668d960c6E8CD862Fda43ba70](https://basescan.io/address/0x28378DFC7bAe84C668d960c6E8CD862Fda43ba70) |
 
+# Syrup
+| Contract | Address |
+| --- | --- |
+| syrup | [0x7E0e1fE79594f738A4deA8Bb1085C9626f0935bC](https://basescan.io/address/0x7E0e1fE79594f738A4deA8Bb1085C9626f0935bC) |
 # Assets
 | Contract | Address |
 | --- | --- |

@@ -225,9 +225,10 @@ contract MapleAddressRegistryETH {
     address constant public syrupMigrator               = 0x9c9499edD0cd2dCBc3C9Dd5070bAf54777AD8F2C;
     address constant public syrupRecapitalizationModule = 0x5dfe0460f66fa06bFCbB3211e723556be6B3f69D;
     address constant public syrupStSyrup                = 0xc7E8b36E0766D9B04c93De68A9D47dD11f260B45;
+    address constant public syrupOftAdapter             = 0x7E0e1fE79594f738A4deA8Bb1085C9626f0935bC;
 
     /**************************************************************************************************************************************/
-    /*** External Protocol Contracts                                                                                                    ***/
+    /*** ExternalProtocolContracts                                                                                                      ***/
     /**************************************************************************************************************************************/
 
     address constant public usdsLitePSM = 0xA188EEC8F81263234dA3622A406892F3D630f98c;

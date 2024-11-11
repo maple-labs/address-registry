@@ -247,7 +247,8 @@
 | Migrator | [0x9c9499edD0cd2dCBc3C9Dd5070bAf54777AD8F2C](https://etherscan.io/address/0x9c9499edD0cd2dCBc3C9Dd5070bAf54777AD8F2C) |
 | RecapitalizationModule | [0x5dfe0460f66fa06bFCbB3211e723556be6B3f69D](https://etherscan.io/address/0x5dfe0460f66fa06bFCbB3211e723556be6B3f69D) |
 | StSyrup | [0xc7E8b36E0766D9B04c93De68A9D47dD11f260B45](https://etherscan.io/address/0xc7E8b36E0766D9B04c93De68A9D47dD11f260B45) |
-# External Protocol Contracts
+| OftAdapter | [0x7E0e1fE79594f738A4deA8Bb1085C9626f0935bC](https://etherscan.io/address/0x7E0e1fE79594f738A4deA8Bb1085C9626f0935bC) |
+# ExternalProtocolContracts
 | Contract | Address |
 | --- | --- |
 | usdsLitePSM | [0xA188EEC8F81263234dA3622A406892F3D630f98c](https://etherscan.io/address/0xA188EEC8F81263234dA3622A406892F3D630f98c) |
