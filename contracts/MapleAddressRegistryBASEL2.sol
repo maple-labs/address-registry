@@ -71,6 +71,7 @@ contract MapleAddressRegistryBASEL2 {
     address constant public WithdrawalManagerQueueV100Implementation = 0x899B57Bbd8597aa2d1898476504f479c982c5c2c;
     address constant public WithdrawalManagerQueueV100Initializer    = 0x637f8dC4C4d07D1CC30ae131fA94A060dee6be96;
 
+
     /**************************************************************************************************************************************/
     /*** Factories                                                                                                                      ***/
     /**************************************************************************************************************************************/
@@ -96,11 +97,12 @@ contract MapleAddressRegistryBASEL2 {
     address constant public cashUSDCPoolWithdrawalManagerQueue = 0xcB617285163D60B7e8451a1631064B4Bc9d62F8d;
     address constant public cashUSDCPoolPoolDelegateCover      = 0x28378DFC7bAe84C668d960c6E8CD862Fda43ba70;
 
+
     /**************************************************************************************************************************************/
     /*** Syrup                                                                                                                          ***/
     /**************************************************************************************************************************************/
 
-    address constant public syrup = 0x7E0e1fE79594f738A4deA8Bb1085C9626f0935bC;
+    address constant public syrupOft = 0x688AEe022AA544f150678B8E5720b6b96a9E9a2F;
 
     /**************************************************************************************************************************************/
     /*** Assets                                                                                                                         ***/

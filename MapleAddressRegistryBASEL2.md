@@ -120,7 +120,7 @@
 # Syrup
 | Contract | Address |
 | --- | --- |
-| syrup | [0x7E0e1fE79594f738A4deA8Bb1085C9626f0935bC](https://basescan.io/address/0x7E0e1fE79594f738A4deA8Bb1085C9626f0935bC) |
+| syrupOft | [0x688AEe022AA544f150678B8E5720b6b96a9E9a2F](https://basescan.io/address/0x688AEe022AA544f150678B8E5720b6b96a9E9a2F) |
 # Assets
 | Contract | Address |
 | --- | --- |

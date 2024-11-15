@@ -341,7 +341,7 @@
                         "migrator": "0x9c9499edD0cd2dCBc3C9Dd5070bAf54777AD8F2C",
                         "recapitalizationModule": "0x5dfe0460f66fa06bFCbB3211e723556be6B3f69D",
                         "stSyrup": "0xc7E8b36E0766D9B04c93De68A9D47dD11f260B45",
-                        "oftAdapter": "0x7E0e1fE79594f738A4deA8Bb1085C9626f0935bC"
+                        "syrupOftAdapter": "0x688AEe022AA544f150678B8E5720b6b96a9E9a2F"
                     }
                 ],
                 "externalProtocolContracts": [
@@ -633,10 +633,10 @@
                 ],
                 "syrup": [
                     {
-                        "name": "syrup",
-                        "address": "0x7E0e1fE79594f738A4deA8Bb1085C9626f0935bC"
+                        "name": "syrupOft",
+                        "address": "0x688AEe022AA544f150678B8E5720b6b96a9E9a2F"
                     }
-                ], 
+                ],
                 "assets": [
                     {
                         "name": "usdc",
