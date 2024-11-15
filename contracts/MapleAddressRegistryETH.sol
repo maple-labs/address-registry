@@ -1,5 +1,5 @@
-// SPDX-License-Identifier: BUSL-1.1 
-pragma solidity ^0.8.7; 
+// SPDX-License-Identifier: BUSL-1.1
+pragma solidity ^0.8.7;
 
 // WARNING: File generated automatically, do not edit manually
 contract MapleAddressRegistryETH {
@@ -178,6 +178,7 @@ contract MapleAddressRegistryETH {
 
     address constant public globalsV3Implementation = 0x5A64417823E8382a7e8957E4411873FE758E73a8;
 
+
     /**************************************************************************************************************************************/
     /*** Singletons                                                                                                                     ***/
     /**************************************************************************************************************************************/
@@ -212,8 +213,8 @@ contract MapleAddressRegistryETH {
     address constant public wbtc          = 0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599;
     address constant public wbtcUsdOracle = 0xF4030086522a5bEEa4988F8cA5B36dbC97BeE88c;
 
-    address constant public mplv1 = 0x33349B282065b0284d756F0577FB39c158F935e6;
-    address constant public xmpl  = 0x4937A209D4cDbD3ecD48857277cfd4dA4D82914c;
+    address constant public mplv1         = 0x33349B282065b0284d756F0577FB39c158F935e6;
+    address constant public xmpl          = 0x4937A209D4cDbD3ecD48857277cfd4dA4D82914c;
 
     /**************************************************************************************************************************************/
     /*** SyrupToken                                                                                                                     ***/
@@ -225,6 +226,8 @@ contract MapleAddressRegistryETH {
     address constant public syrupMigrator               = 0x9c9499edD0cd2dCBc3C9Dd5070bAf54777AD8F2C;
     address constant public syrupRecapitalizationModule = 0x5dfe0460f66fa06bFCbB3211e723556be6B3f69D;
     address constant public syrupStSyrup                = 0xc7E8b36E0766D9B04c93De68A9D47dD11f260B45;
+    address constant public syrupSyrupOftAdapter        = 0x688AEe022AA544f150678B8E5720b6b96a9E9a2F;
+
 
     /**************************************************************************************************************************************/
     /*** External Protocol Contracts                                                                                                    ***/
