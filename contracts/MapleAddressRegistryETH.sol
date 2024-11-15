@@ -230,7 +230,7 @@ contract MapleAddressRegistryETH {
 
 
     /**************************************************************************************************************************************/
-    /*** ExternalProtocolContracts                                                                                                      ***/
+    /*** External Protocol Contracts                                                                                                      ***/
     /**************************************************************************************************************************************/
 
     address constant public usdsLitePSM = 0xA188EEC8F81263234dA3622A406892F3D630f98c;
@@ -238,6 +238,5 @@ contract MapleAddressRegistryETH {
     address constant public usds        = 0xdC035D45d973E3EC169d2276DDab16f1e407384F;
     address constant public aUsdt       = 0x23878914EFE38d27C4D67Ab83ed1b93A74D4086a;
     address constant public aUsdc       = 0x98C23E9d8f34FEFb1B7BD6a91B7FF122F4e16F5c;
-
 
 }
