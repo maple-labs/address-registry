@@ -80,6 +80,16 @@
 | WithdrawalManagerQueue | [0x8A665131e796203a5232527fac441480e02fbB7F](https://etherscan.io/address/0x8A665131e796203a5232527fac441480e02fbB7F) |
 | PoolDelegateCover | [0x98005A88A32F1A88f68598aB8Ba7dB914Aa6d626](https://etherscan.io/address/0x98005A88A32F1A88f68598aB8Ba7dB914Aa6d626) |
 
+## Maple Lend+Long USDC1
+| Contract | Address |
+| --- | --- |
+| LendAndLongUSDC1Pool | [0x37154b07d58cD736a09ED93CED06613A06F93081](https://etherscan.io/address/0x37154b07d58cD736a09ED93CED06613A06F93081) |
+| PoolManager | [0x9Aeb8e5EA0e4035fc681cBe1f03A351BBEc253df](https://etherscan.io/address/0x9Aeb8e5EA0e4035fc681cBe1f03A351BBEc253df) |
+| FixedTermLoanManager | [0x5ad7130cC75b617D45cB908245c2D3D3507F054E](https://etherscan.io/address/0x5ad7130cC75b617D45cB908245c2D3D3507F054E) |
+| OpenTermLoanManager | [0x56EF41693F69D422A88Cc6492888a1bd41923d33](https://etherscan.io/address/0x56EF41693F69D422A88Cc6492888a1bd41923d33) |
+| WithdrawalManagerQueue | [0x98c0d6Cd8aF6274801de98aead27dC9ef03c6Ab2](https://etherscan.io/address/0x98c0d6Cd8aF6274801de98aead27dC9ef03c6Ab2) |
+| PoolDelegateCover | [0x1863b215893cE70954b3B13D7a09fCB5B86951b8](https://etherscan.io/address/0x1863b215893cE70954b3B13D7a09fCB5B86951b8) |
+
 ## Syrup USDC
 | Contract | Address |
 | --- | --- |

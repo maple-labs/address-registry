@@ -129,6 +129,16 @@
                         "poolDelegateCover": "0x98005A88A32F1A88f68598aB8Ba7dB914Aa6d626"
                     },
                     {
+                        "label": "Maple Lend+Long USDC1 ",
+                        "name": "LendAndLongUSDC1",
+                        "address": "0x37154b07d58cD736a09ED93CED06613A06F93081",
+                        "poolManager": "0x9Aeb8e5EA0e4035fc681cBe1f03A351BBEc253df",
+                        "fixedTermLoanManager": "0x5ad7130cC75b617D45cB908245c2D3D3507F054E",
+                        "openTermLoanManager": "0x56EF41693F69D422A88Cc6492888a1bd41923d33",
+                        "withdrawalManagerQueue": "0x98c0d6Cd8aF6274801de98aead27dC9ef03c6Ab2",
+                        "poolDelegateCover": "0x1863b215893cE70954b3B13D7a09fCB5B86951b8"
+                    },
+                    {
                         "label": "Syrup USDC ",
                         "name": "syrupUSDC",
                         "address": "0x80ac24aA929eaF5013f6436cdA2a7ba190f5Cc0b",

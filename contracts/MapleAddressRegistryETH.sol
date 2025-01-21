@@ -96,6 +96,17 @@ contract MapleAddressRegistryETH {
     address constant public securedLendingUSDCPoolDelegateCover      = 0x98005A88A32F1A88f68598aB8Ba7dB914Aa6d626;
 
     /**************************************************************************************************************************************/
+    /*** Maple Lend+Long USDC1                                                                                                          ***/
+    /**************************************************************************************************************************************/
+
+    address constant public LendAndLongUSDC1Pool                   = 0x37154b07d58cD736a09ED93CED06613A06F93081;
+    address constant public LendAndLongUSDC1PoolManager            = 0x9Aeb8e5EA0e4035fc681cBe1f03A351BBEc253df;
+    address constant public LendAndLongUSDC1FixedTermLoanManager   = 0x5ad7130cC75b617D45cB908245c2D3D3507F054E;
+    address constant public LendAndLongUSDC1OpenTermLoanManager    = 0x56EF41693F69D422A88Cc6492888a1bd41923d33;
+    address constant public LendAndLongUSDC1WithdrawalManagerQueue = 0x98c0d6Cd8aF6274801de98aead27dC9ef03c6Ab2;
+    address constant public LendAndLongUSDC1PoolDelegateCover      = 0x1863b215893cE70954b3B13D7a09fCB5B86951b8;
+
+    /**************************************************************************************************************************************/
     /*** Syrup USDC                                                                                                                     ***/
     /**************************************************************************************************************************************/
 
@@ -230,7 +241,7 @@ contract MapleAddressRegistryETH {
 
 
     /**************************************************************************************************************************************/
-    /*** External Protocol Contracts                                                                                                    ***/
+    /*** External Protocol Contracts                                                                                                      ***/
     /**************************************************************************************************************************************/
 
     address constant public usdsLitePSM = 0xA188EEC8F81263234dA3622A406892F3D630f98c;
@@ -238,5 +249,6 @@ contract MapleAddressRegistryETH {
     address constant public usds        = 0xdC035D45d973E3EC169d2276DDab16f1e407384F;
     address constant public aUsdt       = 0x23878914EFE38d27C4D67Ab83ed1b93A74D4086a;
     address constant public aUsdc       = 0x98C23E9d8f34FEFb1B7BD6a91B7FF122F4e16F5c;
+
 
 }
