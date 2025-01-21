@@ -130,7 +130,6 @@ contract MapleAddressRegistryETH {
     address constant public syrupUSDTPoolDelegateCover      = 0x610d99d86d48b385b2ed17a0063e53B5c98E15A1;
     address constant public syrupUSDTSyrupRouter            = 0xF007476Bb27430795138C511F18F821e8D1e5Ee2;
 
-
     /**************************************************************************************************************************************/
     /*** Proxies                                                                                                                        ***/
     /**************************************************************************************************************************************/
@@ -189,7 +188,6 @@ contract MapleAddressRegistryETH {
 
     address constant public globalsV3Implementation = 0x5A64417823E8382a7e8957E4411873FE758E73a8;
 
-
     /**************************************************************************************************************************************/
     /*** Singletons                                                                                                                     ***/
     /**************************************************************************************************************************************/
@@ -239,7 +237,6 @@ contract MapleAddressRegistryETH {
     address constant public syrupStSyrup                = 0xc7E8b36E0766D9B04c93De68A9D47dD11f260B45;
     address constant public syrupSyrupOftAdapter        = 0x688AEe022AA544f150678B8E5720b6b96a9E9a2F;
 
-
     /**************************************************************************************************************************************/
     /*** External Protocol Contracts                                                                                                    ***/
     /**************************************************************************************************************************************/
@@ -249,6 +246,5 @@ contract MapleAddressRegistryETH {
     address constant public usds        = 0xdC035D45d973E3EC169d2276DDab16f1e407384F;
     address constant public aUsdt       = 0x23878914EFE38d27C4D67Ab83ed1b93A74D4086a;
     address constant public aUsdc       = 0x98C23E9d8f34FEFb1B7BD6a91B7FF122F4e16F5c;
-
 
 }
