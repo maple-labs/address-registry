@@ -96,6 +96,17 @@ contract MapleAddressRegistryETH {
     address constant public securedLendingUSDCPoolDelegateCover      = 0x98005A88A32F1A88f68598aB8Ba7dB914Aa6d626;
 
     /**************************************************************************************************************************************/
+    /*** Maple Lend+Long USDC1                                                                                                          ***/
+    /**************************************************************************************************************************************/
+
+    address constant public LendAndLongUSDC1Pool                   = 0x37154b07d58cD736a09ED93CED06613A06F93081;
+    address constant public LendAndLongUSDC1PoolManager            = 0x9Aeb8e5EA0e4035fc681cBe1f03A351BBEc253df;
+    address constant public LendAndLongUSDC1FixedTermLoanManager   = 0x5ad7130cC75b617D45cB908245c2D3D3507F054E;
+    address constant public LendAndLongUSDC1OpenTermLoanManager    = 0x56EF41693F69D422A88Cc6492888a1bd41923d33;
+    address constant public LendAndLongUSDC1WithdrawalManagerQueue = 0x98c0d6Cd8aF6274801de98aead27dC9ef03c6Ab2;
+    address constant public LendAndLongUSDC1PoolDelegateCover      = 0x1863b215893cE70954b3B13D7a09fCB5B86951b8;
+
+    /**************************************************************************************************************************************/
     /*** Syrup USDC                                                                                                                     ***/
     /**************************************************************************************************************************************/
 
@@ -118,7 +129,6 @@ contract MapleAddressRegistryETH {
     address constant public syrupUSDTWithdrawalManagerQueue = 0x86eBDf902d800F2a82038290B6DBb2A5eE29eB8C;
     address constant public syrupUSDTPoolDelegateCover      = 0x610d99d86d48b385b2ed17a0063e53B5c98E15A1;
     address constant public syrupUSDTSyrupRouter            = 0xF007476Bb27430795138C511F18F821e8D1e5Ee2;
-
 
     /**************************************************************************************************************************************/
     /*** Proxies                                                                                                                        ***/
@@ -178,7 +188,6 @@ contract MapleAddressRegistryETH {
 
     address constant public globalsV3Implementation = 0x5A64417823E8382a7e8957E4411873FE758E73a8;
 
-
     /**************************************************************************************************************************************/
     /*** Singletons                                                                                                                     ***/
     /**************************************************************************************************************************************/
@@ -227,7 +236,6 @@ contract MapleAddressRegistryETH {
     address constant public syrupRecapitalizationModule = 0x5dfe0460f66fa06bFCbB3211e723556be6B3f69D;
     address constant public syrupStSyrup                = 0xc7E8b36E0766D9B04c93De68A9D47dD11f260B45;
     address constant public syrupSyrupOftAdapter        = 0x688AEe022AA544f150678B8E5720b6b96a9E9a2F;
-
 
     /**************************************************************************************************************************************/
     /*** External Protocol Contracts                                                                                                    ***/
