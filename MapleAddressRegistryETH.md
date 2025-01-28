@@ -70,7 +70,7 @@
 | WithdrawalManagerQueue | [0x58A534945f357aa0d2fb56b8BDf7dfA1073bd7a1](https://etherscan.io/address/0x58A534945f357aa0d2fb56b8BDf7dfA1073bd7a1) |
 | PoolDelegateCover | [0x93cdDB2482812A314DDD6aa90007a41F954ef3eB](https://etherscan.io/address/0x93cdDB2482812A314DDD6aa90007a41F954ef3eB) |
 
-## High Yield Secured Lending - USDC
+## High Yield Secured Lending - USDC 
 | Contract | Address |
 | --- | --- |
 | securedLendingUSDCPool | [0xC39a5A616F0ad1Ff45077FA2dE3f79ab8eb8b8B9](https://etherscan.io/address/0xC39a5A616F0ad1Ff45077FA2dE3f79ab8eb8b8B9) |
@@ -80,7 +80,7 @@
 | WithdrawalManagerQueue | [0x8A665131e796203a5232527fac441480e02fbB7F](https://etherscan.io/address/0x8A665131e796203a5232527fac441480e02fbB7F) |
 | PoolDelegateCover | [0x98005A88A32F1A88f68598aB8Ba7dB914Aa6d626](https://etherscan.io/address/0x98005A88A32F1A88f68598aB8Ba7dB914Aa6d626) |
 
-## Maple Lend+Long USDC1
+## Maple Lend+Long USDC1 
 | Contract | Address |
 | --- | --- |
 | LendAndLongUSDC1Pool | [0x37154b07d58cD736a09ED93CED06613A06F93081](https://etherscan.io/address/0x37154b07d58cD736a09ED93CED06613A06F93081) |
@@ -90,7 +90,7 @@
 | WithdrawalManagerQueue | [0x98c0d6Cd8aF6274801de98aead27dC9ef03c6Ab2](https://etherscan.io/address/0x98c0d6Cd8aF6274801de98aead27dC9ef03c6Ab2) |
 | PoolDelegateCover | [0x1863b215893cE70954b3B13D7a09fCB5B86951b8](https://etherscan.io/address/0x1863b215893cE70954b3B13D7a09fCB5B86951b8) |
 
-## Syrup USDC
+## Syrup USDC 
 | Contract | Address |
 | --- | --- |
 | syrupUSDCPool | [0x80ac24aA929eaF5013f6436cdA2a7ba190f5Cc0b](https://etherscan.io/address/0x80ac24aA929eaF5013f6436cdA2a7ba190f5Cc0b) |
@@ -101,7 +101,7 @@
 | PoolDelegateCover | [0x9e62FE15d0E99cE2b30CE0D256e9Ab7b6893AfF5](https://etherscan.io/address/0x9e62FE15d0E99cE2b30CE0D256e9Ab7b6893AfF5) |
 | SyrupRouter | [0x134cCaaA4F1e4552eC8aEcb9E4A2360dDcF8df76](https://etherscan.io/address/0x134cCaaA4F1e4552eC8aEcb9E4A2360dDcF8df76) |
 
-## Syrup USDT
+## Syrup USDT 
 | Contract | Address |
 | --- | --- |
 | syrupUSDTPool | [0x356B8d89c1e1239Cbbb9dE4815c39A1474d5BA7D](https://etherscan.io/address/0x356B8d89c1e1239Cbbb9dE4815c39A1474d5BA7D) |
@@ -134,11 +134,23 @@
 | Initializer | [0x8F596D2f57C26FB1CD22F25c9a686e38A62Ce137](https://etherscan.io/address/0x8F596D2f57C26FB1CD22F25c9a686e38A62Ce137) |
 | Migrator | [0x6D4416E6C0536fD33127d38Af21bc912475584E3](https://etherscan.io/address/0x6D4416E6C0536fD33127d38Af21bc912475584E3) |
 
+## fixedTermLoanV600
+| Contract | Address |
+| --- | --- |
+| Implementation | [0xe59afb1A3239a0aE48c9b77a44c3CDf1A3783F9d](https://etherscan.io/address/0xe59afb1A3239a0aE48c9b77a44c3CDf1A3783F9d) |
+| Initializer | [0x37dBaB1Ca75bAf218251F05e4063270cdd5C5FA8](https://etherscan.io/address/0x37dBaB1Ca75bAf218251F05e4063270cdd5C5FA8) |
+
 ## openTermLoanV101
 | Contract | Address |
 | --- | --- |
 | Implementation | [0x085176E2a201c90cE506be00BFc4f411bf9b3998](https://etherscan.io/address/0x085176E2a201c90cE506be00BFc4f411bf9b3998) |
 | Initializer | [0x92d40038e411612E8cE633cCC29158c6A55CD9f3](https://etherscan.io/address/0x92d40038e411612E8cE633cCC29158c6A55CD9f3) |
+
+## openTermLoanV200
+| Contract | Address |
+| --- | --- |
+| Implementation | [0x133A6feE09dFb0FD3B0e0f69c8897cCe3798d4bB](https://etherscan.io/address/0x133A6feE09dFb0FD3B0e0f69c8897cCe3798d4bB) |
+| Initializer | [0xBBd0537D68C41Dc3EDa4B362436A119059Be9836](https://etherscan.io/address/0xBBd0537D68C41Dc3EDa4B362436A119059Be9836) |
 
 ## liquidatorV200
 | Contract | Address |
@@ -258,7 +270,7 @@
 | RecapitalizationModule | [0x5dfe0460f66fa06bFCbB3211e723556be6B3f69D](https://etherscan.io/address/0x5dfe0460f66fa06bFCbB3211e723556be6B3f69D) |
 | StSyrup | [0xc7E8b36E0766D9B04c93De68A9D47dD11f260B45](https://etherscan.io/address/0xc7E8b36E0766D9B04c93De68A9D47dD11f260B45) |
 | SyrupOftAdapter | [0x688AEe022AA544f150678B8E5720b6b96a9E9a2F](https://etherscan.io/address/0x688AEe022AA544f150678B8E5720b6b96a9E9a2F) |
-# External Protocol Contracts
+# ExternalProtocolContracts
 | Contract | Address |
 | --- | --- |
 | usdsLitePSM | [0xA188EEC8F81263234dA3622A406892F3D630f98c](https://etherscan.io/address/0xA188EEC8F81263234dA3622A406892F3D630f98c) |
