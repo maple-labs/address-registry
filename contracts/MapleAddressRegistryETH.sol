@@ -107,6 +107,17 @@ contract MapleAddressRegistryETH {
     address constant public LendAndLongUSDC1PoolDelegateCover      = 0x1863b215893cE70954b3B13D7a09fCB5B86951b8;
 
     /**************************************************************************************************************************************/
+    /*** Maple Lend+Long USDC2                                                                                                          ***/
+    /**************************************************************************************************************************************/
+
+    address constant public LendAndLongUSDC2Pool                   = 0xC9c9BAB51B02b4E60a828a09803305772Ae1D2eB;
+    address constant public LendAndLongUSDC2PoolManager            = 0x036F141111E370cB9c4Fcc734BBd89D44478cb79;
+    address constant public LendAndLongUSDC2FixedTermLoanManager   = 0x09f533dB668811D50707692812A2eed6B0836922;
+    address constant public LendAndLongUSDC2OpenTermLoanManager    = 0x9aB77dbd4197C532F9c9f30a7E83A710E03da70a;
+    address constant public LendAndLongUSDC2WithdrawalManagerQueue = 0xc512E614Ac4d0d4FF9e548F4caD8dfE63B8a36C1;
+    address constant public LendAndLongUSDC2PoolDelegateCover      = 0x5fF202796D1e793bc32e5c079855f6647c0408Ac;
+
+    /**************************************************************************************************************************************/
     /*** Syrup USDC                                                                                                                     ***/
     /**************************************************************************************************************************************/
 
@@ -244,7 +255,7 @@ contract MapleAddressRegistryETH {
     address constant public syrupSyrupOftAdapter        = 0x688AEe022AA544f150678B8E5720b6b96a9E9a2F;
 
     /**************************************************************************************************************************************/
-    /*** External Protocol Contracts                                                                                                    ***/
+    /*** ExternalProtocolContracts                                                                                                      ***/
     /**************************************************************************************************************************************/
 
     address constant public usdsLitePSM = 0xA188EEC8F81263234dA3622A406892F3D630f98c;
