@@ -19,6 +19,9 @@
 | openTermLoanFactory | [0x6Fad515Fc046DD17166453A79725f50b917b7cF6](https://etherscan.io/address/0x6Fad515Fc046DD17166453A79725f50b917b7cF6) |
 | openTermLoanManagerFactory | [0x90b14505221a24039A2D11Ad5862339db97Cc160](https://etherscan.io/address/0x90b14505221a24039A2D11Ad5862339db97Cc160) |
 | withdrawalManagerQueueFactory | [0xca33105902E8d232DDFb9f71Ff3D79C7E7f2C4e5](https://etherscan.io/address/0xca33105902E8d232DDFb9f71Ff3D79C7E7f2C4e5) |
+| aaveStrategyFactory | [0x01ab799f77F9a9f4dd0D2b6E7C83DCF3F48D5650](https://etherscan.io/address/0x01ab799f77F9a9f4dd0D2b6E7C83DCF3F48D5650) |
+| skyStrategyFactory | [0x27327E08de810c687687F95bfCE92088089b56dB](https://etherscan.io/address/0x27327E08de810c687687F95bfCE92088089b56dB) |
+| basicStrategyFactory | [0x876D54DBF61473cA169b89B95344A14E81F37afe](https://etherscan.io/address/0x876D54DBF61473cA169b89B95344A14E81F37afe) |
 # Pools
 ## AQRU
 | Contract | Address |
@@ -79,6 +82,8 @@
 | OpenTermLoanManager | [0xb50D675f3C6D18ce5cCAc691354f92aFebD1675E](https://etherscan.io/address/0xb50D675f3C6D18ce5cCAc691354f92aFebD1675E) |
 | WithdrawalManagerQueue | [0x8A665131e796203a5232527fac441480e02fbB7F](https://etherscan.io/address/0x8A665131e796203a5232527fac441480e02fbB7F) |
 | PoolDelegateCover | [0x98005A88A32F1A88f68598aB8Ba7dB914Aa6d626](https://etherscan.io/address/0x98005A88A32F1A88f68598aB8Ba7dB914Aa6d626) |
+| AaveStrategy | [0x87Aa770f610679DFC2553FB95fAc1B4d996BA1cd](https://etherscan.io/address/0x87Aa770f610679DFC2553FB95fAc1B4d996BA1cd) |
+| SkyStrategy | [0xe3eE1b26AF5396Cec45c8C3b4c4FD5136A2455CC](https://etherscan.io/address/0xe3eE1b26AF5396Cec45c8C3b4c4FD5136A2455CC) |
 
 ## Maple Lend+Long USDC1 
 | Contract | Address |
@@ -89,6 +94,8 @@
 | OpenTermLoanManager | [0x56EF41693F69D422A88Cc6492888a1bd41923d33](https://etherscan.io/address/0x56EF41693F69D422A88Cc6492888a1bd41923d33) |
 | WithdrawalManagerQueue | [0x98c0d6Cd8aF6274801de98aead27dC9ef03c6Ab2](https://etherscan.io/address/0x98c0d6Cd8aF6274801de98aead27dC9ef03c6Ab2) |
 | PoolDelegateCover | [0x1863b215893cE70954b3B13D7a09fCB5B86951b8](https://etherscan.io/address/0x1863b215893cE70954b3B13D7a09fCB5B86951b8) |
+| AaveStrategy | [0x36C2C86a929E72afb23235d5E91e50809CBfA2Ae](https://etherscan.io/address/0x36C2C86a929E72afb23235d5E91e50809CBfA2Ae) |
+| SkyStrategy | [0xb390AeA520885b02af36EC3c96f79b3Bb81C5807](https://etherscan.io/address/0xb390AeA520885b02af36EC3c96f79b3Bb81C5807) |
 
 ## Maple Lend+Long USDC2 
 | Contract | Address |
@@ -99,6 +106,8 @@
 | OpenTermLoanManager | [0x9aB77dbd4197C532F9c9f30a7E83A710E03da70a](https://etherscan.io/address/0x9aB77dbd4197C532F9c9f30a7E83A710E03da70a) |
 | WithdrawalManagerQueue | [0xc512E614Ac4d0d4FF9e548F4caD8dfE63B8a36C1](https://etherscan.io/address/0xc512E614Ac4d0d4FF9e548F4caD8dfE63B8a36C1) |
 | PoolDelegateCover | [0x5fF202796D1e793bc32e5c079855f6647c0408Ac](https://etherscan.io/address/0x5fF202796D1e793bc32e5c079855f6647c0408Ac) |
+| AaveStrategy | [0xd6E084eF7f48653cB4F9D5a2679aE7B4974C7058](https://etherscan.io/address/0xd6E084eF7f48653cB4F9D5a2679aE7B4974C7058) |
+| SkyStrategy | [0x34E7014E2Ef62C2F3Cc8c8c25Ac0110E2aA33B00](https://etherscan.io/address/0x34E7014E2Ef62C2F3Cc8c8c25Ac0110E2aA33B00) |
 
 ## Syrup USDC 
 | Contract | Address |
@@ -110,6 +119,8 @@
 | WithdrawalManagerQueue | [0x1bc47a0Dd0FdaB96E9eF982fdf1F34DC6207cfE3](https://etherscan.io/address/0x1bc47a0Dd0FdaB96E9eF982fdf1F34DC6207cfE3) |
 | PoolDelegateCover | [0x9e62FE15d0E99cE2b30CE0D256e9Ab7b6893AfF5](https://etherscan.io/address/0x9e62FE15d0E99cE2b30CE0D256e9Ab7b6893AfF5) |
 | SyrupRouter | [0x134cCaaA4F1e4552eC8aEcb9E4A2360dDcF8df76](https://etherscan.io/address/0x134cCaaA4F1e4552eC8aEcb9E4A2360dDcF8df76) |
+| AaveStrategy | [0x560B3A85Af1cEF113BB60105d0Cf21e1d05F91d4](https://etherscan.io/address/0x560B3A85Af1cEF113BB60105d0Cf21e1d05F91d4) |
+| SkyStrategy | [0x859C9980931fa0A63765fD8EF2e29918Af5b038C](https://etherscan.io/address/0x859C9980931fa0A63765fD8EF2e29918Af5b038C) |
 
 ## Syrup USDT 
 | Contract | Address |
@@ -121,6 +132,7 @@
 | WithdrawalManagerQueue | [0x86eBDf902d800F2a82038290B6DBb2A5eE29eB8C](https://etherscan.io/address/0x86eBDf902d800F2a82038290B6DBb2A5eE29eB8C) |
 | PoolDelegateCover | [0x610d99d86d48b385b2ed17a0063e53B5c98E15A1](https://etherscan.io/address/0x610d99d86d48b385b2ed17a0063e53B5c98E15A1) |
 | SyrupRouter | [0xF007476Bb27430795138C511F18F821e8D1e5Ee2](https://etherscan.io/address/0xF007476Bb27430795138C511F18F821e8D1e5Ee2) |
+| AaveStrategy | [0x2b817B822B0ddd4597a92dBEd1bD0a6796CA37E0](https://etherscan.io/address/0x2b817B822B0ddd4597a92dBEd1bD0a6796CA37E0) |
 
 # Proxies
 ## fixedTermLoanV400
@@ -212,6 +224,12 @@
 | Initializer | [0x252C44A1630095504E3D3972b9b296f5ED494911](https://etherscan.io/address/0x252C44A1630095504E3D3972b9b296f5ED494911) |
 | Migrator | [0x9d07A8373E9ABE5A430cCD161d6373e248D7778F](https://etherscan.io/address/0x9d07A8373E9ABE5A430cCD161d6373e248D7778F) |
 
+## PoolManagerV400
+| Contract | Address |
+| --- | --- |
+| Implementation | [0xfE02Be1aD28EdFd8e3dD6F29C402B244C2A258B8](https://etherscan.io/address/0xfE02Be1aD28EdFd8e3dD6F29C402B244C2A258B8) |
+| Initializer | [0xB33Bfa00E1d92fDaC5AeCB2976d6998C2ecca759](https://etherscan.io/address/0xB33Bfa00E1d92fDaC5AeCB2976d6998C2ecca759) |
+
 ## WithdrawalManagerCyclicalV100
 | Contract | Address |
 | --- | --- |
@@ -240,6 +258,34 @@
 | --- | --- |
 | Implementation | [0x5A64417823E8382a7e8957E4411873FE758E73a8](https://etherscan.io/address/0x5A64417823E8382a7e8957E4411873FE758E73a8) |
 
+## globalsV301
+| Contract | Address |
+| --- | --- |
+| Implementation | [0x9BeAbb1B6F3ad1DdB87b65148BA5Eb6102334956](https://etherscan.io/address/0x9BeAbb1B6F3ad1DdB87b65148BA5Eb6102334956) |
+
+## borrowerActionsV1
+| Contract | Address |
+| --- | --- |
+| Implementation | [0x78c5f240A1150c3c2ebDBDe559d04a0418DFCFF3](https://etherscan.io/address/0x78c5f240A1150c3c2ebDBDe559d04a0418DFCFF3) |
+
+## aaveStrategyV100
+| Contract | Address |
+| --- | --- |
+| Implementation | [0xFc8F7F97165d446B02Cc95363d2cA31154BBe9F9](https://etherscan.io/address/0xFc8F7F97165d446B02Cc95363d2cA31154BBe9F9) |
+| Initializer | [0x0d2dBb28B1c7d225132722FAdb2402E93A35c1Be](https://etherscan.io/address/0x0d2dBb28B1c7d225132722FAdb2402E93A35c1Be) |
+
+## skyStrategyV100
+| Contract | Address |
+| --- | --- |
+| Implementation | [0xBBEe42621499005Ff0dDEF947BBDeFfBBeE77730](https://etherscan.io/address/0xBBEe42621499005Ff0dDEF947BBDeFfBBeE77730) |
+| Initializer | [0x29199d071717c72baab50eEf9adD6736A18A1d1d](https://etherscan.io/address/0x29199d071717c72baab50eEf9adD6736A18A1d1d) |
+
+## basicStrategyV100
+| Contract | Address |
+| --- | --- |
+| Implementation | [0x7a1E281Ec29F3A861f211a28a23161762BD55B73](https://etherscan.io/address/0x7a1E281Ec29F3A861f211a28a23161762BD55B73) |
+| Initializer | [0x2b9aDDb5244548f126e59FA5483040efc102f69e](https://etherscan.io/address/0x2b9aDDb5244548f126e59FA5483040efc102f69e) |
+
 # Singletons
 | Contract | Address |
 | --- | --- |
@@ -254,11 +300,12 @@
 | fixedTermRefinancerV2 | [0x27ea6e67FB62AB2A603d4ACBc9377D7a9A0fd5e3](https://etherscan.io/address/0x27ea6e67FB62AB2A603d4ACBc9377D7a9A0fd5e3) |
 | openTermRefinancer | [0x653D4947620B73a433cAbBc9DFb068c3e9c18984](https://etherscan.io/address/0x653D4947620B73a433cAbBc9DFb068c3e9c18984) |
 | poolPermissionManager | [0xBe10aDcE8B6E3E02Db384E7FaDA5395DD113D8b3](https://etherscan.io/address/0xBe10aDcE8B6E3E02Db384E7FaDA5395DD113D8b3) |
-| protocolHealthChecker | [0xfFfFcbA2234b01e7324158EFb83F2f3ED82d1B0D](https://etherscan.io/address/0xfFfFcbA2234b01e7324158EFb83F2f3ED82d1B0D) |
+| protocolHealthChecker | [0x0fc32214f7B5F8b9F8B4fFCE8B72E0c4D30cEa79](https://etherscan.io/address/0x0fc32214f7B5F8b9F8B4fFCE8B72E0c4D30cEa79) |
 | xmplHealthChecker | [0xF1714088AA71aedAA8EbdaB7A06cAb0748b84Df8](https://etherscan.io/address/0xF1714088AA71aedAA8EbdaB7A06cAb0748b84Df8) |
 | syrupRateProvider | [0xd2C59781F1Db84080A0592CE83Fe265642A4a8Eb](https://etherscan.io/address/0xd2C59781F1Db84080A0592CE83Fe265642A4a8Eb) |
 | mplUserActions | [0x75B7B44dCD28df0beda913Ae2809ede986e8F461](https://etherscan.io/address/0x75B7B44dCD28df0beda913Ae2809ede986e8F461) |
 | syrupDrip | [0x509712F368255E92410893Ba2E488f40f7E986EA](https://etherscan.io/address/0x509712F368255E92410893Ba2E488f40f7E986EA) |
+| borrowerActions | [0x70Eb188452DaA5f4662150E437B61dA148449E20](https://etherscan.io/address/0x70Eb188452DaA5f4662150E437B61dA148449E20) |
 # Tokens
 | Contract | Address |
 | --- | --- |
