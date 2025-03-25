@@ -217,6 +217,11 @@
                         "initializer": "0x37dBaB1Ca75bAf218251F05e4063270cdd5C5FA8"
                     },
                     {
+                        "name": "fixedTermLoanV601",
+                        "implementation": "0xe1714CEEB10683448E40bFE73c9F493662ff5b7e",
+                        "initializer": "0xC43e722A0F9432609a96Df0cF1aFA99556532F18"
+                    },
+                    {
                         "name": "openTermLoanV101",
                         "implementation": "0x085176E2a201c90cE506be00BFc4f411bf9b3998",
                         "initializer": "0x92d40038e411612E8cE633cCC29158c6A55CD9f3"
@@ -225,6 +230,11 @@
                         "name": "openTermLoanV200",
                         "implementation": "0x133A6feE09dFb0FD3B0e0f69c8897cCe3798d4bB",
                         "initializer": "0xBBd0537D68C41Dc3EDa4B362436A119059Be9836"
+                    },
+                    {
+                        "name": "openTermLoanV201",
+                        "implementation": "0xEeaDb66693d63cFCF3E4D942D2812D4aE9443Fc1",
+                        "initializer": "0x9385A0F681c3D4b39c2780cD69777Dd97a681485"
                     },
                     {
                         "name": "liquidatorV200",
