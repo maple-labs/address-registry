@@ -173,11 +173,17 @@ contract MapleAddressRegistryETH {
     address constant public fixedTermLoanV600Implementation = 0xe59afb1A3239a0aE48c9b77a44c3CDf1A3783F9d;
     address constant public fixedTermLoanV600Initializer    = 0x37dBaB1Ca75bAf218251F05e4063270cdd5C5FA8;
 
+    address constant public fixedTermLoanV601Implementation = 0xe1714CEEB10683448E40bFE73c9F493662ff5b7e;
+    address constant public fixedTermLoanV601Initializer    = 0xC43e722A0F9432609a96Df0cF1aFA99556532F18;
+
     address constant public openTermLoanV101Implementation = 0x085176E2a201c90cE506be00BFc4f411bf9b3998;
     address constant public openTermLoanV101Initializer    = 0x92d40038e411612E8cE633cCC29158c6A55CD9f3;
 
     address constant public openTermLoanV200Implementation = 0x133A6feE09dFb0FD3B0e0f69c8897cCe3798d4bB;
     address constant public openTermLoanV200Initializer    = 0xBBd0537D68C41Dc3EDa4B362436A119059Be9836;
+
+    address constant public openTermLoanV201Implementation = 0xEeaDb66693d63cFCF3E4D942D2812D4aE9443Fc1;
+    address constant public openTermLoanV201Initializer    = 0x9385A0F681c3D4b39c2780cD69777Dd97a681485;
 
     address constant public liquidatorV200Implementation = 0xe6a03Ba967172a1FF218FEE686445f444258021A;
     address constant public liquidatorV200Initializer    = 0xED9D14F83eddd08572c403175FFf41c42a35a149;

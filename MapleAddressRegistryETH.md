@@ -162,6 +162,12 @@
 | Implementation | [0xe59afb1A3239a0aE48c9b77a44c3CDf1A3783F9d](https://etherscan.io/address/0xe59afb1A3239a0aE48c9b77a44c3CDf1A3783F9d) |
 | Initializer | [0x37dBaB1Ca75bAf218251F05e4063270cdd5C5FA8](https://etherscan.io/address/0x37dBaB1Ca75bAf218251F05e4063270cdd5C5FA8) |
 
+## fixedTermLoanV601
+| Contract | Address |
+| --- | --- |
+| Implementation | [0xe1714CEEB10683448E40bFE73c9F493662ff5b7e](https://etherscan.io/address/0xe1714CEEB10683448E40bFE73c9F493662ff5b7e) |
+| Initializer | [0xC43e722A0F9432609a96Df0cF1aFA99556532F18](https://etherscan.io/address/0xC43e722A0F9432609a96Df0cF1aFA99556532F18) |
+
 ## openTermLoanV101
 | Contract | Address |
 | --- | --- |
@@ -173,6 +179,12 @@
 | --- | --- |
 | Implementation | [0x133A6feE09dFb0FD3B0e0f69c8897cCe3798d4bB](https://etherscan.io/address/0x133A6feE09dFb0FD3B0e0f69c8897cCe3798d4bB) |
 | Initializer | [0xBBd0537D68C41Dc3EDa4B362436A119059Be9836](https://etherscan.io/address/0xBBd0537D68C41Dc3EDa4B362436A119059Be9836) |
+
+## openTermLoanV201
+| Contract | Address |
+| --- | --- |
+| Implementation | [0xEeaDb66693d63cFCF3E4D942D2812D4aE9443Fc1](https://etherscan.io/address/0xEeaDb66693d63cFCF3E4D942D2812D4aE9443Fc1) |
+| Initializer | [0x9385A0F681c3D4b39c2780cD69777Dd97a681485](https://etherscan.io/address/0x9385A0F681c3D4b39c2780cD69777Dd97a681485) |
 
 ## liquidatorV200
 | Contract | Address |
