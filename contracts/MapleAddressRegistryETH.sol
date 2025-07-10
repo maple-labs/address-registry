@@ -251,6 +251,7 @@ contract MapleAddressRegistryETH {
     address constant public poolDeployerV1        = 0x9322fCbb9cf9F04728AD9CB62c80a12615FF9aDc;
     address constant public poolDeployerV2        = 0x87826F821AF105802064785A3905C794eF259D5C;
     address constant public poolDeployerV3        = 0x12fB5dbBDB06ab973f047cC46D6bB33ba4d03b96;
+    address constant public poolDeployerV4        = 0xdaF005B31B10F33EE42cEB1A4b983434FE947488;
     address constant public feeManager            = 0xFeACa6A5703E6F9DE0ebE0975C93AE34c00523F2;
     address constant public fixedTermRefinancerV1 = 0xec90671c2c8f4cCBb6074938f893306a13402251;
     address constant public fixedTermRefinancerV2 = 0x27ea6e67FB62AB2A603d4ACBc9377D7a9A0fd5e3;
@@ -290,6 +291,7 @@ contract MapleAddressRegistryETH {
     address constant public syrupRecapitalizationModule = 0x5dfe0460f66fa06bFCbB3211e723556be6B3f69D;
     address constant public syrupStSyrup                = 0xc7E8b36E0766D9B04c93De68A9D47dD11f260B45;
     address constant public syrupSyrupOftAdapter        = 0x688AEe022AA544f150678B8E5720b6b96a9E9a2F;
+
 
     /**************************************************************************************************************************************/
     /*** ExternalProtocolContracts                                                                                                      ***/

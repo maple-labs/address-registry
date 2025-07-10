@@ -356,6 +356,10 @@
                         "address": "0x12fB5dbBDB06ab973f047cC46D6bB33ba4d03b96"
                     },
                     {
+                        "name": "poolDeployerV4",
+                        "address": "0xdaF005B31B10F33EE42cEB1A4b983434FE947488"
+                    },
+                    {
                         "name": "feeManager",
                         "address": "0xFeACa6A5703E6F9DE0ebE0975C93AE34c00523F2"
                     },
