@@ -402,6 +402,10 @@
                     {
                         "name": "borrowerActions",
                         "address": "0x70Eb188452DaA5f4662150E437B61dA148449E20"
+                    },
+                    {
+                        "name": "governorTimelock",
+                        "address": "0x70Eb188452DaA5f4662150E437B61dA148449E20"
                     }
                 ],
                 "tokens": [
