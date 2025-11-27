@@ -8,7 +8,8 @@ contract MapleAddressRegistryETH {
     /*** Actors                                                                                                                         ***/
     /**************************************************************************************************************************************/
 
-    address constant public governor                = 0xd6d4Bcde6c816F17889f1Dd3000aF0261B03a196;
+    address constant public daoMultisig             = 0xd6d4Bcde6c816F17889f1Dd3000aF0261B03a196;
+    address constant public governor                = 0x2eFFf88747EB5a3FF00d4d8d0f0800E306C0426b;
     address constant public securityAdmin           = 0x6b1A78C1943b03086F7Ee53360f9b0672bD60818;
     address constant public operationalAdmin        = 0xCe1cE7c7F436DCc4E28Bc8bf86115514d3DC34E8;
     address constant public globalAdmin             = 0x0D8b2C1F11c5f9cD51de6dB3b256C1e3b0800200;
@@ -33,101 +34,7 @@ contract MapleAddressRegistryETH {
     address constant public basicStrategyFactory             = 0x876D54DBF61473cA169b89B95344A14E81F37afe;
 
     /**************************************************************************************************************************************/
-    /*** AQRU                                                                                                                           ***/
-    /**************************************************************************************************************************************/
-
-    address constant public aqruPool                      = 0xe9d33286f0E37f517B1204aA6dA085564414996d;
-    address constant public aqruPoolManager               = 0xA9c908Ee077eE26B52137FfF714150C7Eb69E160;
-    address constant public aqruFixedTermLoanManager      = 0xd05998A1940294E3E49f99DBB13fe20A3483F5Ae;
-    address constant public aqruOpenTermLoanManager       = 0x483082e93635ef280bc5E9f65575A7ff288aBA33;
-    address constant public aqruWithdrawalManagerCyclical = 0x515f77Fc8E1473591a89181a2Cf6CD0AAf3f932d;
-    address constant public aqruPoolDelegateCover         = 0x845bD1C0DBeA5eacd97E6B4544a48176F5f31Db9;
-
-    /**************************************************************************************************************************************/
-    /*** Cash Management USDC                                                                                                           ***/
-    /**************************************************************************************************************************************/
-
-    address constant public cashUSDCPool                   = 0xfe119e9C24ab79F1bDd5dd884B86Ceea2eE75D92;
-    address constant public cashUSDCPoolManager            = 0x219654A61a0BC394055652986BE403fa14405Bb8;
-    address constant public cashUSDCFixedTermLoanManager   = 0xf4d4a5270aa834A2a77011526447fDF1e227018f;
-    address constant public cashUSDCOpenTermLoanManager    = 0xfAB269CB4Ab4D33A61e1648114f6147742F5eeCC;
-    address constant public cashUSDCWithdrawalManagerQueue = 0x447dcEa1d616f792645ed6E71bC32955A0dBcbAa;
-    address constant public cashUSDCPoolDelegateCover      = 0x324bd0ae17CCBc16F17ffC085E5B03Fd2aCf0A72;
-
-    /**************************************************************************************************************************************/
-    /*** Blue Chip Secured Lending USDC                                                                                                 ***/
-    /**************************************************************************************************************************************/
-
-    address constant public blueChipSecuredUSDCPool                   = 0xc1dD3F011290F212227170F0D02F511EBF57E433;
-    address constant public blueChipSecuredUSDCPoolManager            = 0x5eE9587Bf5f4ccceEEd87B0216a31EBb513fAC25;
-    address constant public blueChipSecuredUSDCFixedTermLoanManager   = 0x91582bDFEF0Bf36Fc326A4aB9b59aAcD61c105fF;
-    address constant public blueChipSecuredUSDCOpenTermLoanManager    = 0xdC9b93A8A336fe5dc9DB97616eA2118000d70fc0;
-    address constant public blueChipSecuredUSDCWithdrawalManagerQueue = 0xf18066Db3A9590C401e1841598ad90663B4C6d23;
-    address constant public blueChipSecuredUSDCPoolDelegateCover      = 0x773C634B1c12A4A7036eeeA21586dAeD1Df313C5;
-
-    /**************************************************************************************************************************************/
-    /*** High Yield Corporate Loan USDC                                                                                                 ***/
-    /**************************************************************************************************************************************/
-
-    address constant public highYieldCorpUSDCPool                   = 0x6174A27160f4D7885Db4FFeD1C0b5fbD66c87F3a;
-    address constant public highYieldCorpUSDCPoolManager            = 0x81525e55ccfec06f11f1Fdeaf446652c4eC2064F;
-    address constant public highYieldCorpUSDCFixedTermLoanManager   = 0xEca9d2C5f81DD50DCe7493104467dC33362a436F;
-    address constant public highYieldCorpUSDCOpenTermLoanManager    = 0x2638802a78D6a97d0041CC7B52fb9A80994424cd;
-    address constant public highYieldCorpUSDCWithdrawalManagerQueue = 0xEb7B1e9C750190214cDFbbAf0ABE398A5e47D230;
-    address constant public highYieldCorpUSDCPoolDelegateCover      = 0xc6cfB7C88d1F072B92984adfcA19D3711C97B416;
-
-    /**************************************************************************************************************************************/
-    /*** High Yield Corporate Loan WETH                                                                                                 ***/
-    /**************************************************************************************************************************************/
-
-    address constant public highYieldCorpWETHPool                   = 0xCCBc525ED9d85Ad8325b7b6C4C6A79f5566dEa3B;
-    address constant public highYieldCorpWETHPoolManager            = 0xed8b578A01f3CD65488fC19D37E2285eF934e54A;
-    address constant public highYieldCorpWETHFixedTermLoanManager   = 0xc82095C002E726e4b3C8c26eE769b44C772ef9f7;
-    address constant public highYieldCorpWETHOpenTermLoanManager    = 0xe3AAC29001c769FAfCef0df072ca396e310ed13b;
-    address constant public highYieldCorpWETHWithdrawalManagerQueue = 0x58A534945f357aa0d2fb56b8BDf7dfA1073bd7a1;
-    address constant public highYieldCorpWETHPoolDelegateCover      = 0x93cdDB2482812A314DDD6aa90007a41F954ef3eB;
-
-    /**************************************************************************************************************************************/
-    /*** High Yield Secured Lending - USDC                                                                                              ***/
-    /**************************************************************************************************************************************/
-
-    address constant public securedLendingUSDCPool                   = 0xC39a5A616F0ad1Ff45077FA2dE3f79ab8eb8b8B9;
-    address constant public securedLendingUSDCPoolManager            = 0x9ceF7d1D390A4811bBa1BC40A53B40a506C33B19;
-    address constant public securedLendingUSDCFixedTermLoanManager   = 0x78a13c2f24dF55feeF7f8C895396cf1DD21Cf56f;
-    address constant public securedLendingUSDCOpenTermLoanManager    = 0xb50D675f3C6D18ce5cCAc691354f92aFebD1675E;
-    address constant public securedLendingUSDCWithdrawalManagerQueue = 0x8A665131e796203a5232527fac441480e02fbB7F;
-    address constant public securedLendingUSDCPoolDelegateCover      = 0x98005A88A32F1A88f68598aB8Ba7dB914Aa6d626;
-    address constant public securedLendingUSDCAaveStrategy           = 0x87Aa770f610679DFC2553FB95fAc1B4d996BA1cd;
-    address constant public securedLendingUSDCSkyStrategy            = 0xe3eE1b26AF5396Cec45c8C3b4c4FD5136A2455CC;
-
-    /**************************************************************************************************************************************/
-    /*** Maple Lend+Long USDC1                                                                                                          ***/
-    /**************************************************************************************************************************************/
-
-    address constant public LendAndLongUSDC1Pool                   = 0x37154b07d58cD736a09ED93CED06613A06F93081;
-    address constant public LendAndLongUSDC1PoolManager            = 0x9Aeb8e5EA0e4035fc681cBe1f03A351BBEc253df;
-    address constant public LendAndLongUSDC1FixedTermLoanManager   = 0x5ad7130cC75b617D45cB908245c2D3D3507F054E;
-    address constant public LendAndLongUSDC1OpenTermLoanManager    = 0x56EF41693F69D422A88Cc6492888a1bd41923d33;
-    address constant public LendAndLongUSDC1WithdrawalManagerQueue = 0x98c0d6Cd8aF6274801de98aead27dC9ef03c6Ab2;
-    address constant public LendAndLongUSDC1PoolDelegateCover      = 0x1863b215893cE70954b3B13D7a09fCB5B86951b8;
-    address constant public LendAndLongUSDC1AaveStrategy           = 0x36C2C86a929E72afb23235d5E91e50809CBfA2Ae;
-    address constant public LendAndLongUSDC1SkyStrategy            = 0xb390AeA520885b02af36EC3c96f79b3Bb81C5807;
-
-    /**************************************************************************************************************************************/
-    /*** Maple Lend+Long USDC2                                                                                                          ***/
-    /**************************************************************************************************************************************/
-
-    address constant public LendAndLongUSDC2Pool                   = 0xC9c9BAB51B02b4E60a828a09803305772Ae1D2eB;
-    address constant public LendAndLongUSDC2PoolManager            = 0x036F141111E370cB9c4Fcc734BBd89D44478cb79;
-    address constant public LendAndLongUSDC2FixedTermLoanManager   = 0x09f533dB668811D50707692812A2eed6B0836922;
-    address constant public LendAndLongUSDC2OpenTermLoanManager    = 0x9aB77dbd4197C532F9c9f30a7E83A710E03da70a;
-    address constant public LendAndLongUSDC2WithdrawalManagerQueue = 0xc512E614Ac4d0d4FF9e548F4caD8dfE63B8a36C1;
-    address constant public LendAndLongUSDC2PoolDelegateCover      = 0x5fF202796D1e793bc32e5c079855f6647c0408Ac;
-    address constant public LendAndLongUSDC2AaveStrategy           = 0xd6E084eF7f48653cB4F9D5a2679aE7B4974C7058;
-    address constant public LendAndLongUSDC2SkyStrategy            = 0x34E7014E2Ef62C2F3Cc8c8c25Ac0110E2aA33B00;
-
-    /**************************************************************************************************************************************/
-    /*** Syrup USDC                                                                                                                     ***/
+    /*** syrupUSDC                                                                                                                      ***/
     /**************************************************************************************************************************************/
 
     address constant public syrupUSDCPool                   = 0x80ac24aA929eaF5013f6436cdA2a7ba190f5Cc0b;
@@ -141,7 +48,7 @@ contract MapleAddressRegistryETH {
     address constant public syrupUSDCSkyStrategy            = 0x859C9980931fa0A63765fD8EF2e29918Af5b038C;
 
     /**************************************************************************************************************************************/
-    /*** Syrup USDT                                                                                                                     ***/
+    /*** syrupUSDT                                                                                                                      ***/
     /**************************************************************************************************************************************/
 
     address constant public syrupUSDTPool                   = 0x356B8d89c1e1239Cbbb9dE4815c39A1474d5BA7D;
@@ -152,6 +59,19 @@ contract MapleAddressRegistryETH {
     address constant public syrupUSDTPoolDelegateCover      = 0x610d99d86d48b385b2ed17a0063e53B5c98E15A1;
     address constant public syrupUSDTSyrupRouter            = 0xF007476Bb27430795138C511F18F821e8D1e5Ee2;
     address constant public syrupUSDTAaveStrategy           = 0x2b817B822B0ddd4597a92dBEd1bD0a6796CA37E0;
+
+    /**************************************************************************************************************************************/
+    /*** High Yield Secured Lending - USDC                                                                                              ***/
+    /**************************************************************************************************************************************/
+
+    address constant public securedLendingUSDCPool                   = 0xC39a5A616F0ad1Ff45077FA2dE3f79ab8eb8b8B9;
+    address constant public securedLendingUSDCPoolManager            = 0x9ceF7d1D390A4811bBa1BC40A53B40a506C33B19;
+    address constant public securedLendingUSDCFixedTermLoanManager   = 0x78a13c2f24dF55feeF7f8C895396cf1DD21Cf56f;
+    address constant public securedLendingUSDCOpenTermLoanManager    = 0xb50D675f3C6D18ce5cCAc691354f92aFebD1675E;
+    address constant public securedLendingUSDCWithdrawalManagerQueue = 0x8A665131e796203a5232527fac441480e02fbB7F;
+    address constant public securedLendingUSDCPoolDelegateCover      = 0x98005A88A32F1A88f68598aB8Ba7dB914Aa6d626;
+    address constant public securedLendingUSDCAaveStrategy           = 0x87Aa770f610679DFC2553FB95fAc1B4d996BA1cd;
+    address constant public securedLendingUSDCSkyStrategy            = 0xe3eE1b26AF5396Cec45c8C3b4c4FD5136A2455CC;
 
 
     /**************************************************************************************************************************************/
@@ -222,6 +142,10 @@ contract MapleAddressRegistryETH {
 
     address constant public WithdrawalManagerQueueV100Implementation = 0x899B57Bbd8597aa2d1898476504f479c982c5c2c;
     address constant public WithdrawalManagerQueueV100Initializer    = 0x637f8dC4C4d07D1CC30ae131fA94A060dee6be96;
+
+    address constant public WithdrawalManagerQueueV200Implementation = 0xF95E5722226a1018d058CD757B75F1D10289e967;
+    address constant public WithdrawalManagerQueueV200Initializer    = 0xD389BFE4A129525b486B098411336a4fCecF3024;
+    address constant public WithdrawalManagerQueueV200Migrator       = 0x327ec27a6D898D865D7759D47d36a2c3FBbD23a5;
 
     address constant public globalsV2Implementation = 0x562374079a8A07417ec4A69d5d52F9CBa796d364;
 
