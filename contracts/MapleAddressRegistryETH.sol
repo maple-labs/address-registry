@@ -61,7 +61,7 @@ contract MapleAddressRegistryETH {
     address constant public syrupUSDTAaveStrategy           = 0x2b817B822B0ddd4597a92dBEd1bD0a6796CA37E0;
 
     /**************************************************************************************************************************************/
-    /*** High Yield Secured Lending - USDC                                                                                              ***/
+    /*** Maple Institutional - Secured Lending                                                                                          ***/
     /**************************************************************************************************************************************/
 
     address constant public securedLendingUSDCPool                   = 0xC39a5A616F0ad1Ff45077FA2dE3f79ab8eb8b8B9;
