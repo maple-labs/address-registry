@@ -110,7 +110,7 @@
                         "aaveStrategy": "0x2b817B822B0ddd4597a92dBEd1bD0a6796CA37E0"
                     },
                     {
-                        "label": "High Yield Secured Lending - USDC ",
+                        "label": "Maple Institutional - Secured Lending ",
                         "name": "securedLendingUSDC",
                         "address": "0xC39a5A616F0ad1Ff45077FA2dE3f79ab8eb8b8B9",
                         "poolManager": "0x9ceF7d1D390A4811bBa1BC40A53B40a506C33B19",
