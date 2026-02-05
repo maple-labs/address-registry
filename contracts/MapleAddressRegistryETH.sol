@@ -188,6 +188,7 @@ contract MapleAddressRegistryETH {
     address constant public syrupDrip             = 0x509712F368255E92410893Ba2E488f40f7E986EA;
     address constant public borrowerActions       = 0x70Eb188452DaA5f4662150E437B61dA148449E20;
     address constant public governorTimelock      = 0x2eFFf88747EB5a3FF00d4d8d0f0800E306C0426b;
+    address constant public mapleCcipReceiver     = 0x02B6A75c5D1F430F0614dc5AC8aD5F9D35fbA2c4;
 
     /**************************************************************************************************************************************/
     /*** Tokens                                                                                                                         ***/
@@ -227,5 +228,6 @@ contract MapleAddressRegistryETH {
     address constant public usds        = 0xdC035D45d973E3EC169d2276DDab16f1e407384F;
     address constant public aUsdt       = 0x23878914EFE38d27C4D67Ab83ed1b93A74D4086a;
     address constant public aUsdc       = 0x98C23E9d8f34FEFb1B7BD6a91B7FF122F4e16F5c;
+
 
 }
