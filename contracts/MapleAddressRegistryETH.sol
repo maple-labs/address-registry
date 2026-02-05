@@ -229,5 +229,4 @@ contract MapleAddressRegistryETH {
     address constant public aUsdt       = 0x23878914EFE38d27C4D67Ab83ed1b93A74D4086a;
     address constant public aUsdc       = 0x98C23E9d8f34FEFb1B7BD6a91B7FF122F4e16F5c;
 
-
 }
