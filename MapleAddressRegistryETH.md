@@ -254,9 +254,6 @@
 | syrupDrip | [0x509712F368255E92410893Ba2E488f40f7E986EA](https://etherscan.io/address/0x509712F368255E92410893Ba2E488f40f7E986EA) |
 | borrowerActions | [0x70Eb188452DaA5f4662150E437B61dA148449E20](https://etherscan.io/address/0x70Eb188452DaA5f4662150E437B61dA148449E20) |
 | governorTimelock | [0x2eFFf88747EB5a3FF00d4d8d0f0800E306C0426b](https://etherscan.io/address/0x2eFFf88747EB5a3FF00d4d8d0f0800E306C0426b) |
-| mapleCcipReceiverProxy | [0x02B6A75c5D1F430F0614dc5AC8aD5F9D35fbA2c4](https://etherscan.io/address/0x02B6A75c5D1F430F0614dc5AC8aD5F9D35fbA2c4) |
-| mapleCcipReceiverImplementation | [0x23CEF2965Db19f67A996371F9Cb1A2F33D2b4821](https://etherscan.io/address/0x23CEF2965Db19f67A996371F9Cb1A2F33D2b4821) |
-
 # Tokens
 | Contract | Address |
 | --- | --- |
@@ -278,6 +275,13 @@
 | RecapitalizationModule | [0x5dfe0460f66fa06bFCbB3211e723556be6B3f69D](https://etherscan.io/address/0x5dfe0460f66fa06bFCbB3211e723556be6B3f69D) |
 | StSyrup | [0xc7E8b36E0766D9B04c93De68A9D47dD11f260B45](https://etherscan.io/address/0xc7E8b36E0766D9B04c93De68A9D47dD11f260B45) |
 | SyrupOftAdapter | [0x688AEe022AA544f150678B8E5720b6b96a9E9a2F](https://etherscan.io/address/0x688AEe022AA544f150678B8E5720b6b96a9E9a2F) |
+
+# MapleCCIPReceiver
+| Contract | Address |
+| --- | --- |
+| Proxy | [0x02B6A75c5D1F430F0614dc5AC8aD5F9D35fbA2c4](https://etherscan.io/address/0x02B6A75c5D1F430F0614dc5AC8aD5F9D35fbA2c4) |
+| Implementation | [0x23CEF2965Db19f67A996371F9Cb1A2F33D2b4821](https://etherscan.io/address/0x23CEF2965Db19f67A996371F9Cb1A2F33D2b4821) |
+
 # ExternalProtocolContracts
 | Contract | Address |
 | --- | --- |
