@@ -381,6 +381,13 @@
                         "syrupOftAdapter": "0x688AEe022AA544f150678B8E5720b6b96a9E9a2F"
                     }
                 ],
+                "mapleCCIPReceiver": [
+                    {
+                        "name": "mapleCCIPReceiver",
+                        "proxy": "0x02B6A75c5D1F430F0614dc5AC8aD5F9D35fbA2c4",
+                        "implementation": "0x23CEF2965Db19f67A996371F9Cb1A2F33D2b4821"
+                    }
+                ],
                 "externalProtocolContracts": [
                     {
                         "name": "usdsLitePSM",
