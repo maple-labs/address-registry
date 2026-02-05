@@ -344,8 +344,12 @@
                         "address": "0x2eFFf88747EB5a3FF00d4d8d0f0800E306C0426b"
                     },
                     {
-                        "name": "mapleCcipReceiver",
+                        "name": "mapleCcipReceiverProxy",
                         "address": "0x02B6A75c5D1F430F0614dc5AC8aD5F9D35fbA2c4"
+                    },
+                    {
+                        "name": "mapleCcipReceiverImplementation",
+                        "address": "0x23CEF2965Db19f67A996371F9Cb1A2F33D2b4821"
                     }
                 ],
                 "tokens": [
