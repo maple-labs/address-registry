@@ -181,7 +181,7 @@ contract MapleAddressRegistryETH {
     address constant public fixedTermRefinancerV2 = 0x27ea6e67FB62AB2A603d4ACBc9377D7a9A0fd5e3;
     address constant public openTermRefinancer    = 0x653D4947620B73a433cAbBc9DFb068c3e9c18984;
     address constant public poolPermissionManager = 0xBe10aDcE8B6E3E02Db384E7FaDA5395DD113D8b3;
-    address constant public protocolHealthChecker = 0x0fc32214f7B5F8b9F8B4fFCE8B72E0c4D30cEa79;
+    address constant public protocolHealthChecker = 0xc70f1DB57f72055c91cc35542aeaf9045419D67F;
     address constant public xmplHealthChecker     = 0xF1714088AA71aedAA8EbdaB7A06cAb0748b84Df8;
     address constant public syrupRateProvider     = 0xd2C59781F1Db84080A0592CE83Fe265642A4a8Eb;
     address constant public mplUserActions        = 0x75B7B44dCD28df0beda913Ae2809ede986e8F461;
@@ -224,6 +224,7 @@ contract MapleAddressRegistryETH {
 
     address constant public mapleCCIPReceiverProxy          = 0x02B6A75c5D1F430F0614dc5AC8aD5F9D35fbA2c4;
     address constant public mapleCCIPReceiverImplementation = 0x23CEF2965Db19f67A996371F9Cb1A2F33D2b4821;
+
 
     /**************************************************************************************************************************************/
     /*** ExternalProtocolContracts                                                                                                      ***/
