@@ -317,7 +317,7 @@
                     },
                     {
                         "name": "protocolHealthChecker",
-                        "address": "0x0fc32214f7B5F8b9F8B4fFCE8B72E0c4D30cEa79"
+                        "address": "0xc70f1DB57f72055c91cc35542aeaf9045419D67F"
                     },
                     {
                         "name": "xmplHealthChecker",
