@@ -217,14 +217,12 @@ contract MapleAddressRegistryETH {
     address constant public syrupStSyrup                = 0xc7E8b36E0766D9B04c93De68A9D47dD11f260B45;
     address constant public syrupSyrupOftAdapter        = 0x688AEe022AA544f150678B8E5720b6b96a9E9a2F;
 
-
     /**************************************************************************************************************************************/
     /*** MapleCCIPReceiver                                                                                                              ***/
     /**************************************************************************************************************************************/
 
     address constant public mapleCCIPReceiverProxy          = 0x02B6A75c5D1F430F0614dc5AC8aD5F9D35fbA2c4;
     address constant public mapleCCIPReceiverImplementation = 0x23CEF2965Db19f67A996371F9Cb1A2F33D2b4821;
-
 
     /**************************************************************************************************************************************/
     /*** ExternalProtocolContracts                                                                                                      ***/
