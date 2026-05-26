@@ -24,7 +24,7 @@
 | skyStrategyFactory | [0x27327E08de810c687687F95bfCE92088089b56dB](https://etherscan.io/address/0x27327E08de810c687687F95bfCE92088089b56dB) |
 | basicStrategyFactory | [0x876D54DBF61473cA169b89B95344A14E81F37afe](https://etherscan.io/address/0x876D54DBF61473cA169b89B95344A14E81F37afe) |
 # Pools
-## syrupUSDC 
+## syrupUSDC
 | Contract | Address |
 | --- | --- |
 | syrupUSDCPool | [0x80ac24aA929eaF5013f6436cdA2a7ba190f5Cc0b](https://etherscan.io/address/0x80ac24aA929eaF5013f6436cdA2a7ba190f5Cc0b) |
@@ -37,7 +37,7 @@
 | AaveStrategy | [0x560B3A85Af1cEF113BB60105d0Cf21e1d05F91d4](https://etherscan.io/address/0x560B3A85Af1cEF113BB60105d0Cf21e1d05F91d4) |
 | SkyStrategy | [0x859C9980931fa0A63765fD8EF2e29918Af5b038C](https://etherscan.io/address/0x859C9980931fa0A63765fD8EF2e29918Af5b038C) |
 
-## syrupUSDT 
+## syrupUSDT
 | Contract | Address |
 | --- | --- |
 | syrupUSDTPool | [0x356B8d89c1e1239Cbbb9dE4815c39A1474d5BA7D](https://etherscan.io/address/0x356B8d89c1e1239Cbbb9dE4815c39A1474d5BA7D) |
@@ -49,7 +49,17 @@
 | SyrupRouter | [0xF007476Bb27430795138C511F18F821e8D1e5Ee2](https://etherscan.io/address/0xF007476Bb27430795138C511F18F821e8D1e5Ee2) |
 | AaveStrategy | [0x2b817B822B0ddd4597a92dBEd1bD0a6796CA37E0](https://etherscan.io/address/0x2b817B822B0ddd4597a92dBEd1bD0a6796CA37E0) |
 
-## Maple Institutional - Secured Lending 
+## syrupUSDG
+| Contract | Address |
+| --- | --- |
+| syrupUSDGPool | [0x87b65C4aAFFA76881f9E96F3e7ED945ddFC3Cd7A](https://etherscan.io/address/0x87b65C4aAFFA76881f9E96F3e7ED945ddFC3Cd7A) |
+| PoolManager | [0x6c48CD22086F3Db3F23E7cEeDD5c429D93FF3327](https://etherscan.io/address/0x6c48CD22086F3Db3F23E7cEeDD5c429D93FF3327) |
+| OpenTermLoanManager | [0x7bE9A1FA4CD69F7a077692d4AFA52bD09531920A](https://etherscan.io/address/0x7bE9A1FA4CD69F7a077692d4AFA52bD09531920A) |
+| WithdrawalManagerQueue | [0xAf63C06970086d535F338565D77c5fA3bDC5fD79](https://etherscan.io/address/0xAf63C06970086d535F338565D77c5fA3bDC5fD79) |
+| PoolDelegateCover | [0xFdc1b5A10f4da87b459dfc3bF1313b33a2F6bfA9](https://etherscan.io/address/0xFdc1b5A10f4da87b459dfc3bF1313b33a2F6bfA9) |
+| SyrupRouter | [0x191ac16255f49F7C6cB2e3b2502064A805943849](https://etherscan.io/address/0x191ac16255f49F7C6cB2e3b2502064A805943849) |
+
+## Maple Institutional - Secured Lending
 | Contract | Address |
 | --- | --- |
 | securedLendingUSDCPool | [0xC39a5A616F0ad1Ff45077FA2dE3f79ab8eb8b8B9](https://etherscan.io/address/0xC39a5A616F0ad1Ff45077FA2dE3f79ab8eb8b8B9) |
@@ -289,7 +299,7 @@
 | aUsdt | [0x23878914EFE38d27C4D67Ab83ed1b93A74D4086a](https://etherscan.io/address/0x23878914EFE38d27C4D67Ab83ed1b93A74D4086a) |
 | aUsdc | [0x98C23E9d8f34FEFb1B7BD6a91B7FF122F4e16F5c](https://etherscan.io/address/0x98C23E9d8f34FEFb1B7BD6a91B7FF122F4e16F5c) |
 # InactivePools
-## Maple Lend+Long USDC1 
+## Maple Lend+Long USDC1
 | Contract | Address |
 | --- | --- |
 | LendAndLongUSDC1Pool | [0x37154b07d58cD736a09ED93CED06613A06F93081](https://etherscan.io/address/0x37154b07d58cD736a09ED93CED06613A06F93081) |
@@ -301,7 +311,7 @@
 | AaveStrategy | [0x36C2C86a929E72afb23235d5E91e50809CBfA2Ae](https://etherscan.io/address/0x36C2C86a929E72afb23235d5E91e50809CBfA2Ae) |
 | SkyStrategy | [0xb390AeA520885b02af36EC3c96f79b3Bb81C5807](https://etherscan.io/address/0xb390AeA520885b02af36EC3c96f79b3Bb81C5807) |
 
-## Maple Lend+Long USDC2 
+## Maple Lend+Long USDC2
 | Contract | Address |
 | --- | --- |
 | LendAndLongUSDC2Pool | [0xC9c9BAB51B02b4E60a828a09803305772Ae1D2eB](https://etherscan.io/address/0xC9c9BAB51B02b4E60a828a09803305772Ae1D2eB) |

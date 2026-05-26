@@ -61,6 +61,17 @@ contract MapleAddressRegistryETH {
     address constant public syrupUSDTAaveStrategy           = 0x2b817B822B0ddd4597a92dBEd1bD0a6796CA37E0;
 
     /**************************************************************************************************************************************/
+    /*** syrupUSDG                                                                                                                      ***/
+    /**************************************************************************************************************************************/
+
+    address constant public syrupUSDGPool                   = 0x87b65C4aAFFA76881f9E96F3e7ED945ddFC3Cd7A;
+    address constant public syrupUSDGPoolManager            = 0x6c48CD22086F3Db3F23E7cEeDD5c429D93FF3327;
+    address constant public syrupUSDGOpenTermLoanManager    = 0x7bE9A1FA4CD69F7a077692d4AFA52bD09531920A;
+    address constant public syrupUSDGWithdrawalManagerQueue = 0xAf63C06970086d535F338565D77c5fA3bDC5fD79;
+    address constant public syrupUSDGPoolDelegateCover      = 0xFdc1b5A10f4da87b459dfc3bF1313b33a2F6bfA9;
+    address constant public syrupUSDGSyrupRouter            = 0x191ac16255f49F7C6cB2e3b2502064A805943849;
+
+    /**************************************************************************************************************************************/
     /*** Maple Institutional - Secured Lending                                                                                          ***/
     /**************************************************************************************************************************************/
 
