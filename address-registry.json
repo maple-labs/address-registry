@@ -130,6 +130,15 @@
                         "poolDelegateCover": "0x98005A88A32F1A88f68598aB8Ba7dB914Aa6d626",
                         "aaveStrategy": "0x87Aa770f610679DFC2553FB95fAc1B4d996BA1cd",
                         "skyStrategy": "0xe3eE1b26AF5396Cec45c8C3b4c4FD5136A2455CC"
+                    },
+                    {
+                        "label": "Maple Institutional - Secured Lending 2 ",
+                        "name": "securedLending2USDC",
+                        "address": "0x6a956aA2D183b6b5E9d9F64b1c137098BeF627Ea",
+                        "poolManager": "0x462e6203176b41B741B3DD03Db14ffb29fcfA693",
+                        "openTermLoanManager": "0x7d4c8157c29BaFf70D5d08CE57Eaf32820415E12",
+                        "withdrawalManagerQueue": "0xb84A4aF193ba7b2ecfc8E65a099e0f01EbbbF6f4",
+                        "poolDelegateCover": "0x938F9532F8Afd8fF9294AbBa37B89b780aaFD186"
                     }
                 ],
                 "proxies": [
