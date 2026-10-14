@@ -94,6 +94,16 @@ contract MapleAddressRegistryETH {
     address constant public securedLending2USDCWithdrawalManagerQueue = 0xb84A4aF193ba7b2ecfc8E65a099e0f01EbbbF6f4;
     address constant public securedLending2USDCPoolDelegateCover      = 0x938F9532F8Afd8fF9294AbBa37B89b780aaFD186;
 
+    /**************************************************************************************************************************************/
+    /*** Maple Institutional - Secured Lending 3                                                                                        ***/
+    /**************************************************************************************************************************************/
+
+    address constant public securedLending3USDCPool                   = 0xa7f5df53165FaEb890ae37f4B0f973A42D166222;
+    address constant public securedLending3USDCPoolManager            = 0xb0eAD5d35c07f9EE6fc4E2c82B929CA39151E98D;
+    address constant public securedLending3USDCOpenTermLoanManager    = 0x7eC236b4B1c6cA0D87405057714eAD0f63Ed8849;
+    address constant public securedLending3USDCWithdrawalManagerQueue = 0x3c139C88D45cD17d85f75371De4DE4368BFc18fd;
+    address constant public securedLending3USDCPoolDelegateCover      = 0x442155C5DEF2a733EAE0365b87F63C2457047fbd;
+
 
     /**************************************************************************************************************************************/
     /*** Proxies                                                                                                                        ***/

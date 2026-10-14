@@ -80,6 +80,15 @@
 | WithdrawalManagerQueue | [0xb84A4aF193ba7b2ecfc8E65a099e0f01EbbbF6f4](https://etherscan.io/address/0xb84A4aF193ba7b2ecfc8E65a099e0f01EbbbF6f4) |
 | PoolDelegateCover | [0x938F9532F8Afd8fF9294AbBa37B89b780aaFD186](https://etherscan.io/address/0x938F9532F8Afd8fF9294AbBa37B89b780aaFD186) |
 
+## Maple Institutional - Secured Lending 3
+| Contract | Address |
+| --- | --- |
+| securedLending3USDCPool | [0xa7f5df53165FaEb890ae37f4B0f973A42D166222](https://etherscan.io/address/0xa7f5df53165FaEb890ae37f4B0f973A42D166222) |
+| PoolManager | [0xb0eAD5d35c07f9EE6fc4E2c82B929CA39151E98D](https://etherscan.io/address/0xb0eAD5d35c07f9EE6fc4E2c82B929CA39151E98D) |
+| OpenTermLoanManager | [0x7eC236b4B1c6cA0D87405057714eAD0f63Ed8849](https://etherscan.io/address/0x7eC236b4B1c6cA0D87405057714eAD0f63Ed8849) |
+| WithdrawalManagerQueue | [0x3c139C88D45cD17d85f75371De4DE4368BFc18fd](https://etherscan.io/address/0x3c139C88D45cD17d85f75371De4DE4368BFc18fd) |
+| PoolDelegateCover | [0x442155C5DEF2a733EAE0365b87F63C2457047fbd](https://etherscan.io/address/0x442155C5DEF2a733EAE0365b87F63C2457047fbd) |
+
 # Proxies
 ## fixedTermLoanV400
 | Contract | Address |
