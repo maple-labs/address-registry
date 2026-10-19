@@ -81,6 +81,22 @@
                     {
                         "name": "basicStrategyFactory",
                         "address": "0x876D54DBF61473cA169b89B95344A14E81F37afe"
+                    },
+                    {
+                        "name": "allocationStrategyFactory",
+                        "address": "0x7C9bB6ddf53d6ada9592f478CF224034c1fC1126"
+                    },
+                    {
+                        "name": "modularAaveStrategyFactory",
+                        "address": "0x2b1E33ed3d742Be945A6A81b581d824C9FBa6cd7"
+                    },
+                    {
+                        "name": "modularSkyStrategyFactory",
+                        "address": "0xb9965C97bD7a64CB8DA10e947A2aDE8b32396ca0"
+                    },
+                    {
+                        "name": "strategyManagerFactory",
+                        "address": "0xc72A81c771BCFdD3C60C642dAdBa1896760747F4"
                     }
                 ],
                 "pools": [
@@ -242,6 +258,12 @@
                         "initializer": "0xB33Bfa00E1d92fDaC5AeCB2976d6998C2ecca759"
                     },
                     {
+                        "name": "PoolManagerV500",
+                        "implementation": "0x47feAa096Efe5D44ED9378A29705C47C60ffC3B5",
+                        "initializer": "0x823CA9278B5fCccCcBb4a9DB724f46Cc964C6798",
+                        "migrator": "0x648b23cf5c81f18E877DA40d8b7d2a6477b16a13"
+                    },
+                    {
                         "name": "WithdrawalManagerCyclicalV100",
                         "implementation": "0xB12EC38e3508b0919fa989A0e60fde489b46F430",
                         "initializer": "0x1063dCa836894b12f29003CA2899ff806A2B0B31"
@@ -263,6 +285,11 @@
                         "migrator": "0x327ec27a6D898D865D7759D47d36a2c3FBbD23a5"
                     },
                     {
+                        "name": "WithdrawalManagerQueueV201",
+                        "implementation": "0x9dafEE2BFC8eeb46C4fa80c998BC0C7e4804C644",
+                        "initializer": "0xce3cf50BdB200E704A02AF363A7C66d31969256A"
+                    },
+                    {
                         "name": "globalsV2",
                         "implementation": "0x562374079a8A07417ec4A69d5d52F9CBa796d364"
                     },
@@ -273,6 +300,10 @@
                     {
                         "name": "globalsV301",
                         "implementation": "0x9BeAbb1B6F3ad1DdB87b65148BA5Eb6102334956"
+                    },
+                    {
+                        "name": "globalsV500",
+                        "implementation": "0xaFaAa45bc170384F07188d04C6412fa3716826a8"
                     },
                     {
                         "name": "borrowerActionsV1",
@@ -292,6 +323,26 @@
                         "name": "basicStrategyV100",
                         "implementation": "0x7a1E281Ec29F3A861f211a28a23161762BD55B73",
                         "initializer": "0x2b9aDDb5244548f126e59FA5483040efc102f69e"
+                    },
+                    {
+                        "name": "allocationStrategyV100",
+                        "implementation": "0x010fcE31660Aac02930FfB11aF3A51af0De0e2f8",
+                        "initializer": "0x2EAb99d8edc1A1354e3c0D0e9C2ac2ed31CD9b93"
+                    },
+                    {
+                        "name": "modularAaveStrategyV100",
+                        "implementation": "0x25DE505b3A449456E7a85400b71B5185A66bb908",
+                        "initializer": "0xa1696F6042C0756F73D9701B12D983f20FF3EC4C"
+                    },
+                    {
+                        "name": "modularSkyStrategyV100",
+                        "implementation": "0x20C7c396ef6F2710FA15301925c61bA99Dd0504d",
+                        "initializer": "0x103e84e2E3869087558E59233859F0a249451918"
+                    },
+                    {
+                        "name": "strategyManagerV100",
+                        "implementation": "0x8B29e619366aD9194e18ba196434B4FFA5b1C696",
+                        "initializer": "0xd0E9D99216Aff5D0885E961f96298fb020e3F808"
                     }
                 ],
                 "singletons": [
@@ -322,6 +373,10 @@
                     {
                         "name": "poolDeployerV4",
                         "address": "0xdaF005B31B10F33EE42cEB1A4b983434FE947488"
+                    },
+                    {
+                        "name": "poolDeployerV5",
+                        "address": "0x0EFD7a4B98a4eC8bf7d7Ec9F30a3274B0B51c075"
                     },
                     {
                         "name": "feeManager",
@@ -370,6 +425,14 @@
                     {
                         "name": "governorTimelock",
                         "address": "0x2eFFf88747EB5a3FF00d4d8d0f0800E306C0426b"
+                    },
+                    {
+                        "name": "liquidityRouterV100",
+                        "address": "0x28Bb4fF6ac910D9DceA90e11625559b8345c0588"
+                    },
+                    {
+                        "name": "strategyDeployerV100",
+                        "address": "0x5e9D93016B2F5A2920B56EfDb784fBA4099100cD"
                     }
                 ],
                 "tokens": [
