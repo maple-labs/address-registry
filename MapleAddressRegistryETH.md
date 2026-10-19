@@ -23,6 +23,10 @@
 | aaveStrategyFactory | [0x01ab799f77F9a9f4dd0D2b6E7C83DCF3F48D5650](https://etherscan.io/address/0x01ab799f77F9a9f4dd0D2b6E7C83DCF3F48D5650) |
 | skyStrategyFactory | [0x27327E08de810c687687F95bfCE92088089b56dB](https://etherscan.io/address/0x27327E08de810c687687F95bfCE92088089b56dB) |
 | basicStrategyFactory | [0x876D54DBF61473cA169b89B95344A14E81F37afe](https://etherscan.io/address/0x876D54DBF61473cA169b89B95344A14E81F37afe) |
+| allocationStrategyFactory | [0x7C9bB6ddf53d6ada9592f478CF224034c1fC1126](https://etherscan.io/address/0x7C9bB6ddf53d6ada9592f478CF224034c1fC1126) |
+| modularAaveStrategyFactory | [0x2b1E33ed3d742Be945A6A81b581d824C9FBa6cd7](https://etherscan.io/address/0x2b1E33ed3d742Be945A6A81b581d824C9FBa6cd7) |
+| modularSkyStrategyFactory | [0xb9965C97bD7a64CB8DA10e947A2aDE8b32396ca0](https://etherscan.io/address/0xb9965C97bD7a64CB8DA10e947A2aDE8b32396ca0) |
+| strategyManagerFactory | [0xc72A81c771BCFdD3C60C642dAdBa1896760747F4](https://etherscan.io/address/0xc72A81c771BCFdD3C60C642dAdBa1896760747F4) |
 # Pools
 ## syrupUSDC
 | Contract | Address |
@@ -197,6 +201,13 @@
 | Implementation | [0xfE02Be1aD28EdFd8e3dD6F29C402B244C2A258B8](https://etherscan.io/address/0xfE02Be1aD28EdFd8e3dD6F29C402B244C2A258B8) |
 | Initializer | [0xB33Bfa00E1d92fDaC5AeCB2976d6998C2ecca759](https://etherscan.io/address/0xB33Bfa00E1d92fDaC5AeCB2976d6998C2ecca759) |
 
+## PoolManagerV500
+| Contract | Address |
+| --- | --- |
+| Implementation | [0x47feAa096Efe5D44ED9378A29705C47C60ffC3B5](https://etherscan.io/address/0x47feAa096Efe5D44ED9378A29705C47C60ffC3B5) |
+| Initializer | [0x823CA9278B5fCccCcBb4a9DB724f46Cc964C6798](https://etherscan.io/address/0x823CA9278B5fCccCcBb4a9DB724f46Cc964C6798) |
+| Migrator | [0x648b23cf5c81f18E877DA40d8b7d2a6477b16a13](https://etherscan.io/address/0x648b23cf5c81f18E877DA40d8b7d2a6477b16a13) |
+
 ## WithdrawalManagerCyclicalV100
 | Contract | Address |
 | --- | --- |
@@ -222,6 +233,12 @@
 | Initializer | [0xD389BFE4A129525b486B098411336a4fCecF3024](https://etherscan.io/address/0xD389BFE4A129525b486B098411336a4fCecF3024) |
 | Migrator | [0x327ec27a6D898D865D7759D47d36a2c3FBbD23a5](https://etherscan.io/address/0x327ec27a6D898D865D7759D47d36a2c3FBbD23a5) |
 
+## WithdrawalManagerQueueV201
+| Contract | Address |
+| --- | --- |
+| Implementation | [0x9dafEE2BFC8eeb46C4fa80c998BC0C7e4804C644](https://etherscan.io/address/0x9dafEE2BFC8eeb46C4fa80c998BC0C7e4804C644) |
+| Initializer | [0xce3cf50BdB200E704A02AF363A7C66d31969256A](https://etherscan.io/address/0xce3cf50BdB200E704A02AF363A7C66d31969256A) |
+
 ## globalsV2
 | Contract | Address |
 | --- | --- |
@@ -236,6 +253,11 @@
 | Contract | Address |
 | --- | --- |
 | Implementation | [0x9BeAbb1B6F3ad1DdB87b65148BA5Eb6102334956](https://etherscan.io/address/0x9BeAbb1B6F3ad1DdB87b65148BA5Eb6102334956) |
+
+## globalsV500
+| Contract | Address |
+| --- | --- |
+| Implementation | [0xaFaAa45bc170384F07188d04C6412fa3716826a8](https://etherscan.io/address/0xaFaAa45bc170384F07188d04C6412fa3716826a8) |
 
 ## borrowerActionsV1
 | Contract | Address |
@@ -260,6 +282,30 @@
 | Implementation | [0x7a1E281Ec29F3A861f211a28a23161762BD55B73](https://etherscan.io/address/0x7a1E281Ec29F3A861f211a28a23161762BD55B73) |
 | Initializer | [0x2b9aDDb5244548f126e59FA5483040efc102f69e](https://etherscan.io/address/0x2b9aDDb5244548f126e59FA5483040efc102f69e) |
 
+## allocationStrategyV100
+| Contract | Address |
+| --- | --- |
+| Implementation | [0x010fcE31660Aac02930FfB11aF3A51af0De0e2f8](https://etherscan.io/address/0x010fcE31660Aac02930FfB11aF3A51af0De0e2f8) |
+| Initializer | [0x2EAb99d8edc1A1354e3c0D0e9C2ac2ed31CD9b93](https://etherscan.io/address/0x2EAb99d8edc1A1354e3c0D0e9C2ac2ed31CD9b93) |
+
+## modularAaveStrategyV100
+| Contract | Address |
+| --- | --- |
+| Implementation | [0x25DE505b3A449456E7a85400b71B5185A66bb908](https://etherscan.io/address/0x25DE505b3A449456E7a85400b71B5185A66bb908) |
+| Initializer | [0xa1696F6042C0756F73D9701B12D983f20FF3EC4C](https://etherscan.io/address/0xa1696F6042C0756F73D9701B12D983f20FF3EC4C) |
+
+## modularSkyStrategyV100
+| Contract | Address |
+| --- | --- |
+| Implementation | [0x20C7c396ef6F2710FA15301925c61bA99Dd0504d](https://etherscan.io/address/0x20C7c396ef6F2710FA15301925c61bA99Dd0504d) |
+| Initializer | [0x103e84e2E3869087558E59233859F0a249451918](https://etherscan.io/address/0x103e84e2E3869087558E59233859F0a249451918) |
+
+## strategyManagerV100
+| Contract | Address |
+| --- | --- |
+| Implementation | [0x8B29e619366aD9194e18ba196434B4FFA5b1C696](https://etherscan.io/address/0x8B29e619366aD9194e18ba196434B4FFA5b1C696) |
+| Initializer | [0xd0E9D99216Aff5D0885E961f96298fb020e3F808](https://etherscan.io/address/0xd0E9D99216Aff5D0885E961f96298fb020e3F808) |
+
 # Singletons
 | Contract | Address |
 | --- | --- |
@@ -270,6 +316,7 @@
 | poolDeployerV2 | [0x87826F821AF105802064785A3905C794eF259D5C](https://etherscan.io/address/0x87826F821AF105802064785A3905C794eF259D5C) |
 | poolDeployerV3 | [0x12fB5dbBDB06ab973f047cC46D6bB33ba4d03b96](https://etherscan.io/address/0x12fB5dbBDB06ab973f047cC46D6bB33ba4d03b96) |
 | poolDeployerV4 | [0xdaF005B31B10F33EE42cEB1A4b983434FE947488](https://etherscan.io/address/0xdaF005B31B10F33EE42cEB1A4b983434FE947488) |
+| poolDeployerV5 | [0x0EFD7a4B98a4eC8bf7d7Ec9F30a3274B0B51c075](https://etherscan.io/address/0x0EFD7a4B98a4eC8bf7d7Ec9F30a3274B0B51c075) |
 | feeManager | [0xFeACa6A5703E6F9DE0ebE0975C93AE34c00523F2](https://etherscan.io/address/0xFeACa6A5703E6F9DE0ebE0975C93AE34c00523F2) |
 | fixedTermRefinancerV1 | [0xec90671c2c8f4cCBb6074938f893306a13402251](https://etherscan.io/address/0xec90671c2c8f4cCBb6074938f893306a13402251) |
 | fixedTermRefinancerV2 | [0x27ea6e67FB62AB2A603d4ACBc9377D7a9A0fd5e3](https://etherscan.io/address/0x27ea6e67FB62AB2A603d4ACBc9377D7a9A0fd5e3) |
@@ -282,6 +329,8 @@
 | syrupDrip | [0x509712F368255E92410893Ba2E488f40f7E986EA](https://etherscan.io/address/0x509712F368255E92410893Ba2E488f40f7E986EA) |
 | borrowerActions | [0x70Eb188452DaA5f4662150E437B61dA148449E20](https://etherscan.io/address/0x70Eb188452DaA5f4662150E437B61dA148449E20) |
 | governorTimelock | [0x2eFFf88747EB5a3FF00d4d8d0f0800E306C0426b](https://etherscan.io/address/0x2eFFf88747EB5a3FF00d4d8d0f0800E306C0426b) |
+| liquidityRouterV100 | [0x28Bb4fF6ac910D9DceA90e11625559b8345c0588](https://etherscan.io/address/0x28Bb4fF6ac910D9DceA90e11625559b8345c0588) |
+| strategyDeployerV100 | [0x5e9D93016B2F5A2920B56EfDb784fBA4099100cD](https://etherscan.io/address/0x5e9D93016B2F5A2920B56EfDb784fBA4099100cD) |
 # Tokens
 | Contract | Address |
 | --- | --- |
@@ -306,6 +355,7 @@
 # MapleCCIPReceiver
 | Contract | Address |
 | --- | --- |
+| mapleCCIPReceiver | [undefined](https://etherscan.io/address/undefined) |
 | Proxy | [0x02B6A75c5D1F430F0614dc5AC8aD5F9D35fbA2c4](https://etherscan.io/address/0x02B6A75c5D1F430F0614dc5AC8aD5F9D35fbA2c4) |
 | Implementation | [0x23CEF2965Db19f67A996371F9Cb1A2F33D2b4821](https://etherscan.io/address/0x23CEF2965Db19f67A996371F9Cb1A2F33D2b4821) |
 # ExternalProtocolContracts

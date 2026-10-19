@@ -32,6 +32,10 @@ contract MapleAddressRegistryETH {
     address constant public aaveStrategyFactory              = 0x01ab799f77F9a9f4dd0D2b6E7C83DCF3F48D5650;
     address constant public skyStrategyFactory               = 0x27327E08de810c687687F95bfCE92088089b56dB;
     address constant public basicStrategyFactory             = 0x876D54DBF61473cA169b89B95344A14E81F37afe;
+    address constant public allocationStrategyFactory        = 0x7C9bB6ddf53d6ada9592f478CF224034c1fC1126;
+    address constant public modularAaveStrategyFactory       = 0x2b1E33ed3d742Be945A6A81b581d824C9FBa6cd7;
+    address constant public modularSkyStrategyFactory        = 0xb9965C97bD7a64CB8DA10e947A2aDE8b32396ca0;
+    address constant public strategyManagerFactory           = 0xc72A81c771BCFdD3C60C642dAdBa1896760747F4;
 
     /**************************************************************************************************************************************/
     /*** syrupUSDC                                                                                                                      ***/
@@ -165,6 +169,10 @@ contract MapleAddressRegistryETH {
     address constant public PoolManagerV400Implementation = 0xfE02Be1aD28EdFd8e3dD6F29C402B244C2A258B8;
     address constant public PoolManagerV400Initializer    = 0xB33Bfa00E1d92fDaC5AeCB2976d6998C2ecca759;
 
+    address constant public PoolManagerV500Implementation = 0x47feAa096Efe5D44ED9378A29705C47C60ffC3B5;
+    address constant public PoolManagerV500Initializer    = 0x823CA9278B5fCccCcBb4a9DB724f46Cc964C6798;
+    address constant public PoolManagerV500Migrator       = 0x648b23cf5c81f18E877DA40d8b7d2a6477b16a13;
+
     address constant public WithdrawalManagerCyclicalV100Implementation = 0xB12EC38e3508b0919fa989A0e60fde489b46F430;
     address constant public WithdrawalManagerCyclicalV100Initializer    = 0x1063dCa836894b12f29003CA2899ff806A2B0B31;
 
@@ -178,11 +186,16 @@ contract MapleAddressRegistryETH {
     address constant public WithdrawalManagerQueueV200Initializer    = 0xD389BFE4A129525b486B098411336a4fCecF3024;
     address constant public WithdrawalManagerQueueV200Migrator       = 0x327ec27a6D898D865D7759D47d36a2c3FBbD23a5;
 
+    address constant public WithdrawalManagerQueueV201Implementation = 0x9dafEE2BFC8eeb46C4fa80c998BC0C7e4804C644;
+    address constant public WithdrawalManagerQueueV201Initializer    = 0xce3cf50BdB200E704A02AF363A7C66d31969256A;
+
     address constant public globalsV2Implementation = 0x562374079a8A07417ec4A69d5d52F9CBa796d364;
 
     address constant public globalsV3Implementation = 0x5A64417823E8382a7e8957E4411873FE758E73a8;
 
     address constant public globalsV301Implementation = 0x9BeAbb1B6F3ad1DdB87b65148BA5Eb6102334956;
+
+    address constant public globalsV500Implementation = 0xaFaAa45bc170384F07188d04C6412fa3716826a8;
 
     address constant public borrowerActionsV1Implementation = 0x78c5f240A1150c3c2ebDBDe559d04a0418DFCFF3;
 
@@ -195,6 +208,17 @@ contract MapleAddressRegistryETH {
     address constant public basicStrategyV100Implementation = 0x7a1E281Ec29F3A861f211a28a23161762BD55B73;
     address constant public basicStrategyV100Initializer    = 0x2b9aDDb5244548f126e59FA5483040efc102f69e;
 
+    address constant public allocationStrategyV100Implementation = 0x010fcE31660Aac02930FfB11aF3A51af0De0e2f8;
+    address constant public allocationStrategyV100Initializer    = 0x2EAb99d8edc1A1354e3c0D0e9C2ac2ed31CD9b93;
+
+    address constant public modularAaveStrategyV100Implementation = 0x25DE505b3A449456E7a85400b71B5185A66bb908;
+    address constant public modularAaveStrategyV100Initializer    = 0xa1696F6042C0756F73D9701B12D983f20FF3EC4C;
+
+    address constant public modularSkyStrategyV100Implementation = 0x20C7c396ef6F2710FA15301925c61bA99Dd0504d;
+    address constant public modularSkyStrategyV100Initializer    = 0x103e84e2E3869087558E59233859F0a249451918;
+
+    address constant public strategyManagerV100Implementation = 0x8B29e619366aD9194e18ba196434B4FFA5b1C696;
+    address constant public strategyManagerV100Initializer    = 0xd0E9D99216Aff5D0885E961f96298fb020e3F808;
 
     /**************************************************************************************************************************************/
     /*** Singletons                                                                                                                     ***/
@@ -207,6 +231,7 @@ contract MapleAddressRegistryETH {
     address constant public poolDeployerV2        = 0x87826F821AF105802064785A3905C794eF259D5C;
     address constant public poolDeployerV3        = 0x12fB5dbBDB06ab973f047cC46D6bB33ba4d03b96;
     address constant public poolDeployerV4        = 0xdaF005B31B10F33EE42cEB1A4b983434FE947488;
+    address constant public poolDeployerV5        = 0x0EFD7a4B98a4eC8bf7d7Ec9F30a3274B0B51c075;
     address constant public feeManager            = 0xFeACa6A5703E6F9DE0ebE0975C93AE34c00523F2;
     address constant public fixedTermRefinancerV1 = 0xec90671c2c8f4cCBb6074938f893306a13402251;
     address constant public fixedTermRefinancerV2 = 0x27ea6e67FB62AB2A603d4ACBc9377D7a9A0fd5e3;
@@ -219,6 +244,8 @@ contract MapleAddressRegistryETH {
     address constant public syrupDrip             = 0x509712F368255E92410893Ba2E488f40f7E986EA;
     address constant public borrowerActions       = 0x70Eb188452DaA5f4662150E437B61dA148449E20;
     address constant public governorTimelock      = 0x2eFFf88747EB5a3FF00d4d8d0f0800E306C0426b;
+    address constant public liquidityRouterV100   = 0x28Bb4fF6ac910D9DceA90e11625559b8345c0588;
+    address constant public strategyDeployerV100  = 0x5e9D93016B2F5A2920B56EfDb784fBA4099100cD;
 
     /**************************************************************************************************************************************/
     /*** Tokens                                                                                                                         ***/
