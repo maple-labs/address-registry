@@ -355,7 +355,6 @@
 # MapleCCIPReceiver
 | Contract | Address |
 | --- | --- |
-| mapleCCIPReceiver | [undefined](https://etherscan.io/address/undefined) |
 | Proxy | [0x02B6A75c5D1F430F0614dc5AC8aD5F9D35fbA2c4](https://etherscan.io/address/0x02B6A75c5D1F430F0614dc5AC8aD5F9D35fbA2c4) |
 | Implementation | [0x23CEF2965Db19f67A996371F9Cb1A2F33D2b4821](https://etherscan.io/address/0x23CEF2965Db19f67A996371F9Cb1A2F33D2b4821) |
 # ExternalProtocolContracts
