@@ -38,8 +38,6 @@
 | WithdrawalManagerQueue | [0x1bc47a0Dd0FdaB96E9eF982fdf1F34DC6207cfE3](https://etherscan.io/address/0x1bc47a0Dd0FdaB96E9eF982fdf1F34DC6207cfE3) |
 | PoolDelegateCover | [0x9e62FE15d0E99cE2b30CE0D256e9Ab7b6893AfF5](https://etherscan.io/address/0x9e62FE15d0E99cE2b30CE0D256e9Ab7b6893AfF5) |
 | SyrupRouter | [0x134cCaaA4F1e4552eC8aEcb9E4A2360dDcF8df76](https://etherscan.io/address/0x134cCaaA4F1e4552eC8aEcb9E4A2360dDcF8df76) |
-| AaveStrategy | [0x560B3A85Af1cEF113BB60105d0Cf21e1d05F91d4](https://etherscan.io/address/0x560B3A85Af1cEF113BB60105d0Cf21e1d05F91d4) |
-| SkyStrategy | [0x859C9980931fa0A63765fD8EF2e29918Af5b038C](https://etherscan.io/address/0x859C9980931fa0A63765fD8EF2e29918Af5b038C) |
 
 ## syrupUSDT
 | Contract | Address |
@@ -51,7 +49,6 @@
 | WithdrawalManagerQueue | [0x86eBDf902d800F2a82038290B6DBb2A5eE29eB8C](https://etherscan.io/address/0x86eBDf902d800F2a82038290B6DBb2A5eE29eB8C) |
 | PoolDelegateCover | [0x610d99d86d48b385b2ed17a0063e53B5c98E15A1](https://etherscan.io/address/0x610d99d86d48b385b2ed17a0063e53B5c98E15A1) |
 | SyrupRouter | [0xF007476Bb27430795138C511F18F821e8D1e5Ee2](https://etherscan.io/address/0xF007476Bb27430795138C511F18F821e8D1e5Ee2) |
-| AaveStrategy | [0x2b817B822B0ddd4597a92dBEd1bD0a6796CA37E0](https://etherscan.io/address/0x2b817B822B0ddd4597a92dBEd1bD0a6796CA37E0) |
 
 ## syrupUSDG
 | Contract | Address |
@@ -72,8 +69,6 @@
 | OpenTermLoanManager | [0xb50D675f3C6D18ce5cCAc691354f92aFebD1675E](https://etherscan.io/address/0xb50D675f3C6D18ce5cCAc691354f92aFebD1675E) |
 | WithdrawalManagerQueue | [0x8A665131e796203a5232527fac441480e02fbB7F](https://etherscan.io/address/0x8A665131e796203a5232527fac441480e02fbB7F) |
 | PoolDelegateCover | [0x98005A88A32F1A88f68598aB8Ba7dB914Aa6d626](https://etherscan.io/address/0x98005A88A32F1A88f68598aB8Ba7dB914Aa6d626) |
-| AaveStrategy | [0x87Aa770f610679DFC2553FB95fAc1B4d996BA1cd](https://etherscan.io/address/0x87Aa770f610679DFC2553FB95fAc1B4d996BA1cd) |
-| SkyStrategy | [0xe3eE1b26AF5396Cec45c8C3b4c4FD5136A2455CC](https://etherscan.io/address/0xe3eE1b26AF5396Cec45c8C3b4c4FD5136A2455CC) |
 
 ## Maple Institutional - Secured Lending 2
 | Contract | Address |
