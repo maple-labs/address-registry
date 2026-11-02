@@ -43,7 +43,6 @@ contract MapleAddressRegistryETH {
 
     address constant public syrupUSDCPool                   = 0x80ac24aA929eaF5013f6436cdA2a7ba190f5Cc0b;
     address constant public syrupUSDCPoolManager            = 0x7aD5fFa5fdF509E30186F4609c2f6269f4B6158F;
-    address constant public syrupUSDCFixedTermLoanManager   = 0x4A1c3F0D9aD0b3f9dA085bEBfc22dEA54263371b;
     address constant public syrupUSDCOpenTermLoanManager    = 0x6ACEb4cAbA81Fa6a8065059f3A944fb066A10fAc;
     address constant public syrupUSDCWithdrawalManagerQueue = 0x1bc47a0Dd0FdaB96E9eF982fdf1F34DC6207cfE3;
     address constant public syrupUSDCPoolDelegateCover      = 0x9e62FE15d0E99cE2b30CE0D256e9Ab7b6893AfF5;
@@ -55,7 +54,6 @@ contract MapleAddressRegistryETH {
 
     address constant public syrupUSDTPool                   = 0x356B8d89c1e1239Cbbb9dE4815c39A1474d5BA7D;
     address constant public syrupUSDTPoolManager            = 0x0cdA32E08B48bFDDbc7eE96B44b09cf286F9E21a;
-    address constant public syrupUSDTFixedTermLoanManager   = 0xC17aa0Cb662bC4787bB16bD3Bc13d0d88eB7aBDd;
     address constant public syrupUSDTOpenTermLoanManager    = 0x616022E54324eF9c13B99c229Dac8ea69AF4FAFf;
     address constant public syrupUSDTWithdrawalManagerQueue = 0x86eBDf902d800F2a82038290B6DBb2A5eE29eB8C;
     address constant public syrupUSDTPoolDelegateCover      = 0x610d99d86d48b385b2ed17a0063e53B5c98E15A1;
@@ -78,7 +76,6 @@ contract MapleAddressRegistryETH {
 
     address constant public securedLendingUSDCPool                   = 0xC39a5A616F0ad1Ff45077FA2dE3f79ab8eb8b8B9;
     address constant public securedLendingUSDCPoolManager            = 0x9ceF7d1D390A4811bBa1BC40A53B40a506C33B19;
-    address constant public securedLendingUSDCFixedTermLoanManager   = 0x78a13c2f24dF55feeF7f8C895396cf1DD21Cf56f;
     address constant public securedLendingUSDCOpenTermLoanManager    = 0xb50D675f3C6D18ce5cCAc691354f92aFebD1675E;
     address constant public securedLendingUSDCWithdrawalManagerQueue = 0x8A665131e796203a5232527fac441480e02fbB7F;
     address constant public securedLendingUSDCPoolDelegateCover      = 0x98005A88A32F1A88f68598aB8Ba7dB914Aa6d626;
