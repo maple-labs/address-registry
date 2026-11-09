@@ -1,6 +1,6 @@
 import { writeFile } from 'fs';
 
-import { importJson } from './utils.js';
+import { attachedStrategyManagers, importJson } from './utils.js';
 
 const registry = await importJson("../address-registry.json");
 
@@ -24,8 +24,10 @@ registry.chains.forEach(chain => {
             case "inactivePools":    
                 content.push(section(capitalize(key)));
                 for (const [k, v] of Object.entries(value)) {
-                    const {name, address, label, ...extra} = v;
-                    
+                    const {name, address, label, modularStrategies, ...contracts} = v;
+
+                    const extra = { ...contracts, ...attachedStrategyManagers(chain.contracts, v) };
+
                     // Push the content label
                     content.push(section(v.label, 2));
                     content.push(tableHeader);
