@@ -100,6 +100,63 @@ contract MapleAddressRegistryETH {
     address constant public securedLending3USDCWithdrawalManagerQueue = 0x3c139C88D45cD17d85f75371De4DE4368BFc18fd;
     address constant public securedLending3USDCPoolDelegateCover      = 0x442155C5DEF2a733EAE0365b87F63C2457047fbd;
 
+    /**************************************************************************************************************************************/
+    /*** ModularStrategies                                                                                                              ***/
+    /**************************************************************************************************************************************/
+
+    address constant public dexLpUSDCStrategyManager    = 0x32b84210deaB0A44e48e4Da8c98F82620dF9bEC2;
+    address constant public dexLpUSDCUnderlyingStrategy = 0x4454815d04aEC6c69585aABa8373A316EbCf7649;
+
+    address constant public dexLpUSDTStrategyManager    = 0xA3F2a26f3fdFB0ea456271fD13792B976921C69a;
+    address constant public dexLpUSDTUnderlyingStrategy = 0x0aEA902169092aB926A81AA401e0a857Db9B8D61;
+
+    address constant public dexLpUSDGStrategyManager    = 0x85bA7143356c023fFbb5784eafD9CCfd24AF0032;
+    address constant public dexLpUSDGUnderlyingStrategy = 0x3cBb360Afaa1bA386DD804A9Bd89aBa10c650759;
+
+    address constant public basisUSDTStrategyManager    = 0x68706d21B0CBe66873D2A9f19f273fC53e784F83;
+    address constant public basisUSDTUnderlyingStrategy = 0x0EE76AF829d3AA456F0D18DBaBAF5dD10d933B2b;
+
+    address constant public pyusdUSDCStrategyManager    = 0x019B109329FB69047d2f7420b641b103306F0D4e;
+    address constant public pyusdUSDCUnderlyingStrategy = 0xa129cE4E20897C4Ef57D1d0B24b8537109eC324b;
+
+    address constant public pyusdSecuredLendingUSDCStrategyManager    = 0x6598b24899Bd0E8E8b1d5294253faCA5950813E3;
+    address constant public pyusdSecuredLendingUSDCUnderlyingStrategy = 0xD1Ec11ecB51Bc7A0dC5Fc67E61cAc3D2229D5e6E;
+
+    address constant public pyusdUSDTStrategyManager    = 0x4c6fc026DF8042Cb71D46558EA221D5c42BB0024;
+    address constant public pyusdUSDTUnderlyingStrategy = 0xfC5D536B0A99F988e04A28f3751F5834E4e16E29;
+
+    address constant public pyusdUSDGStrategyManager    = 0x44cED2CCe694b475ACf31C54c553AC26Cfa5081c;
+    address constant public pyusdUSDGUnderlyingStrategy = 0xB7BCED8169461B0333630A2625CDaDCc77Db7f3F;
+
+    address constant public usdtbUSDCStrategyManager    = 0xFD0c3501be98A21be893fFFc288fa267B41A1ACc;
+    address constant public usdtbUSDCUnderlyingStrategy = 0x79C3461594f7C319E63b6D0227eB41c01aB1b993;
+
+    address constant public usdtbUSDTStrategyManager    = 0x433D0FBaDC48334e99f269CfF0A3800fB15251a5;
+    address constant public usdtbUSDTUnderlyingStrategy = 0x9a4D4285BF259b5E0E5e54Bfa373fe87794BE904;
+
+    address constant public ustbUSDCStrategyManager    = 0xe8C04874B1332a95bA15961c5E4a13f28Ba65C3c;
+    address constant public ustbUSDCUnderlyingStrategy = 0x973A4d8605592525f5029C3ab989304a186561df;
+
+    address constant public ustbSecuredLendingUSDCStrategyManager    = 0x1109e889BB6Bc02f5ffA83B0c1E7f1FBC566eC3C;
+    address constant public ustbSecuredLendingUSDCUnderlyingStrategy = 0x4DC2C27e975283D96ed01775385a291bca165366;
+
+    address constant public ustbUSDTStrategyManager    = 0x5DDc47BDe674D4C137650e61c8193a215949C811;
+    address constant public ustbUSDTUnderlyingStrategy = 0x53dd5F7677B35B36B676809cB661475Da4543982;
+
+    address constant public defiUSDCStrategyManager    = 0x0BA365b4059db87dDa04575eBeca5ae1a9881180;
+    address constant public defiUSDCUnderlyingStrategy = 0x25D73704b0dF8F84839461dA0399627bEc91C495;
+
+    address constant public defiUSDTStrategyManager    = 0x38d09539BFAfd373507F92917552648Cc47b6555;
+    address constant public defiUSDTUnderlyingStrategy = 0x19976360aC1A23c61f1da0F235EBf31C35f817C7;
+
+    address constant public defiUSDGStrategyManager    = 0x7862AD5fF4e8A252cF040BD82cE07D40B4c64e9A;
+    address constant public defiUSDGUnderlyingStrategy = 0x29F1163ED26172b08c85660fB5A4FB561479dcA5;
+
+    address constant public aaveV3USDCStrategyManager    = 0x083Ae322F060777bcf5a2801C5c13A8e3eC54Ec1;
+    address constant public aaveV3USDCUnderlyingStrategy = 0x331601031b6781531c3dC20E15C4c11814aE02D5;
+
+    address constant public aaveV3USDTStrategyManager    = 0x029F491A17A52a8D052F711a037C1D88C9330692;
+    address constant public aaveV3USDTUnderlyingStrategy = 0x02a67ACf0e4b892a1FE39c969f070ee7c5D9fB3F;
 
     /**************************************************************************************************************************************/
     /*** Proxies                                                                                                                        ***/

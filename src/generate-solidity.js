@@ -57,7 +57,7 @@ registry.chains.forEach(chain => {
                     
                     if (Object.keys(extra).length > 0) {
                         
-                        if (key == "proxies" || key == "syrupToken") {
+                        if (key == "proxies" || key == "syrupToken" || key == "modularStrategies") {
                             content.pop();
                         }
         
