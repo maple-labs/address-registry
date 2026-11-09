@@ -192,91 +192,109 @@
                 "modularStrategies": [
                     {
                         "name": "dexLpUSDC",
+                        "label": "DEX LP",
                         "strategyManager": "0x32b84210deaB0A44e48e4Da8c98F82620dF9bEC2",
                         "underlyingStrategy": "0x4454815d04aEC6c69585aABa8373A316EbCf7649"
                     },
                     {
                         "name": "dexLpUSDT",
+                        "label": "DEX LP",
                         "strategyManager": "0xA3F2a26f3fdFB0ea456271fD13792B976921C69a",
                         "underlyingStrategy": "0x0aEA902169092aB926A81AA401e0a857Db9B8D61"
                     },
                     {
                         "name": "dexLpUSDG",
+                        "label": "DEX LP",
                         "strategyManager": "0x85bA7143356c023fFbb5784eafD9CCfd24AF0032",
                         "underlyingStrategy": "0x3cBb360Afaa1bA386DD804A9Bd89aBa10c650759"
                     },
                     {
                         "name": "basisUSDT",
+                        "label": "Basis",
                         "strategyManager": "0x68706d21B0CBe66873D2A9f19f273fC53e784F83",
                         "underlyingStrategy": "0x0EE76AF829d3AA456F0D18DBaBAF5dD10d933B2b"
                     },
                     {
                         "name": "pyusdUSDC",
+                        "label": "PYUSD",
                         "strategyManager": "0x019B109329FB69047d2f7420b641b103306F0D4e",
                         "underlyingStrategy": "0xa129cE4E20897C4Ef57D1d0B24b8537109eC324b"
                     },
                     {
                         "name": "pyusdSecuredLendingUSDC",
+                        "label": "PYUSD",
                         "strategyManager": "0x6598b24899Bd0E8E8b1d5294253faCA5950813E3",
                         "underlyingStrategy": "0xD1Ec11ecB51Bc7A0dC5Fc67E61cAc3D2229D5e6E"
                     },
                     {
                         "name": "pyusdUSDT",
+                        "label": "PYUSD",
                         "strategyManager": "0x4c6fc026DF8042Cb71D46558EA221D5c42BB0024",
                         "underlyingStrategy": "0xfC5D536B0A99F988e04A28f3751F5834E4e16E29"
                     },
                     {
                         "name": "pyusdUSDG",
+                        "label": "PYUSD",
                         "strategyManager": "0x44cED2CCe694b475ACf31C54c553AC26Cfa5081c",
                         "underlyingStrategy": "0xB7BCED8169461B0333630A2625CDaDCc77Db7f3F"
                     },
                     {
                         "name": "usdtbUSDC",
+                        "label": "USDtb",
                         "strategyManager": "0xFD0c3501be98A21be893fFFc288fa267B41A1ACc",
                         "underlyingStrategy": "0x79C3461594f7C319E63b6D0227eB41c01aB1b993"
                     },
                     {
                         "name": "usdtbUSDT",
+                        "label": "USDtb",
                         "strategyManager": "0x433D0FBaDC48334e99f269CfF0A3800fB15251a5",
                         "underlyingStrategy": "0x9a4D4285BF259b5E0E5e54Bfa373fe87794BE904"
                     },
                     {
                         "name": "ustbUSDC",
+                        "label": "USTB",
                         "strategyManager": "0xe8C04874B1332a95bA15961c5E4a13f28Ba65C3c",
                         "underlyingStrategy": "0x973A4d8605592525f5029C3ab989304a186561df"
                     },
                     {
                         "name": "ustbSecuredLendingUSDC",
+                        "label": "USTB",
                         "strategyManager": "0x1109e889BB6Bc02f5ffA83B0c1E7f1FBC566eC3C",
                         "underlyingStrategy": "0x4DC2C27e975283D96ed01775385a291bca165366"
                     },
                     {
                         "name": "ustbUSDT",
+                        "label": "USTB",
                         "strategyManager": "0x5DDc47BDe674D4C137650e61c8193a215949C811",
                         "underlyingStrategy": "0x53dd5F7677B35B36B676809cB661475Da4543982"
                     },
                     {
                         "name": "defiUSDC",
+                        "label": "DeFi",
                         "strategyManager": "0x0BA365b4059db87dDa04575eBeca5ae1a9881180",
                         "underlyingStrategy": "0x25D73704b0dF8F84839461dA0399627bEc91C495"
                     },
                     {
                         "name": "defiUSDT",
+                        "label": "DeFi",
                         "strategyManager": "0x38d09539BFAfd373507F92917552648Cc47b6555",
                         "underlyingStrategy": "0x19976360aC1A23c61f1da0F235EBf31C35f817C7"
                     },
                     {
                         "name": "defiUSDG",
+                        "label": "DeFi",
                         "strategyManager": "0x7862AD5fF4e8A252cF040BD82cE07D40B4c64e9A",
                         "underlyingStrategy": "0x29F1163ED26172b08c85660fB5A4FB561479dcA5"
                     },
                     {
                         "name": "aaveV3USDC",
+                        "label": "Aave V3",
                         "strategyManager": "0x083Ae322F060777bcf5a2801C5c13A8e3eC54Ec1",
                         "underlyingStrategy": "0x331601031b6781531c3dC20E15C4c11814aE02D5"
                     },
                     {
                         "name": "aaveV3USDT",
+                        "label": "Aave V3",
                         "strategyManager": "0x029F491A17A52a8D052F711a037C1D88C9330692",
                         "underlyingStrategy": "0x02a67ACf0e4b892a1FE39c969f070ee7c5D9fB3F"
                     }

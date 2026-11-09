@@ -1,5 +1,5 @@
 import { writeFile } from 'fs';
-import { attachedStrategyManagers, importJson } from './utils.js';
+import { attachedStrategies, importJson } from './utils.js';
 
 
 const registry = await importJson("../address-registry.json");
@@ -18,6 +18,12 @@ const declaration = (key, value, spacing, prepend = "") => `    address constant
 
 const capitalize = (s) => s.charAt(0).toUpperCase() + s.slice(1);
 
+const strategyManagers = (poolName, strategies) => [
+    `    address[] public ${poolName}StrategyManagers = [`,
+    ...strategies.map((s, i) => `        ${s.strategyManager}${i < strategies.length - 1 ? ',  ' : '   '}// ${s.label}`),
+    `    ];`,
+].join('\n');
+
 registry.chains.forEach(chain => {
     let content = [header, title(chain.name)];
     
@@ -26,9 +32,7 @@ registry.chains.forEach(chain => {
         switch (key) {
             case "pools":
                 for (const [k, v] of Object.entries(value)) {
-                    const {name, address, label, modularStrategies, ...contracts} = v;
-
-                    const extra = { ...contracts, ...attachedStrategyManagers(chain.contracts, v) };
+                    const {name, address, label, modularStrategies, ...extra} = v;
 
                     const longestKeyLength = longestKey(extra).length;
         
@@ -45,16 +49,24 @@ registry.chains.forEach(chain => {
                         }
                         content.push('');
                     }
+
+                    // Push the strategy managers of all attached modular strategies e.g syrupUSDCStrategyManagers
+                    const strategies = attachedStrategies(chain.contracts, v);
+
+                    if (strategies.length > 0) {
+                        content.push(strategyManagers(v.name, strategies));
+                        content.push('');
+                    }
                 }
                 break;
-            case "inactivePools": 
+            case "inactivePools":
                 break;
             default:
                 content.push(section(capitalize(key)));
                 for (const [k, v] of Object.entries(value)) {
                     const longestNameLength = longestName(value).name.length;
-                    const {name, address, ...extra} = v;
-                    
+                    const {name, address, label, ...extra} = v;
+
                     content.push(declaration(v.name, v.address, key == "tokens" ? 9 : longestNameLength - v.name.length))
                     
                     if (Object.keys(extra).length > 0) {

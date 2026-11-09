@@ -37,12 +37,12 @@
 | WithdrawalManagerQueue | [0x1bc47a0Dd0FdaB96E9eF982fdf1F34DC6207cfE3](https://etherscan.io/address/0x1bc47a0Dd0FdaB96E9eF982fdf1F34DC6207cfE3) |
 | PoolDelegateCover | [0x9e62FE15d0E99cE2b30CE0D256e9Ab7b6893AfF5](https://etherscan.io/address/0x9e62FE15d0E99cE2b30CE0D256e9Ab7b6893AfF5) |
 | SyrupRouter | [0x134cCaaA4F1e4552eC8aEcb9E4A2360dDcF8df76](https://etherscan.io/address/0x134cCaaA4F1e4552eC8aEcb9E4A2360dDcF8df76) |
-| DexLpUSDCStrategyManager | [0x32b84210deaB0A44e48e4Da8c98F82620dF9bEC2](https://etherscan.io/address/0x32b84210deaB0A44e48e4Da8c98F82620dF9bEC2) |
-| PyusdUSDCStrategyManager | [0x019B109329FB69047d2f7420b641b103306F0D4e](https://etherscan.io/address/0x019B109329FB69047d2f7420b641b103306F0D4e) |
-| UsdtbUSDCStrategyManager | [0xFD0c3501be98A21be893fFFc288fa267B41A1ACc](https://etherscan.io/address/0xFD0c3501be98A21be893fFFc288fa267B41A1ACc) |
-| UstbUSDCStrategyManager | [0xe8C04874B1332a95bA15961c5E4a13f28Ba65C3c](https://etherscan.io/address/0xe8C04874B1332a95bA15961c5E4a13f28Ba65C3c) |
-| DefiUSDCStrategyManager | [0x0BA365b4059db87dDa04575eBeca5ae1a9881180](https://etherscan.io/address/0x0BA365b4059db87dDa04575eBeca5ae1a9881180) |
-| AaveV3USDCStrategyManager | [0x083Ae322F060777bcf5a2801C5c13A8e3eC54Ec1](https://etherscan.io/address/0x083Ae322F060777bcf5a2801C5c13A8e3eC54Ec1) |
+| StrategyManager (DEX LP) | [0x32b84210deaB0A44e48e4Da8c98F82620dF9bEC2](https://etherscan.io/address/0x32b84210deaB0A44e48e4Da8c98F82620dF9bEC2) |
+| StrategyManager (PYUSD) | [0x019B109329FB69047d2f7420b641b103306F0D4e](https://etherscan.io/address/0x019B109329FB69047d2f7420b641b103306F0D4e) |
+| StrategyManager (USDtb) | [0xFD0c3501be98A21be893fFFc288fa267B41A1ACc](https://etherscan.io/address/0xFD0c3501be98A21be893fFFc288fa267B41A1ACc) |
+| StrategyManager (USTB) | [0xe8C04874B1332a95bA15961c5E4a13f28Ba65C3c](https://etherscan.io/address/0xe8C04874B1332a95bA15961c5E4a13f28Ba65C3c) |
+| StrategyManager (DeFi) | [0x0BA365b4059db87dDa04575eBeca5ae1a9881180](https://etherscan.io/address/0x0BA365b4059db87dDa04575eBeca5ae1a9881180) |
+| StrategyManager (Aave V3) | [0x083Ae322F060777bcf5a2801C5c13A8e3eC54Ec1](https://etherscan.io/address/0x083Ae322F060777bcf5a2801C5c13A8e3eC54Ec1) |
 
 ## syrupUSDT
 | Contract | Address |
@@ -53,13 +53,13 @@
 | WithdrawalManagerQueue | [0x86eBDf902d800F2a82038290B6DBb2A5eE29eB8C](https://etherscan.io/address/0x86eBDf902d800F2a82038290B6DBb2A5eE29eB8C) |
 | PoolDelegateCover | [0x610d99d86d48b385b2ed17a0063e53B5c98E15A1](https://etherscan.io/address/0x610d99d86d48b385b2ed17a0063e53B5c98E15A1) |
 | SyrupRouter | [0xF007476Bb27430795138C511F18F821e8D1e5Ee2](https://etherscan.io/address/0xF007476Bb27430795138C511F18F821e8D1e5Ee2) |
-| DexLpUSDTStrategyManager | [0xA3F2a26f3fdFB0ea456271fD13792B976921C69a](https://etherscan.io/address/0xA3F2a26f3fdFB0ea456271fD13792B976921C69a) |
-| BasisUSDTStrategyManager | [0x68706d21B0CBe66873D2A9f19f273fC53e784F83](https://etherscan.io/address/0x68706d21B0CBe66873D2A9f19f273fC53e784F83) |
-| PyusdUSDTStrategyManager | [0x4c6fc026DF8042Cb71D46558EA221D5c42BB0024](https://etherscan.io/address/0x4c6fc026DF8042Cb71D46558EA221D5c42BB0024) |
-| UsdtbUSDTStrategyManager | [0x433D0FBaDC48334e99f269CfF0A3800fB15251a5](https://etherscan.io/address/0x433D0FBaDC48334e99f269CfF0A3800fB15251a5) |
-| UstbUSDTStrategyManager | [0x5DDc47BDe674D4C137650e61c8193a215949C811](https://etherscan.io/address/0x5DDc47BDe674D4C137650e61c8193a215949C811) |
-| DefiUSDTStrategyManager | [0x38d09539BFAfd373507F92917552648Cc47b6555](https://etherscan.io/address/0x38d09539BFAfd373507F92917552648Cc47b6555) |
-| AaveV3USDTStrategyManager | [0x029F491A17A52a8D052F711a037C1D88C9330692](https://etherscan.io/address/0x029F491A17A52a8D052F711a037C1D88C9330692) |
+| StrategyManager (DEX LP) | [0xA3F2a26f3fdFB0ea456271fD13792B976921C69a](https://etherscan.io/address/0xA3F2a26f3fdFB0ea456271fD13792B976921C69a) |
+| StrategyManager (Basis) | [0x68706d21B0CBe66873D2A9f19f273fC53e784F83](https://etherscan.io/address/0x68706d21B0CBe66873D2A9f19f273fC53e784F83) |
+| StrategyManager (PYUSD) | [0x4c6fc026DF8042Cb71D46558EA221D5c42BB0024](https://etherscan.io/address/0x4c6fc026DF8042Cb71D46558EA221D5c42BB0024) |
+| StrategyManager (USDtb) | [0x433D0FBaDC48334e99f269CfF0A3800fB15251a5](https://etherscan.io/address/0x433D0FBaDC48334e99f269CfF0A3800fB15251a5) |
+| StrategyManager (USTB) | [0x5DDc47BDe674D4C137650e61c8193a215949C811](https://etherscan.io/address/0x5DDc47BDe674D4C137650e61c8193a215949C811) |
+| StrategyManager (DeFi) | [0x38d09539BFAfd373507F92917552648Cc47b6555](https://etherscan.io/address/0x38d09539BFAfd373507F92917552648Cc47b6555) |
+| StrategyManager (Aave V3) | [0x029F491A17A52a8D052F711a037C1D88C9330692](https://etherscan.io/address/0x029F491A17A52a8D052F711a037C1D88C9330692) |
 
 ## syrupUSDG
 | Contract | Address |
@@ -70,9 +70,9 @@
 | WithdrawalManagerQueue | [0xAf63C06970086d535F338565D77c5fA3bDC5fD79](https://etherscan.io/address/0xAf63C06970086d535F338565D77c5fA3bDC5fD79) |
 | PoolDelegateCover | [0xFdc1b5A10f4da87b459dfc3bF1313b33a2F6bfA9](https://etherscan.io/address/0xFdc1b5A10f4da87b459dfc3bF1313b33a2F6bfA9) |
 | SyrupRouter | [0x191ac16255f49F7C6cB2e3b2502064A805943849](https://etherscan.io/address/0x191ac16255f49F7C6cB2e3b2502064A805943849) |
-| DexLpUSDGStrategyManager | [0x85bA7143356c023fFbb5784eafD9CCfd24AF0032](https://etherscan.io/address/0x85bA7143356c023fFbb5784eafD9CCfd24AF0032) |
-| PyusdUSDGStrategyManager | [0x44cED2CCe694b475ACf31C54c553AC26Cfa5081c](https://etherscan.io/address/0x44cED2CCe694b475ACf31C54c553AC26Cfa5081c) |
-| DefiUSDGStrategyManager | [0x7862AD5fF4e8A252cF040BD82cE07D40B4c64e9A](https://etherscan.io/address/0x7862AD5fF4e8A252cF040BD82cE07D40B4c64e9A) |
+| StrategyManager (DEX LP) | [0x85bA7143356c023fFbb5784eafD9CCfd24AF0032](https://etherscan.io/address/0x85bA7143356c023fFbb5784eafD9CCfd24AF0032) |
+| StrategyManager (PYUSD) | [0x44cED2CCe694b475ACf31C54c553AC26Cfa5081c](https://etherscan.io/address/0x44cED2CCe694b475ACf31C54c553AC26Cfa5081c) |
+| StrategyManager (DeFi) | [0x7862AD5fF4e8A252cF040BD82cE07D40B4c64e9A](https://etherscan.io/address/0x7862AD5fF4e8A252cF040BD82cE07D40B4c64e9A) |
 
 ## Maple Institutional - Secured Lending
 | Contract | Address |
@@ -82,8 +82,8 @@
 | OpenTermLoanManager | [0xb50D675f3C6D18ce5cCAc691354f92aFebD1675E](https://etherscan.io/address/0xb50D675f3C6D18ce5cCAc691354f92aFebD1675E) |
 | WithdrawalManagerQueue | [0x8A665131e796203a5232527fac441480e02fbB7F](https://etherscan.io/address/0x8A665131e796203a5232527fac441480e02fbB7F) |
 | PoolDelegateCover | [0x98005A88A32F1A88f68598aB8Ba7dB914Aa6d626](https://etherscan.io/address/0x98005A88A32F1A88f68598aB8Ba7dB914Aa6d626) |
-| PyusdSecuredLendingUSDCStrategyManager | [0x6598b24899Bd0E8E8b1d5294253faCA5950813E3](https://etherscan.io/address/0x6598b24899Bd0E8E8b1d5294253faCA5950813E3) |
-| UstbSecuredLendingUSDCStrategyManager | [0x1109e889BB6Bc02f5ffA83B0c1E7f1FBC566eC3C](https://etherscan.io/address/0x1109e889BB6Bc02f5ffA83B0c1E7f1FBC566eC3C) |
+| StrategyManager (PYUSD) | [0x6598b24899Bd0E8E8b1d5294253faCA5950813E3](https://etherscan.io/address/0x6598b24899Bd0E8E8b1d5294253faCA5950813E3) |
+| StrategyManager (USTB) | [0x1109e889BB6Bc02f5ffA83B0c1E7f1FBC566eC3C](https://etherscan.io/address/0x1109e889BB6Bc02f5ffA83B0c1E7f1FBC566eC3C) |
 
 ## Maple Institutional - Secured Lending 2
 | Contract | Address |
@@ -93,9 +93,9 @@
 | OpenTermLoanManager | [0x7d4c8157c29BaFf70D5d08CE57Eaf32820415E12](https://etherscan.io/address/0x7d4c8157c29BaFf70D5d08CE57Eaf32820415E12) |
 | WithdrawalManagerQueue | [0xb84A4aF193ba7b2ecfc8E65a099e0f01EbbbF6f4](https://etherscan.io/address/0xb84A4aF193ba7b2ecfc8E65a099e0f01EbbbF6f4) |
 | PoolDelegateCover | [0x938F9532F8Afd8fF9294AbBa37B89b780aaFD186](https://etherscan.io/address/0x938F9532F8Afd8fF9294AbBa37B89b780aaFD186) |
-| PyusdUSDCStrategyManager | [0x019B109329FB69047d2f7420b641b103306F0D4e](https://etherscan.io/address/0x019B109329FB69047d2f7420b641b103306F0D4e) |
-| UsdtbUSDCStrategyManager | [0xFD0c3501be98A21be893fFFc288fa267B41A1ACc](https://etherscan.io/address/0xFD0c3501be98A21be893fFFc288fa267B41A1ACc) |
-| UstbUSDCStrategyManager | [0xe8C04874B1332a95bA15961c5E4a13f28Ba65C3c](https://etherscan.io/address/0xe8C04874B1332a95bA15961c5E4a13f28Ba65C3c) |
+| StrategyManager (PYUSD) | [0x019B109329FB69047d2f7420b641b103306F0D4e](https://etherscan.io/address/0x019B109329FB69047d2f7420b641b103306F0D4e) |
+| StrategyManager (USDtb) | [0xFD0c3501be98A21be893fFFc288fa267B41A1ACc](https://etherscan.io/address/0xFD0c3501be98A21be893fFFc288fa267B41A1ACc) |
+| StrategyManager (USTB) | [0xe8C04874B1332a95bA15961c5E4a13f28Ba65C3c](https://etherscan.io/address/0xe8C04874B1332a95bA15961c5E4a13f28Ba65C3c) |
 
 ## Maple Institutional - Secured Lending 3
 | Contract | Address |
